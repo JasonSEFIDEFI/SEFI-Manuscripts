@@ -1,3 +1,4 @@
+
 # SEFI Manuscripts  
 Unified geometric field theory manuscripts for SEFI, DEFI, GWFM, and the SEFI Canon layers.
 
@@ -38,3 +39,7 @@ Companion manuscript extending SEFI into dynamic encoding behavior.
 ---
 
 ## Repository Layout  
+=======
+# SEFI-Manuscripts
+Unified geometric field theory manuscripts for SEFI, DEFI, GWFM, and the SEFI Canon layers
+
