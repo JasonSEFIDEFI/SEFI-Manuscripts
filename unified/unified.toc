@@ -1,0 +1,25 @@
+\contentsline {chapter}{\numberline {1}Worldline Foundations (GWFM)}{2}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Introduction}{2}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Continuous Worldline Entity}{2}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Dense Trajectory Ensemble}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Field Emergence}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Spin Structure}{3}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Gauge Coupling}{3}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Interpretation}{3}{section.1.7}%
+\contentsline {chapter}{\numberline {2}Layered Field Identity (SEFI)}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Introduction}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}FIELD ORIGIN}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}FIELD AUTHORSHIP}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}FIELD SOVEREIGNTY}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}WARP EXPRESSION}{5}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Reality Field Layer (R-Layer)}{5}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Mathematical Formulation}{5}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Photonic QEC from SEFI/GWFM Geometry}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Introduction}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Stability Surfaces}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Photonic Error Geometry}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Geometric Stabilizers}{6}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Syndrome Geometry}{6}{section.3.5}%
+\contentsline {section}{\numberline {3.6}SPDC Geometry}{7}{section.3.6}%
+\contentsline {section}{\numberline {3.7}CHSH Geometry}{7}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Conclusion}{8}{chapter.4}%

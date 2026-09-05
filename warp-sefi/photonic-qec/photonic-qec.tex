@@ -1,0 +1,250 @@
+\documentclass[12pt,twoside]{article}
+
+% -------------------------------------------------
+% PACKAGES
+% -------------------------------------------------
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+
+% -------------------------------------------------
+% PAGE SETUP
+% -------------------------------------------------
+\geometry{a4paper, margin=1in}
+\setstretch{1.2}
+\setlength{\headheight}{15pt}
+
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[LE,RO]{\thepage}
+\fancyhead[RE]{Photonic QEC}
+\fancyhead[LO]{Jason Dutton}
+
+% -------------------------------------------------
+% DOCUMENT START
+% -------------------------------------------------
+\begin{document}
+
+\begin{center}
+    {\Large \textbf{Photonic Quantum Error Correction from SEFI/GWFM Geometry}}\\
+
+\vspace{0.5cm}
+    {\large Geometric Stability, Error Surfaces, and Syndrome Structure}\\
+
+\vspace{0.5cm}
+    {\large Jason Duran Dutton}\\
+
+\vspace{0.25cm}
+    {\large 2026}
+\end{center}
+
+\vspace{1cm}
+
+% -------------------------------------------------
+% ABSTRACT
+% -------------------------------------------------
+\section*{Abstract}
+
+Photonic quantum systems suffer from loss, dephasing, mode mixing, and spectral drift.
+Conventional photonic quantum error correction (QEC) encodes information in bosonic
+codes or multi-photon entangled states, but these approaches lack a geometric principle
+governing error formation and correction. SEFI/GWFM provides such a principle by
+defining stability surfaces, geometric identity layers, and worldline-based field emergence.
+This manuscript develops a geometric framework for photonic QEC based on SEFI/GWFM,
+including stability surfaces, photonic error geometry, geometric stabilizers, syndrome
+geometry, SPDC geometry, and CHSH geometry. The resulting structure provides a
+physically grounded foundation for photonic QEC.
+
+\vspace{0.5cm}
+
+% -------------------------------------------------
+% 1 INTRODUCTION
+% -------------------------------------------------
+\section{Introduction}
+
+Photonic quantum information processing offers long coherence times, room-temperature
+operation, and compatibility with integrated photonics. However, photonic systems face
+unique error channels:
+
+\begin{itemize}
+    \item photon loss,
+    \item dephasing,
+    \item mode mixing,
+    \item spectral wandering.
+\end{itemize}
+
+SEFI/GWFM provides a geometric foundation for photonic QEC by defining identity layers,
+worldline geometry, and stability surfaces. Errors correspond to geometric displacements
+off these surfaces, and correction corresponds to restoring geometric sovereignty.
+
+This manuscript develops photonic QEC from SEFI/GWFM.
+
+% -------------------------------------------------
+% 2 STABILITY SURFACES
+% -------------------------------------------------
+\section{Stability Surfaces}
+
+FIELD SOVEREIGNTY defines a stability surface: a geometric manifold representing allowed
+transformations of the photonic mode. Let $S$ denote the stability surface in identity space.
+
+Errors correspond to displacements orthogonal to $S$:
+
+
+
+\[
+\Delta \mathbf{I}_{\perp}(t) \neq 0.
+\]
+
+
+
+Loss, dephasing, mode mixing, and spectral drift correspond to distinct geometric
+displacements.
+
+Stability surfaces provide a geometric interpretation of photonic error channels.
+
+% -------------------------------------------------
+% 3 PHOTONIC ERROR GEOMETRY
+% -------------------------------------------------
+\section{Photonic Error Geometry}
+
+Photonic errors correspond to geometric deviations from sovereignty-preserving worldline
+behavior.
+
+\subsection{Loss}
+
+Loss corresponds to worldline termination or collapse into boundary regions of the stability
+surface.
+
+\subsection{Dephasing}
+
+Dephasing corresponds to torsion-induced geometric phase deviation.
+
+\subsection{Mode Mixing}
+
+Mode mixing corresponds to displacement into neighboring stability surfaces.
+
+\subsection{Spectral Drift}
+
+Spectral wandering corresponds to translation along the spectral axis of the stability
+manifold.
+
+% -------------------------------------------------
+% 4 GEOMETRIC STABILIZERS
+% -------------------------------------------------
+\section{Geometric Stabilizers}
+
+Geometric stabilizers preserve sovereignty by enforcing curvature, torsion, spectral, and
+polarization constraints.
+
+A stabilizer $G$ acts on the identity state as
+
+
+
+\[
+G(\mathbf{I}(t)) = \mathbf{I}(t).
+\]
+
+
+
+Stabilizers correspond to geometric invariants:
+
+\begin{itemize}
+    \item curvature constraints,
+    \item torsion constraints,
+    \item spectral-position constraints,
+    \item polarization-surface constraints.
+\end{itemize}
+
+These stabilizers define geometric QEC codes.
+
+% -------------------------------------------------
+% 5 SYNDROME GEOMETRY
+% -------------------------------------------------
+\section{Syndrome Geometry}
+
+Weak or QND photonic measurements sample geometric deviation from stability surfaces.
+
+Syndrome geometry includes:
+
+\begin{itemize}
+    \item curvature deviation,
+    \item torsion deviation,
+    \item spectral displacement,
+    \item polarization rotation.
+\end{itemize}
+
+A syndrome vector is defined as
+
+
+
+\[
+\mathbf{S}(t) = (\Delta K(t), \Delta T(t), \Delta \omega(t), \Delta P(t)).
+\]
+
+
+
+Syndrome geometry provides a geometric method for error detection.
+
+% -------------------------------------------------
+% 6 SPDC GEOMETRY
+% -------------------------------------------------
+\section{SPDC Geometry}
+
+Spontaneous parametric down-conversion (SPDC) produces annular momentum-space
+geometry corresponding to a stability surface defined by FIELD ORIGIN and FIELD
+SOVEREIGNTY.
+
+Diametric correlations arise from sovereign geometric symmetry:
+
+
+
+\[
+\mathbf{k}_{s} = -\mathbf{k}_{i}.
+\]
+
+
+
+SPDC geometry provides a natural geometric stabilizer for photonic QEC.
+
+% -------------------------------------------------
+% 7 CHSH GEOMETRY
+% -------------------------------------------------
+\section{CHSH Geometry}
+
+Polarization evolution is treated as a worldline on the Poincaré-Bloch sphere. Bell states
+correspond to minimal-torsion worldlines.
+
+CHSH correlations arise from geometric invariants of polarization worldlines.
+
+The CHSH inequality corresponds to a sovereignty-preserving constraint on polarization
+geometry.
+
+% -------------------------------------------------
+% 8 DISCUSSION AND OUTLOOK
+% -------------------------------------------------
+\section{Discussion and Outlook}
+
+SEFI/GWFM provides a geometric foundation for photonic QEC. Stability surfaces define
+allowed transformations, errors correspond to geometric displacements, stabilizers enforce
+sovereignty invariants, and syndrome geometry samples deviation.
+
+Future work will focus on:
+
+\begin{itemize}
+    \item deriving explicit photonic stabilizer codes,
+    \item exploring geometric QEC lattices,
+    \item developing integrated photonic implementations,
+    \item coupling SEFI Space to photonic hardware.
+\end{itemize}
+
+% -------------------------------------------------
+% END DOCUMENT
+% -------------------------------------------------
+\end{document}

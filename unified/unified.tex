@@ -1,0 +1,259 @@
+\documentclass[12pt]{report}
+
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{titlesec}
+\usepackage{hyperref}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\titleformat{\chapter}{\normalfont\Large\bfseries}{\thechapter}{1em}{}
+\titleformat{\section}{\normalfont\large\bfseries}{\thesection}{1em}{}
+\titleformat{\subsection}{\normalfont\normalsize\bfseries}{\thesubsection}{1em}{}
+
+\begin{document}
+
+\begin{titlepage}
+    \centering
+    {\Large\bfseries SEFI/GWFM: Unified Geometric Field Theory}\\
+
+    \vspace{1.5em}
+    {\large Jason Duran Dutton}\\
+
+    \vspace{0.5em}
+    {\large Castlewood, Virginia, USA}\\
+
+    \vspace{2em}
+    {\large 2026}
+\end{titlepage}
+
+\tableofcontents
+\newpage
+
+%===========================================================
+\chapter{Worldline Foundations (GWFM)}
+%===========================================================
+
+\section{Introduction}
+
+Quantum mechanics and quantum field theory accurately predict experimental
+outcomes but leave open the ontological status of particles, fields, and
+superposition. The Geometric Worldline Field Model (GWFM) begins with a
+geometric premise: a continuous worldline entity spans spacetime, and the
+electron field is the projection of this structure. Superposition, interference,
+and measurement arise from the geometry of this worldline rather than from
+separate interpretive rules.
+
+\section{Continuous Worldline Entity}
+
+GWFM posits that the electron field arises from a single continuous worldline
+entity embedded in spacetime. Let $M$ be a spacetime manifold equipped with
+metric $g_{\mu\nu}$. The entity's worldline is defined as a continuous map
+
+
+\[
+    y : \mathbb{R} \rightarrow M,
+\]
+
+
+where the parameter $T$ indexes the full geometric extent of the entity. The
+worldline spans all allowed paths consistent with the worldline action, producing
+a dense geometric ensemble whose projection into spacetime yields the appearance
+of a continuous electron field.
+
+Forward-time segments satisfy $\frac{dt}{dT} > 0$ (electrons), while
+backward-time segments satisfy $\frac{dt}{dT} < 0$ (positrons). This orientation
+rule provides a geometric interpretation of particle--antiparticle duality.
+
+Superposition arises from the entity spanning multiple geometric branches,
+interference arises from overlap regions of the worldline, and measurement
+corresponds to boundary-condition selection of specific segments.
+
+\section{Dense Trajectory Ensemble}
+
+The worldline spans all allowed trajectories, forming a dense geometric set.
+Presence-density is defined as
+
+
+\[
+p(x) = \int Dy\,D\xi\, e^{S_{\text{entity}}[y,\xi]}\, \delta(x - y(T)).
+\]
+
+
+
+\section{Field Emergence}
+
+The electron field is the projection of the worldline ensemble:
+
+
+\[
+\phi(x) = \int dT\, \delta(x - y(T)).
+\]
+
+
+
+\section{Spin Structure}
+
+Spin degrees of freedom are encoded using Grassmann variables $\xi^\mu(T)$ with
+action
+
+
+\[
+S_{\text{spin}} = \int dT\, \xi_\mu \dot{\xi}^\mu.
+\]
+
+
+
+\section{Gauge Coupling}
+
+Electromagnetic coupling is introduced through
+
+
+\[
+S_{\text{EM}} = q \int dT\, \dot{y}^\mu A_\mu(y(T)).
+\]
+
+
+
+\section{Interpretation}
+
+Interference corresponds to geometric overlap, measurement corresponds to
+boundary selection, and identity is global and geometric.
+
+%===========================================================
+\chapter{Layered Field Identity (SEFI)}
+%===========================================================
+
+\section{Introduction}
+
+SEFI extends GWFM by introducing layered field identity: FIELD ORIGIN, FIELD
+AUTHORSHIP, FIELD SOVEREIGNTY, WARP EXPRESSION, and the R-LAYER (Reality
+Field). These layers define stability, identity, and transformation rules.
+
+\section{FIELD ORIGIN}
+
+FIELD ORIGIN defines primitive geometric identity. Stability is treated as a
+primitive property:
+
+
+\[
+\left\| \frac{d^2 r}{dt^2} \right\| \le S_0,
+\]
+
+
+where $S_0$ is the sovereignty-bound acceleration limit.
+
+\section{FIELD AUTHORSHIP}
+
+Authorship layers contribute geometric identity constructs:
+
+
+\[
+F = \sum_{i=1}^N A_i(r(t), K(t)),
+\]
+
+
+where $K(t)$ is curvature.
+
+\section{FIELD SOVEREIGNTY}
+
+Sovereignty ensures invariance under allowed transformations:
+
+
+\[
+F(T(r(t))) = F(r(t)).
+\]
+
+
+
+\section{WARP EXPRESSION}
+
+Warp operators modify worldline geometry while preserving identity:
+
+
+\[
+r'(t) = W(r(t)), \qquad F' = F(W(r(t))).
+\]
+
+
+
+\section{Reality Field Layer (R-Layer)}
+
+The R-layer defines the actual geometric manifestation of the entity's worldline
+into spacetime. It maps worldline geometry, curvature, torsion, stability
+constraints, sovereignty invariants, and warp transformations into the observable
+field.
+
+\section{Mathematical Formulation}
+
+Curvature is defined as
+
+
+\[
+K(t) = \frac{\| r'(t) \times r''(t) \|}{\| r'(t) \|^3}.
+\]
+
+
+
+The full SEFI identity is
+
+
+\[
+F(t) = O(r(t)) + A(r(t), K(t)) + S(r(t)) + W(r(t)) + R(r(t)).
+\]
+
+
+
+%===========================================================
+\chapter{Photonic QEC from SEFI/GWFM Geometry}
+%===========================================================
+
+\section{Introduction}
+
+Photonic systems suffer from loss, dephasing, mode mixing, and spectral drift.
+SEFI/GWFM provides a geometric foundation for photonic QEC, defining stability
+surfaces, geometric stabilizers, and syndrome geometry.
+
+\section{Stability Surfaces}
+
+Sovereignty defines a stability surface: a geometric manifold representing allowed
+transformations. Errors correspond to displacements orthogonal to this surface.
+
+\section{Photonic Error Geometry}
+
+Loss corresponds to worldline termination, dephasing to torsion, mode mixing to
+displacement into neighboring surfaces, and spectral wandering to translation
+along the spectral axis.
+
+\section{Geometric Stabilizers}
+
+Stabilizers preserve sovereignty through curvature, torsion, spectral, and
+polarization constraints.
+
+\section{Syndrome Geometry}
+
+Weak or QND measurements sample curvature deviation, torsion deviation, spectral
+displacement, and polarization rotation.
+
+\section{SPDC Geometry}
+
+SPDC annular geometry corresponds to a stability surface defined by FIELD ORIGIN
+and FIELD SOVEREIGNTY. Diametric correlations arise from sovereign geometric
+symmetry.
+
+\section{CHSH Geometry}
+
+Polarization evolution is treated as a worldline on the Poincaré-Bloch sphere.
+Bell states correspond to minimal torsion worldlines.
+
+%===========================================================
+\chapter{Conclusion}
+
+SEFI/GWFM provides a unified geometric field theory. GWFM defines worldline
+foundations, SEFI defines layered identity, and photonic QEC geometry provides
+applications. Together they form a coherent geometric interpretation of field
+behavior, stability, and transformation.
+
+\end{document}
