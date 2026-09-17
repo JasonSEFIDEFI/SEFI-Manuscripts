@@ -30,16 +30,25 @@ Geometric warp behavior and its consequences for field encoding and transformati
 Final submitted manuscript (August 28, 2026).  
 Includes PDF and full LaTeX source.
 
-### **SEFI — Stability-Encoded Field Interpretation**  
+### **SEFI — Single Entity Field Interpretation**  
 Primary manuscript establishing the SEFI framework.
 
-### **DEFI — Dynamic Encoding Field Interpretation**  
-Companion manuscript extending SEFI into dynamic encoding behavior.
+### **DEFI — Dynamic Entity Field Integration**  
+Companion manuscript, introduced in *Unified Geometric Field Theory from Worldline and Identity-Space Invariants*, extending SEFI/GWFM into a single unifying transformation operator.
+
+### **Warp-SEFI**  
+Displacement-based warp-field model applying SEFI/DEFI/GWFM identity-space formalism to a conceptual capsule-geometry vehicle.
+- `warp-sefi/warp-sefi.tex` — early conceptual essay, *WARP:SEFI: Geometric Warp Theory for Identity-Preserving Transformation*.
+- `warp-sefi/aip-advances-submission/` — the formal submission manuscript, *Displacement-Engineered Warp Fields: Tic-Tac Geometry, Stability Surfaces, and Identity-Space Confinement*, prepared for AIP Advances.
 
 ---
 
 ## Repository Layout  
-=======
-# SEFI-Manuscripts
-Unified geometric field theory manuscripts for SEFI, DEFI, GWFM, and the SEFI Canon layers
+- `canon/` — Foundational SEFI Canon layer documents (Field Origin, Field Authorship, Field Sovereignty, Warp:Expression).
+- `sefi/` — Core SEFI manuscript sources.
+- `sefi-dna/` — SEFI DNA / extended identity-layer manuscripts.
+- `sefi-space/` — SEFI Space identity-geometry manuscript.
+- `gwfm/` — Geometric Worldline Field Model manuscript.
+- `unified/` — Unified Geometric Field Theory manuscript (SEFI + DEFI + GWFM), submitted to *Journal of Mathematical Physics*.
+- `warp-sefi/` — Warp-field manuscript and the photonic QEC manuscript derived from SEFI/GWFM/DEFI.
 
