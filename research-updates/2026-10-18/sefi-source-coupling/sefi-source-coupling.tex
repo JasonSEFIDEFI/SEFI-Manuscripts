@@ -1,0 +1,161 @@
+\documentclass[11pt]{article}
+\usepackage[T1]{fontenc}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{amsmath,amssymb,hyperref}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=blue}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\Boxop}{\mathop{\Box}}
+\title{SEFI Propulsion Research:\\Charge Audit and a Candidate Source--Field--Matter Model}
+\author{Research working note for Jason D. Dutton\\\small Source analysis and proposed extensions prepared with AI assistance}
+\date{October 18, 2026}
+\begin{document}
+\maketitle
+\begin{abstract}
+We examine whether the supplied SEFI and DEFI equations yet specify a physical propulsion mechanism. We distinguish an oscillator energy integral from a worldline identity functional, derive the flat-background linear curvature of the author's canonical metric ansatz, and introduce an explicitly additional scalar interaction as a worked example of the missing source--field--matter closure. A Gaussian envelope gives a calculable source requirement, but no available apparatus is identified that generates that source. These results establish mathematical questions and falsifiable requirements, not a working engine or a demonstrated new force.
+\end{abstract}
+\section{Scope and provenance}
+The intended long-term objective is an uncrewed vehicle propelled by a demonstrated SEFI interaction. This note addresses the first prerequisite: an equation connecting something we can control to a physical field and then to momentum transfer. It does not replace the author's broader proposal that spacetime emerges from an underlying field with a fixed-background scalar theory. The latter is used only as a restricted, explicitly new example.
+
+Three kinds of statement are kept distinct: \textbf{source equations} transcribed from the author's files; \textbf{conditional deductions} following after stated assumptions; and \textbf{candidate additions} that require the author's assessment and independent evidence. Nothing in the candidate action below is represented as an already established SEFI result.
+
+The primary equations analyzed are in \emph{CanonMath1.pdf}, pp.~2--5; \emph{sefi canon math.pdf}, pp.~2--5; and \emph{DEFI/DEFI\_Formal\_Construction.tex}, the Origin energy subsection. These are located under \texttt{V:/V Drive and GitHub Content/Journal Submissions/}. The two warp manuscripts in \texttt{Warp/Warp.tex} and \texttt{The New Warp/warp.tex} supply geometric proposals but do not supply the laboratory source coupling used here. The accompanying source manifest records paths and SHA-256 hashes. The audit also searched the earlier canon documents listed there; it cannot exclude a different charge definition in an unexamined source.
+
+This is an internal research note, not a journal submission. Earlier submissions remain part of the publication history. Any later manuscript must identify reused material and its submission/publication status rather than describe the earlier works as nonexistent.
+\newpage
+\section{What is the proposed SEFI charge?}
+\subsection{The explicit DEFI first integral}
+The supplied DEFI construction states, in its normalized Origin oscillator,
+\begin{equation}
+ \ddot I_O=-I_O,\qquad Q_O=\frac{\alpha}{2}(\dot I_O^2+I_O^2).
+\end{equation}
+For constant $\alpha$, $\dot Q_O=\alpha\dot I_O(\ddot I_O+I_O)=0$. This is the autonomous oscillator energy first integral. A dimensionful version is
+\begin{equation}
+ h_O\ddot I_O+k_O I_O=0,\qquad E_O=\tfrac12h_O\dot I_O^2+\tfrac12k_O I_O^2,
+\end{equation}
+with $h_O,k_O>0$ constants and time and units explicitly chosen. Its conservation does not identify electric charge, a spacetime current, a field source, or a direction of thrust. The source itself associates this integral with Noether energy.
+
+\subsection{The worldline identity functional}
+The earlier canon also presents an identity integral constructed from metric length. For a timelike path and signature $(-+++)$, a real version is
+\begin{equation}
+ \mathcal I[x;\tau_0,\tau_1]=\int_{\tau_0}^{\tau_1}
+ \sqrt{-g_{\mu\nu}\dot x^\mu\dot x^\nu}\,\dd\tau.
+\end{equation}
+We use $\mathcal I$ to distinguish this functional from the scalar $I_O$. This is a signature clarification, not an assertion that all uses of identity in SEFI are proper length. Reparametrization invariance, invariance under an isometry, and stationarity under path variation are different statements. None alone implies that the accumulated length of a growing path segment is constant. In proper-length parametrization its endpoint derivative is one.
+
+\subsection{The missing identification}
+A local conserved charge requires a specified current $j^\mu$ with $\partial_\mu j^\mu=0$ (or its curved-space version), an integration hypersurface, and boundary conditions excluding unaccounted flux. A symmetry and action can establish such a current through Noether's theorem; topological constructions require their own field domain and boundary data. The inspected sources do not identify the user's separately described ``natural SEFI charge'' sufficiently to prove that it supplies an engine interaction.
+
+Conservation by itself supplies a constraint, not an actuator. The decisive additional statement would specify how a controlled material variable creates a source $J$, how $J$ changes the SEFI field, and how that field exchanges momentum with matter. A charge can be conserved while having no accessible propulsion coupling.
+\newpage
+\section{A deduction from the author's metric ansatz}
+The canonical source proposes
+\begin{equation}
+ \widetilde g_{\mu\nu}=g_{\mu\nu}+\alpha W g_{\mu\nu}
+                  +\beta\nabla_\mu\nabla_\nu W.
+ \label{metric}
+\end{equation}
+For this calculation only, take $g=\eta=\operatorname{diag}(-1,1,1,1)$, smooth dimensionless $W$, constant dimensionless $\alpha$, and constant $\beta$ of length squared. Coordinates have length units, $x^0=ct$. Require every component of $h=\widetilde g-\eta$ small, with derivatives admitting a controlled linear expansion. The source's numerical placeholder constants do not fix physical units or measured couplings.
+
+\subsection{The Hessian term carries no linear curvature here}
+Set $\xi_\mu=(\beta/2)\partial_\mu W$. Then
+\begin{equation}
+ h^{(\beta)}_{\mu\nu}=\partial_\mu\xi_\nu+\partial_\nu\xi_\mu,
+ \qquad R^{(1)}_{\rho\sigma\mu\nu}[h^{(\beta)}]=0.
+\end{equation}
+This is a pure coordinate perturbation at first order on this background; commuting partial derivatives cancels its linear Riemann tensor. The statement is local. Global removal must respect boundary conditions. It neither establishes a nonlinear equivalence to flat spacetime nor removes effects on a curved background. Standard linearized-gravity identities used here are given in Tong's notes \cite{tong}.
+
+\subsection{The conformal term can carry curvature}
+For $h^{(\alpha)}_{\mu\nu}=\alpha W\eta_{\mu\nu}$ the usual linear Ricci formula yields
+\begin{align}
+ R^{(1)}_{\mu\nu}&=-\alpha\partial_\mu\partial_\nu W
+                        -\tfrac{\alpha}{2}\eta_{\mu\nu}\Boxop W,\\
+ R^{(1)}&=-3\alpha\Boxop W,\\
+ G^{(1)}_{\mu\nu}&=-\alpha\partial_\mu\partial_\nu W
+                         +\alpha\eta_{\mu\nu}\Boxop W.
+\end{align}
+Consequently the conformal part, rather than the constant-coefficient Hessian alone, is the leading curvature-bearing part of this restricted ansatz. This is a mathematical result about the stated metric, not evidence that hardware can generate $W$.
+
+The canon also proposes a force proportional to $T R^\mu{}_{\nu}u^\nu$. For constant rest mass and normalized $u^\mu u_\mu=-1$, four-force must obey $u_\mu F^\mu=0$. The proposed expression does not generically do so. A projected version $(\delta^\mu{}_{\rho}+u^\mu u_\rho)T R^\rho{}_{\nu}u^\nu$ would satisfy orthogonality, but that is an additional prescription needing units, dynamics, and justification. A variable-rest-mass interpretation is another possibility; neither is established here.
+\newpage
+\section{A conditional energy scale, not a vehicle specification}
+For a static illustrative profile $W=W_0\cos(kx)$,
+\begin{equation}
+ R^{(1)}=3\alpha k^2W,\qquad G^{(1)}_{00}=\alpha k^2W.
+\end{equation}
+In these coordinates $g_{00}=-(1+\alpha W)$, so the slow-body Newtonian coordinate potential is $\Phi_N=\alpha c^2W/2$, and the coordinate acceleration amplitude is
+\begin{equation}
+ a_0=\frac{|\alpha|c^2k|W_0|}{2}.
+\end{equation}
+An isolated coordinate acceleration is not an invariant propulsion measurement. Curvature, tidal relative acceleration, and measurements tied to specified observers are the relevant observables. This sinusoid is neither localized nor asymptotically flat.
+
+\textbf{Only if ordinary Einstein field equations are imposed as the source closure}, the required effective energy-density amplitude is
+\begin{equation}
+ |T_{00}|_{\rm amp}=\frac{c^4|\alpha|k^2|W_0|}{8\pi G}
+                  =\frac{c^2 k a_0}{4\pi G}.
+\end{equation}
+For the illustrative coordinate scales $a_0=1\,\mathrm{m\,s^{-2}}$ and $k=1\,\mathrm{m^{-1}}$, this is approximately $1.07\times10^{26}\,\mathrm{J\,m^{-3}}$, or an equivalent mass-density amplitude $1.19\times10^9\,\mathrm{kg\,m^{-3}}$. The sinusoid also alternates the sign of this effective energy density and requires the other stress components fixed by $G_{\mu\nu}$. Energy density alone is not a sufficient source design.
+
+This is not a universal SEFI lower bound, a power demand, an energy-production prediction, or a proposal to build that field. It shows the cost of this specific weak-field profile under one familiar closure. A different SEFI gravitational law would have to be explicitly derived and tested before claiming that it changes the estimate. Choosing a smaller $\alpha$ does not remove this conditional scale at fixed $a_0,k$, since the required $W_0$ then changes inversely.
+
+The supplied geometric-flow equation for $\partial_t\widetilde g$ is not automatically that missing physical closure. A flow parameter must be related to physical time; causal evolution, constraints, material sources, dimensions, and a momentum balance must be specified. Drawing a desired metric or envelope cannot determine these quantities.
+\newpage
+\section{Candidate addition: a complete small interaction model}
+To make the missing steps calculable, consider the following \textbf{new hypothesis}, not a derivation of full SEFI and not a substitute for the author's charge. In natural units $c=\hbar=1$, let $W$ be a real dimensionless scalar on Minkowski spacetime and set
+\begin{equation}
+ S=-\frac Z2\int\dd^4x\,[\partial_\mu W\partial^\mu W+\mu^2 W^2]
+       -\sum_i\int [m_i+g_iW(x_i)]\,\dd s_i .
+ \label{action}
+\end{equation}
+Here $Z>0$ has mass dimension two, $\mu\geq0$ has mass dimension one, and $m_i,g_i$ have mass dimension one. We restrict to $m_i+g_iW>0$. The free field has positive energy; this does not prove global stability of the interacting point-particle theory. Point sources require regularization near their cores.
+
+Varying $W$ gives an explicit source law,
+\begin{equation}
+ Z(\Boxop-\mu^2)W=J,\qquad
+ J(x)=\sum_i g_i\int\dd s_i\,\delta^{(4)}(x-x_i).
+\end{equation}
+Varying the worldlines gives an orthogonal matter response,
+\begin{equation}
+ (m_i+g_iW)a_i^\mu=-g_i(\eta^{\mu\nu}+u_i^\mu u_i^\nu)\partial_\nu W.
+\end{equation}
+Both equations follow from the same candidate action, so the field and matter exchange momentum consistently. A static point source has
+\begin{equation}
+ W_s(r)=-\frac{g_s}{4\pi Z}\frac{e^{-\mu r}}r,
+ \quad V(r)=-\frac{g_sg_t}{4\pi Z}\frac{e^{-\mu r}}r,
+ \quad F_r=-\frac{g_sg_t}{4\pi Z}\frac{(1+\mu r)e^{-\mu r}}{r^2}.
+\end{equation}
+Equal-sign couplings attract in this model; opposing signs repel. These are generic scalar interactions, not a demonstrated SEFI effect. No numerical $g_i,Z,\mu$ or material realization is supplied by the reviewed sources. A new force, if proposed, must also satisfy existing experimental constraints; none is claimed to be satisfied here.
+
+Translation invariance conserves the total matter-plus-field momentum of an isolated system with appropriate boundaries. Internal static forces do not accelerate its center of energy. Radiation can carry momentum away; an external field can exchange momentum with its source. Either case requires counting that momentum. An external prescribed $J$ without its generating apparatus hides the reaction rather than removing it. The candidate model therefore does not provide reactionless propulsion, nor does it construct an additional conserved internal charge merely by naming $g_i$ a coupling.
+\newpage
+\section{What an envelope actually requires}
+In the candidate model, prescribe a static spherical profile
+\begin{equation}
+ W(r)=W_0e^{-r^2/(2\ell^2)},\qquad \ell>0.
+\end{equation}
+The field equation determines its required source, rather than allowing the source to remain unspecified:
+\begin{equation}
+ \boxed{\frac{J(r)}Z=\left(\frac{r^2}{\ell^4}-\frac3{\ell^2}-\mu^2\right)
+                         W_0e^{-r^2/(2\ell^2)}.}
+\end{equation}
+For $W_0>0$ the source is negative near the center and positive outside $r=\ell\sqrt{3+\mu^2\ell^2}$. The sign convention reverses with $W_0$. The Gaussian extends to infinity; it is an analytic example, not a compact vehicle shell. If matter only supplies positive $g_i$ in Eq.~\eqref{action}, this profile cannot be realized with those sources alone. No evidence in the supplied files establishes controllable sources of both signs.
+
+Spherical symmetry gives no preferred thrust direction. Breaking symmetry would require recomputing the full field and source dynamics, including field momentum and any outgoing flux; asymmetry alone does not evade momentum conservation. The static inverse-source calculation is not a flight simulation.
+
+\subsection{The concrete next theoretical decision}
+The next necessary input is an author-supported constitutive relation, schematically
+\begin{equation}
+ \text{controlled material state }\chi\ \longmapsto\ J[\chi]
+ \ \longmapsto\ W\ \longmapsto\ \text{measured matter response}.
+\end{equation}
+The supplied theory must determine whether $\chi$ means strain, composition, a matter field, electric current, or something else; it cannot be chosen from resemblance to an electromagnetic engine. That relation must come with dimensions, coupling constants or a calibration procedure, and a prediction distinguishing the effect from ordinary forces. Until then, coil geometry, drive frequency, power supply, cooling, and a flight vehicle cannot be calculated from these equations.
+
+\subsection{Verification and research status}
+The accompanying Python file independently evaluates the linearized curvature for a plane-wave scalar, checks the Yukawa force against a finite difference of its potential, verifies four-force orthogonality, and checks the spherical Gaussian Laplacian numerically. Results are in \texttt{results.json}. These are mathematical consistency checks only. There are no measured forces, fitted couplings, validated source materials, or new propulsion efficiencies in this package.
+
+The useful outcome is a precise separation: the source metric has an analyzable curvature-bearing part; the proposed charge needs a specific current or invariant definition; and an engine requires an additional experimentally grounded coupling and a full momentum budget. This preserves the possibility of investigating the theory without representing an unbuilt mechanism as established physics.
+\begin{thebibliography}{9}
+\bibitem{tong} D. Tong, \emph{General Relativity}, Section 5, ``When Gravity is Weak,'' especially Sections 5.1 and 5.1.1. \url{https://www.damtp.cam.ac.uk/user/tong/gr/five.pdf}.
+\end{thebibliography}
+\end{document}

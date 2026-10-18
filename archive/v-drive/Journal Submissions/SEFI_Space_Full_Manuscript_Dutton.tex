@@ -1,0 +1,290 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+\usepackage{graphicx}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\title{SEFI Space: A Geometric Identity Space for Single-Entity Field Theory}
+\author{Jason Duran Dutton}
+\date{2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+The Single Entity Field Interpretation (SEFI) extends geometric worldline approaches to quantum field theory
+by introducing a structured identity space associated with a single underlying entity. In this work we define
+SEFI Space (SS) as a four-dimensional geometric identity space spanned by basis directions corresponding to
+FIELD ORIGIN, FIELD AUTHORSHIP, FIELD SOVEREIGNTY, and WARP EXPRESSION. The SEFI field is represented as
+a worldline-based construction embedded in spacetime, while its identity content is encoded as a trajectory
+in SEFI Space. We introduce a metric on SEFI Space, define identity velocity and acceleration, and formulate
+sovereignty and warp constraints as invariance and motion within this identity space. The resulting framework
+provides a geometric interpretation of field identity, stability, and transformation compatible with worldline
+quantum field theory and suggests a path toward unified single-entity field models.
+\end{abstract}
+
+\section{Introduction}
+
+Worldline formulations of quantum field theory provide an alternative representation of particle and field
+dynamics in terms of path integrals over trajectories in spacetime \cite{Polyakov1987,Schubert2001,Strassler1992}.
+These approaches have proven useful for perturbative calculations, effective actions, and the geometric
+interpretation of quantum amplitudes. However, the ontological status of field identity, superposition, and
+entity persistence remains largely external to the formalism.
+
+The Single Entity Field Interpretation (SEFI) proposes that a given quantum field, such as the electron field,
+arises from a single continuous entity whose worldline structure spans all allowed trajectories in spacetime.
+The field is then understood as the projection of this worldline ensemble, with forward-time segments
+corresponding to particles and backward-time segments corresponding to antiparticles, in line with established
+worldline interpretations of electron--positron dynamics \cite{Schubert2001,Strassler1992}.
+
+In previous work, SEFI introduced layered identity constructs under the labels FIELD ORIGIN, FIELD AUTHORSHIP,
+FIELD SOVEREIGNTY, and WARP EXPRESSION. These layers were treated as conceptual components of the field's
+identity structure. In this manuscript, we formalize these layers as basis directions of a geometric identity
+space, which we call SEFI Space (SS). SEFI Space is not a spacetime manifold, nor a gauge or spinor space; it
+is an abstract geometric space in which the identity of the single entity evolves as the worldline traverses
+spacetime.
+
+Our goals are:
+\begin{itemize}
+    \item To define SEFI Space as a four-dimensional real vector space associated with the SEFI field.
+    \item To introduce a metric structure on SEFI Space and define identity velocity and acceleration.
+    \item To express sovereignty and warp constraints as invariance and motion within SEFI Space.
+    \item To couple SEFI Space to worldline geometry in a manner compatible with established worldline QFT.
+\end{itemize}
+
+\section{Worldline Foundations}
+
+We briefly recall the worldline formulation relevant to SEFI. Let spacetime be a manifold $M$ with metric
+$g_{\mu\nu}$. A relativistic point particle of mass $m$ moving in $M$ is described by a worldline
+$y^\mu(\tau)$ and an action of the form
+\begin{equation}
+S_{\text{WL}}[y] = -m \int d\tau \sqrt{-g_{\mu\nu}(y(\tau)) \dot{y}^\mu(\tau) \dot{y}^\nu(\tau)},
+\end{equation}
+where $\tau$ is an affine parameter along the worldline and dots denote derivatives with respect to $\tau$
+\cite{Polyakov1987}.
+
+Spin degrees of freedom can be incorporated using Grassmann variables $\psi^\mu(\tau)$, leading to a spin
+action of the form
+\begin{equation}
+S_{\text{spin}}[\psi] = \int d\tau \, \psi_\mu(\tau) \dot{\psi}^\mu(\tau),
+\end{equation}
+and coupling to an electromagnetic potential $A_\mu(x)$ is introduced via
+\begin{equation}
+S_{\text{EM}}[y] = q \int d\tau \, \dot{y}^\mu(\tau) A_\mu(y(\tau)),
+\end{equation}
+where $q$ is the charge of the entity \cite{Schubert2001,Strassler1992}.
+
+The total worldline action for the entity is then
+\begin{equation}
+S_{\text{entity}}[y,\psi] = S_{\text{WL}}[y] + S_{\text{spin}}[\psi] + S_{\text{EM}}[y].
+\end{equation}
+In a path-integral formulation, the presence density of the entity at spacetime point $x$ can be written
+schematically as
+\begin{equation}
+\rho(x) = \int \mathcal{D}y \, \mathcal{D}\psi \, e^{i S_{\text{entity}}[y,\psi]} \delta^{(4)}(x - y(\tau)),
+\end{equation}
+and an emergent field amplitude may be expressed as
+\begin{equation}
+\phi(x) = \int d\tau \, \delta^{(4)}(x - y(\tau)).
+\end{equation}
+
+In SEFI, the worldline is not merely a computational device but is taken to represent the actual geometric
+structure of a single entity whose projection yields the observed field. The SEFI Space introduced below
+provides a complementary description of the entity's identity content.
+
+\section{Definition of SEFI Space}
+
+We define SEFI Space (SS) as a four-dimensional real vector space associated with the SEFI field. The space
+is spanned by four basis directions corresponding to the SEFI identity layers:
+\begin{equation}
+\text{SS} = \text{span}\{\hat{O}, \hat{A}, \hat{S}, \hat{W}\},
+\end{equation}
+where
+\begin{itemize}
+    \item $\hat{O}$ is the Origin direction, associated with FIELD ORIGIN,
+    \item $\hat{A}$ is the Authorship direction, associated with FIELD AUTHORSHIP,
+    \item $\hat{S}$ is the Sovereignty direction, associated with FIELD SOVEREIGNTY,
+    \item $\hat{W}$ is the Warp direction, associated with WARP EXPRESSION.
+\end{itemize}
+
+An identity state of the entity at parameter value $t$ along the worldline is represented by a vector
+$\vec{I}(t)$ in SEFI Space:
+\begin{equation}
+\vec{I}(t) = I_O(t) \hat{O} + I_A(t) \hat{A} + I_S(t) \hat{S} + I_W(t) \hat{W},
+\end{equation}
+where $(I_O(t), I_A(t), I_S(t), I_W(t)) \in \mathbb{R}^4$ are the identity coordinates at $t$.
+
+The functions $I_O(t)$, $I_A(t)$, $I_S(t)$, and $I_W(t)$ are constructed from the worldline geometry and
+field layers. For example, one may define
+\begin{equation}
+I_O(t) = O(r(t)), \quad I_A(t) = A(r(t), \kappa(t)), \quad I_S(t) = S(r(t)), \quad I_W(t) = W(r(t)),
+\end{equation}
+where $r(t)$ is a parametrization of the worldline, $\kappa(t)$ is its curvature, and $O$, $A$, $S$, and $W$
+are layer functions associated with FIELD ORIGIN, FIELD AUTHORSHIP, FIELD SOVEREIGNTY, and WARP EXPRESSION,
+respectively.
+
+SEFI Space is not a spacetime manifold and does not carry a direct metric inherited from $g_{\mu\nu}$. Instead,
+we introduce an independent metric structure on SS to quantify changes in identity.
+
+\section{Metric Structure on SEFI Space}
+
+We equip SEFI Space with a diagonal metric of the form
+\begin{equation}
+ds_{\text{SS}}^2 = \alpha \, dI_O^2 + \beta \, dI_A^2 + \gamma \, dI_S^2 + \delta \, dI_W^2,
+\end{equation}
+where $\alpha, \beta, \gamma, \delta > 0$ are constants that set the relative weight or stiffness of each
+identity layer. For an infinitesimal change in identity state
+\begin{equation}
+d\vec{I} = dI_O \hat{O} + dI_A \hat{A} + dI_S \hat{S} + dI_W \hat{W},
+\end{equation}
+the squared norm in SEFI Space is
+\begin{equation}
+\|d\vec{I}\|_{\text{SS}}^2 = \alpha \, dI_O^2 + \beta \, dI_A^2 + \gamma \, dI_S^2 + \delta \, dI_W^2.
+\end{equation}
+
+Along the worldline, we define identity velocity and identity acceleration by
+\begin{equation}
+\dot{\vec{I}}(t) = \frac{d\vec{I}}{dt} = \dot{I}_O(t) \hat{O} + \dot{I}_A(t) \hat{A} + \dot{I}_S(t) \hat{S} + \dot{I}_W(t) \hat{W},
+\end{equation}
+\begin{equation}
+\ddot{\vec{I}}(t) = \frac{d^2\vec{I}}{dt^2} = \ddot{I}_O(t) \hat{O} + \ddot{I}_A(t) \hat{A} + \ddot{I}_S(t) \hat{S} + \ddot{I}_W(t) \hat{W}.
+\end{equation}
+The squared norm of the identity velocity is
+\begin{equation}
+\|\dot{\vec{I}}(t)\|_{\text{SS}}^2 = \alpha \, \dot{I}_O(t)^2 + \beta \, \dot{I}_A(t)^2 + \gamma \, \dot{I}_S(t)^2 + \delta \, \dot{I}_W(t)^2,
+\end{equation}
+and similarly for the identity acceleration.
+
+This metric structure allows us to define identity distances, identity curvature, and identity geodesics
+within SEFI Space, independent of the spacetime geometry.
+
+\section{Sovereignty and Invariance in SEFI Space}
+
+FIELD SOVEREIGNTY was originally introduced as a constraint ensuring that the field maintains its identity
+under allowed transformations. In the worldline formulation, one may express sovereignty as
+\begin{equation}
+F(T(r(t))) = F(r(t)),
+\end{equation}
+for a class of transformations $T$ that preserve the field identity.
+
+In SEFI Space, sovereignty can be expressed as invariance of the identity vector under the induced action
+of $T$:
+\begin{equation}
+\vec{I}_T(t) = \vec{I}(t),
+\end{equation}
+for all allowed transformations $T$. Here $\vec{I}_T(t)$ denotes the identity state obtained when the
+worldline is transformed by $T$ and the layer functions are evaluated accordingly.
+
+The set of transformations that preserve $\vec{I}(t)$ defines a symmetry group acting on spacetime and
+worldline geometry while leaving SEFI Space invariant. This group may be viewed as an identity-preserving
+subgroup of the full transformation group acting on the worldline. Sovereignty thus acquires a geometric
+interpretation as invariance in SEFI Space.
+
+\section{Warp as Motion in SEFI Space}
+
+WARP EXPRESSION was introduced as the layer responsible for geometric transformation of the field while
+preserving its identity. In the worldline picture, a warp operation $W$ acts on the worldline as
+\begin{equation}
+r'(t) = W(r(t)),
+\end{equation}
+modifying the geometry of the trajectory.
+
+In SEFI Space, warp corresponds to motion along the Warp direction. If the warp layer function changes
+from $I_W(t)$ to $I_W'(t) = I_W(t) + \Delta I_W(t)$ under a warp operation, then the identity state becomes
+\begin{equation}
+\vec{I}'(t) = I_O(t) \hat{O} + I_A(t) \hat{A} + I_S(t) \hat{S} + I_W'(t) \hat{W}.
+\end{equation}
+Warp is thus represented as a displacement in SEFI Space along $\hat{W}$, constrained by sovereignty
+requirements that ensure the overall identity of the entity is preserved.
+
+More generally, warp operations may induce coupled changes in multiple identity coordinates, leading to
+motion in SEFI Space along a combination of basis directions. The metric structure introduced above allows
+one to quantify the magnitude of such identity transformations.
+
+\section{Coupling Between SEFI Space and Worldline Geometry}
+
+SEFI Space is constructed to be compatible with worldline formulations of quantum field theory. The identity
+coordinates $I_O(t)$, $I_A(t)$, $I_S(t)$, and $I_W(t)$ are functions of the worldline geometry and associated
+field layers. For example, FIELD ORIGIN may be tied to stability constraints on the worldline curvature,
+FIELD AUTHORSHIP to layered contributions to the field amplitude, FIELD SOVEREIGNTY to invariance under
+transformations, and WARP EXPRESSION to geometric deformation of the worldline.
+
+One may consider an extended action functional that includes contributions from SEFI Space:
+\begin{equation}
+S_{\text{total}}[y,\psi,\vec{I}] = S_{\text{entity}}[y,\psi] + S_{\text{SS}}[\vec{I}],
+\end{equation}
+where $S_{\text{SS}}[\vec{I}]$ encodes identity-space dynamics, such as penalties for rapid changes in
+identity or constraints enforcing sovereignty. A simple example is
+\begin{equation}
+S_{\text{SS}}[\vec{I}] = \int dt \, \left( \frac{1}{2} \|\dot{\vec{I}}(t)\|_{\text{SS}}^2 - V(\vec{I}(t)) \right),
+\end{equation}
+where $V(\vec{I})$ is a potential function in SEFI Space. This structure is analogous to internal degrees
+of freedom in field theory but is explicitly tied to the identity of a single entity.
+
+The coupling between SEFI Space and worldline geometry suggests that identity dynamics may influence
+effective field behavior, stability, and response to external conditions. This provides a route to
+interpreting certain aspects of field behavior as arising from identity-space constraints rather than
+purely from spacetime dynamics.
+
+\section{Discussion and Outlook}
+
+We have introduced SEFI Space (SS) as a four-dimensional geometric identity space associated with the
+Single Entity Field Interpretation. SEFI Space is spanned by basis directions corresponding to FIELD
+ORIGIN, FIELD AUTHORSHIP, FIELD SOVEREIGNTY, and WARP EXPRESSION, and identity states of the entity are
+represented as vectors in this space. A diagonal metric on SEFI Space allows one to define identity
+velocity, identity acceleration, and identity distances, providing a quantitative framework for identity
+dynamics.
+
+Sovereignty is expressed as invariance of the identity vector under allowed transformations, while warp
+is represented as motion in SEFI Space along the Warp direction and related combinations of basis
+directions. The coupling between SEFI Space and worldline geometry suggests that identity-space dynamics
+may play a role in effective field behavior and stability.
+
+This work is intended as a foundational step toward a more complete SEFI framework in which identity
+geometry, worldline dynamics, and emergent field behavior are treated within a unified geometric model.
+Future work will focus on:
+\begin{itemize}
+    \item Deriving explicit forms of the layer functions $O$, $A$, $S$, and $W$ from worldline and field
+          dynamics.
+    \item Exploring geodesics in SEFI Space and their relation to stability and sovereignty constraints.
+    \item Extending SEFI Space to include additional identity dimensions, such as those relevant to
+          multi-entity systems or quantum error correction.
+    \item Investigating possible connections between SEFI Space and internal symmetry spaces in quantum
+          field theory.
+\end{itemize}
+
+\section*{Acknowledgments}
+
+The author acknowledges prior work on the Geometric Worldline Field Model (GWFM) and SEFI canon, which
+motivated the present formalization of SEFI Space.
+
+\begin{thebibliography}{99}
+
+\bibitem{Polyakov1987}
+A.~M. Polyakov, \textit{Gauge Fields and Strings}, Harwood Academic Publishers (1987).
+
+\bibitem{Schubert2001}
+C.~Schubert, ``Perturbative quantum field theory in the string-inspired formalism,''
+Phys. Rept. \textbf{355}, 73--234 (2001).
+
+\bibitem{Strassler1992}
+M.~J. Strassler, ``Field theory without Feynman diagrams: One-loop effective actions,''
+Nucl. Phys. B \textbf{385}, 145--184 (1992).
+
+\bibitem{Feynman1950}
+R.~P. Feynman, ``Mathematical formulation of the quantum theory of electromagnetic interaction,''
+Phys. Rev. \textbf{80}, 440--457 (1950).
+
+\bibitem{DuttonGWFM}
+J.~D. Dutton, \textit{Geometric Worldline Field Model (GWFM)}, unpublished manuscript (2026).
+
+\bibitem{DuttonSEFI}
+J.~D. Dutton, \textit{Single Entity Field Interpretation (SEFI) Canon}, unpublished manuscript (2026).
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,121 @@
+\section{Toy Model: Single-Entity Reality Field in FRW Spacetime}
+
+We construct a minimal cosmological model in which a single continuous worldline
+$\gamma$ generates a reality field $R(x)$ over an expanding Friedmann--Robertson--Walker
+(FRW) spacetime. This toy model demonstrates explicitly how a one-entity field
+naturally produces the density scaling associated with early-universe expansion.
+
+\subsection{Spacetime and Scale Factor}
+
+Consider a spatially flat FRW spacetime with metric
+\begin{equation}
+ds^2 = -dt^2 + a(t)^2\, d\vec{x}^{\,2},
+\end{equation}
+where $a(t)$ is the cosmological scale factor. Let the manifold be $M$ with coordinates
+$(t,\vec{x})$.
+
+\subsection{Single Entity Worldline}
+
+Define the entity's worldline as a mapping
+\begin{equation}
+\gamma : \tau \mapsto M, \qquad
+\gamma(\tau) = \big(t(\tau), \vec{x}(\tau)\big).
+\end{equation}
+
+For the toy model, assume:
+\begin{enumerate}
+\item Monotonic time: $t(\tau) = \tau$.
+\item Comoving exploration: the entity spans comoving positions $\vec{\chi}$ with
+\begin{equation}
+\vec{x}(\tau,\vec{\chi}) = a(\tau)\,\vec{\chi}.
+\end{equation}
+\end{enumerate}
+
+Thus $\gamma$ represents a continuous worldline structure whose segments explore
+comoving space as the universe expands.
+
+\subsection{Presence Kernel and Reality Field}
+
+Define a presence kernel
+\begin{equation}
+K\big(x,\gamma(\tau,\vec{\chi})\big)
+= \delta\!\big(t - \tau\big)\,
+  \delta^{(3)}\!\big(\vec{x} - a(\tau)\vec{\chi}\big),
+\end{equation}
+and take a constant identity density $\mathcal{I}(\tau,\vec{\chi}) = I_0$.
+
+The reality field is then
+\begin{equation}
+R(t,\vec{x})
+= \int d\tau \int d^3\chi \,
+K\big(x,\gamma(\tau,\vec{\chi})\big)\,
+\mathcal{I}(\tau,\vec{\chi}).
+\end{equation}
+
+Substituting the kernel,
+\begin{equation}
+R(t,\vec{x})
+= I_0 \int d^3\chi \,
+\delta^{(3)}\!\big(\vec{x} - a(t)\vec{\chi}\big).
+\end{equation}
+
+Change variables from $\vec{\chi}$ to $\vec{x}$ using
+\begin{equation}
+\vec{x} = a(t)\vec{\chi}
+\qquad\Rightarrow\qquad
+d^3\chi = \frac{d^3x}{a(t)^3}.
+\end{equation}
+
+Thus,
+\begin{equation}
+R(t,\vec{x})
+= I_0 \int \frac{d^3x'}{a(t)^3}\,
+\delta^{(3)}\!\big(\vec{x} - \vec{x}'\big)
+= \frac{I_0}{a(t)^3}.
+\end{equation}
+
+Hence the single-entity reality field dilutes as
+\begin{equation}
+R(t,\vec{x}) \propto a(t)^{-3},
+\end{equation}
+matching the standard cosmological scaling of number density in an expanding universe.
+
+\subsection{Electron--Positron Symmetry from Time Orientation}
+
+In the GWFM framework, forward-time segments ($dt/d\tau > 0$) correspond to electrons,
+while backward-time segments ($dt/d\tau < 0$) correspond to positrons. Define
+\begin{equation}
+R_e(t,\vec{x}) = \frac{\alpha I_0}{a(t)^3}, \qquad
+R_p(t,\vec{x}) = \frac{(1-\alpha) I_0}{a(t)^3},
+\end{equation}
+with $0 \le \alpha \le 1$ encoding the fraction of forward- versus backward-oriented
+segments. The total field is
+\begin{equation}
+R(t,\vec{x}) = R_e(t,\vec{x}) + R_p(t,\vec{x})
+= \frac{I_0}{a(t)^3}.
+\end{equation}
+
+Early-universe electron--positron symmetry corresponds to $\alpha \approx \tfrac{1}{2}$.
+
+\subsection{Inflation as Sovereignty Saturation}
+
+In SEFI, the sovereignty constraint requires
+\begin{equation}
+\left\| \frac{d^2 r}{dt^2} \right\| \le S_0,
+\end{equation}
+where $r(t)$ is the spatial part of the worldline.
+
+For comoving exploration,
+\begin{equation}
+r(t) = a(t)\vec{\chi},
+\qquad
+\frac{d^2 r}{dt^2} = \ddot{a}(t)\vec{\chi}.
+\end{equation}
+
+Inflation corresponds to the regime
+\begin{equation}
+\left\| \ddot{a}(t)\vec{\chi} \right\| \approx S_0,
+\end{equation}
+i.e.\ the expansion rate saturates the sovereignty bound. This provides a geometric
+interpretation of inflation as maximal allowed worldline expansion.
+

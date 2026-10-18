@@ -1,0 +1,124 @@
+\documentclass[12pt]{article}
+
+\usepackage{amsmath, amssymb}
+\usepackage{geometry}
+\usepackage{setspace}
+
+\geometry{margin=1in}
+\setstretch{1.2}
+
+\title{SEFI: The Single Entity Field Interpretation --- Formal Mathematical Construction}
+\author{Jason Dutton \\ Castlewood, Virginia, USA}
+\date{2026}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+SEFI (Single Entity Field Interpretation) is introduced as a geometric field framework built upon the worldline foundations established in the Geometric Worldline Field Model (GWFM) \cite{DuttonGWFM}. SEFI formalizes the identity, sovereignty, origin, and warp-expression layers of a single-entity field \cite{DuttonSEFICanon}, providing a structured mathematical interpretation of field behavior, stability, and transformation. This document presents the canonical SEFI formulation, its geometric principles, layered field identity, and computational implementation \cite{DuttonSEFIPY}.
+\end{abstract}
+
+\section{Introduction}
+The Single Entity Field Interpretation (SEFI) extends the geometric worldline foundation established in GWFM \cite{DuttonGWFM} by introducing a layered field identity structure. SEFI formalizes the principles of FIELD ORIGIN, FIELD AUTHORSHIP, FIELD SOVEREIGNTY, and WARP EXPRESSION \cite{DuttonSEFICanon}. These layers define the stability, identity, and transformation rules governing the field.
+
+SEFI is constructed as a geometric field theory, emphasizing stability as a primitive and worldline geometry as the foundation for field identity. This paper presents the canonical mathematical formulation of SEFI.
+
+\section{FIELD ORIGIN}
+FIELD ORIGIN defines the foundational geometric principle of SEFI. It establishes the initial conditions, stability constraints, and primitive geometric identity of the field. The origin layer determines the baseline worldline geometry and the initial curvature conditions.
+
+\subsection{Geometric Stability Principle}
+SEFI asserts that stability is a primitive geometric property. Let \( r(t) \) denote the worldline of the entity. Stability requires
+\begin{equation}
+\left\| \frac{d^2 r}{dt^2} \right\| \leq S_0,
+\end{equation}
+where \( S_0 \) is the sovereignty-bound acceleration limit.
+
+\section{FIELD AUTHORSHIP}
+FIELD AUTHORSHIP defines the identity layers of the field. Each layer represents a geometric transformation or identity construct that contributes to the overall field behavior.
+
+Let \( A_i \) denote the \( i \)-th authorship layer. The full field identity is
+\begin{equation}
+F = \sum_{i=1}^{N} A_i(r(t), \kappa(t)),
+\end{equation}
+where \( \kappa(t) \) is the curvature of the worldline.
+
+\section{FIELD SOVEREIGNTY}
+FIELD SOVEREIGNTY defines the independence and stability constraints of the field. Sovereignty ensures that the field maintains its identity under transformation.
+
+\subsection{Sovereignty Constraint}
+For any transformation \( T \), sovereignty requires
+\begin{equation}
+F(T(r(t))) = F(r(t)).
+\end{equation}
+This constraint ensures invariance under allowed geometric transformations.
+
+\section{WARP EXPRESSION}
+WARP EXPRESSION defines the transformation rules of the field. Warp operations modify the worldline geometry while preserving field identity.
+
+Let \( W \) be a warp operator. Then
+\begin{equation}
+r'(t) = W(r(t)),
+\end{equation}
+and the field transforms as
+\begin{equation}
+F' = F(W(r(t))).
+\end{equation}
+Warp operators include curvature modulation, torsion modulation, and layered geometric transformations.
+
+\section{Mathematical Formulation}
+SEFI formalizes the field identity using worldline geometry and curvature.
+
+\subsection{Worldline}
+Let \( r(t) \) be the worldline. Curvature is
+\begin{equation}
+\kappa(t) = \frac{\| r'(t) \times r''(t) \|}{\| r'(t) \|^3}.
+\end{equation}
+
+\subsection{Field Identity}
+The SEFI field identity is
+\begin{equation}
+F(t) = O(r(t)) + A(r(t), \kappa(t)) + S(r(t)) + W(r(t)),
+\end{equation}
+where
+\begin{itemize}
+    \item \( O \): origin layer,
+    \item \( A \): authorship layer,
+    \item \( S \): sovereignty layer,
+    \item \( W \): warp-expression layer.
+\end{itemize}
+
+\section{Computational Implementation}
+SEFI is implemented using the SEFI-PY engine \cite{DuttonSEFIPY}. The engine computes worldlines, curvature, and layered field identity.
+
+\subsection{Worldline Module}
+The worldline module defines parametric worldlines with curvature and torsion.
+
+\subsection{Curvature Module}
+Curvature is computed numerically using finite differences.
+
+\subsection{Layered Constructs}
+Layered constructs are implemented as modular identity layers, corresponding to FIELD ORIGIN, FIELD AUTHORSHIP, FIELD SOVEREIGNTY, and WARP EXPRESSION.
+
+\section{Physical Interpretation}
+SEFI provides a geometric interpretation of field identity. It predicts stability constraints, transformation invariance, and layered field behavior. The framework suggests that field identity is not merely a label but a structured geometric construct tied to worldline behavior and curvature.
+
+\section{Conclusion}
+SEFI extends GWFM by introducing a layered field identity structure. It provides a geometric field interpretation with stability, sovereignty, and transformation rules. SEFI represents a candidate field law with potential applications in geometric physics, simulation frameworks, and volumetric field visualization.
+
+\begin{thebibliography}{99}
+
+\bibitem{DuttonGWFM}
+J. Dutton, \textit{Geometric Worldline Field Model (GWFM)}, 2026.
+
+\bibitem{DuttonSEFICanon}
+J. Dutton, \textit{SEFI Canon: FIELD ORIGIN, FIELD AUTHORSHIP, FIELD SOVEREIGNTY, WARP EXPRESSION}, 2026.
+
+\bibitem{DuttonSEFIPY}
+J. Dutton, \textit{SEFI-PY Engine Documentation}, 2026.
+
+\bibitem{JMP}
+\textit{Journal of Mathematical Physics}, AIP Publishing.
+
+\end{thebibliography}
+
+\end{document}

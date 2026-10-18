@@ -1,0 +1,12 @@
+{
+  "reference": {
+    "body_m3": 159.17402778188284,
+    "shell_m3": 236.6666465704311,
+    "area_m2": 175.92918860102841
+  },
+  "example_gradient_bound": 0.1875,
+  "example_separation_lower_factor": 0.8125,
+  "emitter_force_at_1000W_N": 3.3356409519815205e-06,
+  "checks": "taper endpoints, derivative maximum, monotonic slices, geometry",
+  "physical_propulsion_tested": false
+}

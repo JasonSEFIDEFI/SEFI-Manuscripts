@@ -1,0 +1,27 @@
+const fs=require('fs'),vm=require('vm'),assert=require('assert');
+const path=require('path');
+const html=fs.readFileSync(path.join(__dirname,'vehicle-envelope.html'),'utf8');
+assert(!html.includes('\\"')&&!html.includes('\\n'));
+const script=html.match(/<script>([\s\S]*?)<\/script>/)[1];
+const keys=['length','radius','layer','amplitude','mass','accel'];
+const values={},results={},inputs=keys.map(key=>({dataset:{key},value:0,addEventListener(type,fn){this[type]=fn;}}));
+const svg={setAttribute(k,v){this[k]=v;},innerHTML:''};
+const root={clientWidth:736,querySelectorAll(){return inputs;},querySelector(q){
+ if(q==='.vehicle-scene')return svg;
+ let m=q.match(/data-val="([^"]+)"/);if(m)return values[m[1]]??=( {} );
+ m=q.match(/data-result="([^"]+)"/);if(m)return results[m[1]]??=({});
+ throw Error('Unknown selector '+q);
+}};
+let saved;
+const context={document:{getElementById(id){assert(id==='sefi-vehicle-envelope');return root;}},window:{addEventListener(){},openai:{setWidgetState(v){saved=v;return Promise.resolve();}}},ResizeObserver:class{constructor(fn){this.fn=fn;}observe(){this.fn();}},console};
+vm.runInNewContext(script,context);
+assert(results.gradient.textContent==='0.188');
+assert(results.force.textContent==='1,000');
+inputs.find(i=>i.dataset.key==='layer').value=.1;
+inputs.find(i=>i.dataset.key==='layer').input();
+assert(results.bound.textContent.includes('unavailable'));
+inputs.find(i=>i.dataset.key==='amplitude').value=0;
+inputs.find(i=>i.dataset.key==='amplitude').input();
+assert(results.gradient.textContent==='0.000');assert(saved.modelContent.vehicle.amplitude===0);
+root.clientWidth=320;inputs[0].input();assert(svg.viewBox==='0 0 320 235');
+console.log('Initial state, parameter updates, bound transition, persistence, and narrow schematic checks passed.');

@@ -1,0 +1,132 @@
+{
+  "exact_eigenvalue_test_count": 1000,
+  "max_eigenvalue_error": 8.881784197001252e-16,
+  "rk4_runs": [
+    {
+      "r": 0.5,
+      "step": 0.1,
+      "end": 8.0,
+      "full_state_error": 6.73855286466823e-06,
+      "max_origin_charge_absolute_drift": 5.548608071892502e-07,
+      "max_reduced_energy_absolute_drift": 3.470051845866351e-08,
+      "initial_soft_coordinate": 1.0,
+      "initial_soft_velocity": 0.0
+    },
+    {
+      "r": 0.5,
+      "step": 0.05,
+      "end": 8.0,
+      "full_state_error": 4.210982832063508e-07,
+      "max_origin_charge_absolute_drift": 1.735568633254303e-08,
+      "max_reduced_energy_absolute_drift": 1.0848997256118764e-09,
+      "initial_soft_coordinate": 1.0,
+      "initial_soft_velocity": 0.0
+    },
+    {
+      "r": 0.5,
+      "step": 0.025,
+      "end": 8.0,
+      "full_state_error": 2.631627202599232e-08,
+      "max_origin_charge_absolute_drift": 5.424922733254789e-10,
+      "max_reduced_energy_absolute_drift": 3.390704383932075e-11,
+      "initial_soft_coordinate": 1.0,
+      "initial_soft_velocity": 0.0
+    },
+    {
+      "r": 1.0,
+      "step": 0.1,
+      "end": 8.0,
+      "full_state_error": 6.666003510323351e-06,
+      "max_origin_charge_absolute_drift": 5.548608071892502e-07,
+      "max_reduced_energy_absolute_drift": 0.0,
+      "initial_soft_coordinate": 0.0,
+      "initial_soft_velocity": 1.0
+    },
+    {
+      "r": 1.0,
+      "step": 0.05,
+      "end": 8.0,
+      "full_state_error": 4.1665632878200786e-07,
+      "max_origin_charge_absolute_drift": 1.735568633254303e-08,
+      "max_reduced_energy_absolute_drift": 0.0,
+      "initial_soft_coordinate": 0.0,
+      "initial_soft_velocity": 1.0
+    },
+    {
+      "r": 1.0,
+      "step": 0.025,
+      "end": 8.0,
+      "full_state_error": 2.6041504804063363e-08,
+      "max_origin_charge_absolute_drift": 5.424922733254789e-10,
+      "max_reduced_energy_absolute_drift": 0.0,
+      "initial_soft_coordinate": 0.0,
+      "initial_soft_velocity": 1.0
+    },
+    {
+      "r": 1.2,
+      "step": 0.1,
+      "end": 8.0,
+      "full_state_error": 8.045430946609832e-06,
+      "max_origin_charge_absolute_drift": 5.548608071892502e-07,
+      "max_reduced_energy_absolute_drift": 4.2618686357798197e-14,
+      "initial_soft_coordinate": 1.0,
+      "initial_soft_velocity": 0.44721359549995787
+    },
+    {
+      "r": 1.2,
+      "step": 0.05,
+      "end": 8.0,
+      "full_state_error": 5.058467805794941e-07,
+      "max_origin_charge_absolute_drift": 1.735568633254303e-08,
+      "max_reduced_energy_absolute_drift": 7.106815136381783e-14,
+      "initial_soft_coordinate": 1.0,
+      "initial_soft_velocity": 0.44721359549995787
+    },
+    {
+      "r": 1.2,
+      "step": 0.025,
+      "end": 8.0,
+      "full_state_error": 3.171122861574356e-08,
+      "max_origin_charge_absolute_drift": 5.424922733254789e-10,
+      "max_reduced_energy_absolute_drift": 1.8472723350981823e-13,
+      "initial_soft_coordinate": 1.0,
+      "initial_soft_velocity": 0.44721359549995787
+    }
+  ],
+  "rk4_orders": [
+    {
+      "r": 0.5,
+      "orders": [
+        4.000209900404957,
+        4.000129957851255
+      ]
+    },
+    {
+      "r": 1.0,
+      "orders": [
+        3.9998922780465302,
+        3.9999731720935823
+      ]
+    },
+    {
+      "r": 1.2,
+      "orders": [
+        3.9913973313933,
+        3.9956347840078137
+      ]
+    }
+  ],
+  "rational_example": {
+    "r": 0.96,
+    "period": 31.41592653589793,
+    "frequencies": [
+      1.0,
+      0.2000000000000001,
+      1.0,
+      1.4
+    ],
+    "return_error": 2.419605899270905e-15
+  },
+  "scope": "Identity-coordinate dynamics with prescribed constant geometry; no full worldline simulation.",
+  "data_source": "Exact analytic expressions; RK4 and diagonalization serve as independent checks."
+}

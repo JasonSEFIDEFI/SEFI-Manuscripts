@@ -1,0 +1,244 @@
+\documentclass[aip, reprint, superscriptaddress]{revtex4-2}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Photonic Quantum Error Correction from Geometric Stability Principles in SEFI/GWFM}
+
+\author{Jason Dutton}
+\affiliation{Castlewood, Virginia, USA}
+
+\begin{abstract}
+Photonic quantum information platforms are highly susceptible to loss, dephasing, mode 
+mixing, and spectral drift. Conventional photonic quantum error correction (QEC) 
+strategies provide effective code constructions, but they do not yet rest on a single 
+physical principle that explains why errors arise and how correction should be structured.
+
+Here, we introduce a geometric framework for photonic QEC derived from the Single 
+Entity Field Interpretation (SEFI) and the Geometric Worldline Field Model (GWFM). In 
+this model, photonic errors correspond to geometric displacements on stability surfaces, 
+and correction corresponds to restoring the sovereignty of the encoded field. We derive 
+stabilizer structures, geometric syndrome relations, and error-surface topology for 
+photonic modes, and we outline experimental implementations based on integrated 
+photonics and weak or quantum-nondemolition (QND) measurement. We further show 
+how SEFI/GWFM offers a geometric interpretation of SPDC-based quantum randomness 
+production and Bloch-sphere CHSH Bell-inequality behavior. This framework provides a 
+physically grounded foundation for photonic QEC and suggests new bosonic-code designs 
+with intrinsic stability advantages.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+Photonic quantum information processing has emerged as a leading platform for quantum 
+communication, sensing, and scalable quantum computing. Photons offer long coherence 
+times, room-temperature operation, and compatibility with integrated photonics. However, 
+photonic systems are susceptible to distinct error channels, including loss, mode 
+deformation, spectral wandering, and imperfect interference.
+
+Existing photonic QEC approaches---including cat codes, binomial codes, and GKP 
+codes---provide useful mathematical tools for error suppression, but they do not arise 
+from a single physical principle that governs error formation or dictates the architecture 
+of correction.
+
+SEFI \cite{DuttonSEFI} and GWFM \cite{DuttonGWFM} provide such a principle. SEFI 
+formalizes layered field identity through FIELD ORIGIN, FIELD AUTHORSHIP, FIELD 
+SOVEREIGNTY, and WARP EXPRESSION. GWFM provides the geometric worldline 
+foundation for field propagation, curvature, torsion, and stability.
+
+This paper develops a photonic QEC model grounded in these geometric principles and 
+shows that SEFI/GWFM also provides geometric interpretations of SPDC-based QRNG 
+and CHSH Bell-inequality behavior.
+
+\section{SEFI/GWFM Stability Geometry for Photonic Modes}
+
+\subsection{Field Origin and Photonic Identity}
+
+In SEFI, FIELD ORIGIN defines the primitive geometric identity of a field. For a photonic 
+mode, the origin layer determines the baseline worldline geometry, spectral identity, 
+polarization geometry, and curvature constraints. Stability is treated as a primitive 
+property through the bound
+\begin{equation}
+\left\| \frac{d^2 r}{dt^2} \right\| \le S_0,
+\end{equation}
+where $S_0$ is the sovereignty-bound acceleration limit \cite{DuttonSEFI}.
+
+\subsection{Field Sovereignty and Stability Surfaces}
+
+FIELD SOVEREIGNTY ensures invariance under allowed geometric transformations:
+\begin{equation}
+F(T(r(t))) = F(r(t)).
+\end{equation}
+This defines a stability surface: a geometric manifold representing the allowed 
+transformations of a photonic mode.
+
+Errors correspond to displacements orthogonal to this surface.
+
+\subsection{GWFM Worldline Geometry}
+
+GWFM defines curvature as
+\begin{equation}
+K(t) = \frac{\| r'(t) \times r''(t) \|}{\| r'(t) \|^3},
+\end{equation}
+and treats propagation as a geometric worldline subject to curvature and torsion 
+constraints.
+
+Loss corresponds to worldline termination; dephasing corresponds to curvature-induced 
+torsion; mode mixing corresponds to displacement into neighboring stability surfaces.
+
+\section{Geometric Photonic Error Surfaces}
+
+\subsection{Loss Errors}
+
+Loss is modeled as collapse of the worldline into a boundary region of the stability 
+surface.
+
+\subsection{Dephasing Errors}
+
+Dephasing corresponds to geometric torsion of the stability surface.
+
+\subsection{Mode-Mixing Errors}
+
+Mode mixing corresponds to displacement into a neighboring stability surface.
+
+\subsection{Spectral Wandering}
+
+Spectral drift corresponds to translation along the spectral axis of the stability manifold.
+
+\section{Geometric Stabilizers and Syndrome Extraction}
+
+\subsection{Stabilizer Geometry}
+
+A stabilizer is defined as a geometric constraint that preserves the sovereignty of the 
+encoded field. For photonic modes, stabilizers correspond to curvature constraints, 
+torsion constraints, spectral-position constraints, and polarization-surface constraints.
+
+\subsection{Syndrome Geometry}
+
+Weak or QND photonic measurements can sample curvature deviation, torsion deviation, 
+spectral displacement, and polarization rotation. These measurements define a 
+geometric syndrome vector.
+
+\section{SEFI/GWFM Interpretation of SPDC-Based QRNG}
+
+Spontaneous parametric down-conversion (SPDC) produces photon pairs with strong 
+temporal and spatial correlations due to energy and momentum conservation 
+\cite{HongMandel, Uren2005}. In non-collinear, degenerate SPDC, the photons appear 
+on an annular ring whose geometry reflects the underlying momentum-matching 
+conditions \cite{Jabir2017}. Recent work has shown that sectioning this ring enables 
+high-bit-rate quantum random number generation (QRNG) by exploiting correlations 
+between diametrically opposite regions \cite{SPDCQRNG2023}.
+
+Within SEFI, the annular spatial distribution corresponds to a stability surface defined 
+by FIELD ORIGIN and FIELD SOVEREIGNTY, where diametrically opposite photon 
+positions represent sovereign geometric symmetries of the pair field \cite{DuttonSEFI}. 
+The primitive stability constraint ensures that the worldline curvature of each photon 
+remains bounded, producing the highly regular annular geometry observed 
+experimentally.
+
+GWFM models the propagation of each photon as a geometric worldline constrained by 
+curvature and torsion, providing a physical basis for the strong temporal correlations 
+observed between spatially separated sections of the SPDC ring \cite{DuttonGWFM}. 
+Randomness extraction corresponds to sampling warp-expression variations across 
+distinct worldline bundles, enabling multi-bit QRNG without beam-splitter-based 
+probabilistic routing.
+
+\section{SEFI/GWFM Interpretation of CHSH Bell-Inequality Geometry}
+
+Recent experimental work has demonstrated CHSH Bell-inequality violations across the 
+full Poincar\'e--Bloch sphere, including both Bell and non-Bell maximally entangled 
+states \cite{CardosoIsidoro2026}. These results show that CHSH violation is strongly 
+dependent on the geometric relationship between the polarization bases used for each 
+photon.
+
+Within SEFI, polarization-entangled photon pairs occupy distinct regions of a stability 
+surface defined by FIELD ORIGIN and FIELD SOVEREIGNTY \cite{DuttonSEFI}. 
+Sovereignty requires that allowed geometric transformations preserve field identity,
+\begin{equation}
+F(T(r(t))) = F(r(t)),
+\end{equation}
+which implies that CHSH violation occurs only when measurement bases correspond to 
+transformations lying within the sovereignty-preserving submanifold of the stability 
+surface.
+
+GWFM provides a complementary interpretation: polarization evolution is treated as a 
+worldline on the Poincar\'e--Bloch sphere, with curvature and torsion determining the 
+geometric relationship between measurement bases. Bell states correspond to worldlines 
+with minimal torsion, enabling CHSH violation across a wide range of basis choices, 
+whereas non-Bell states correspond to worldlines with higher torsion, producing 
+basis-dependent suppression of violation.
+
+\section{Experimental Implementation}
+
+\subsection{Integrated Photonics}
+
+Waveguide-based photonic circuits can implement geometric stabilizers, weak or QND 
+sampling, spectral-geometry control, and mode-geometry correction.
+
+\subsection{Weak/QND Measurement}
+
+QND detectors provide geometric sampling without worldline termination.
+
+\subsection{Photonic Syndrome Extraction}
+
+Syndromes are extracted through homodyne sampling, spectral interferometry, 
+polarization tomography, and mode-shape reconstruction.
+
+\subsection{Correction Operations}
+
+Correction corresponds to geometric restoration: spectral translation, phase-geometry 
+correction, mode-shape reformation, and polarization-surface restoration.
+
+\section{Conclusion}
+
+We have introduced a geometric framework for photonic quantum error correction derived 
+from SEFI/GWFM stability principles. Photonic errors correspond to geometric 
+displacements on stability surfaces, and correction corresponds to restoring field 
+sovereignty. We further show that SEFI/GWFM provides geometric interpretations of 
+SPDC-based QRNG and CHSH Bell-inequality behavior. This establishes a physically 
+grounded foundation for photonic QEC and opens a new direction for geometric quantum 
+information theory.
+
+\section*{Author Declarations}
+
+\subsection*{Conflict of Interest}
+The authors have no conflicts to disclose.
+
+\section*{Data Availability}
+No datasets were generated or analyzed during the current study.
+
+\bibliographystyle{aipnum4-2}
+
+\begin{thebibliography}{99}
+
+\bibitem{DuttonSEFI}
+J. Dutton, \textit{SEFI: The Single Entity Field Interpretation --- Formal Mathematical Construction}, 
+Manuscript JMP26-AR-02501, submitted to the Journal of Mathematical Physics (2026).
+
+\bibitem{DuttonGWFM}
+J. Dutton, \textit{Geometric Worldline Foundations of the Electron Field}, 
+Manuscript JMP26-AR-02470, submitted to the Journal of Mathematical Physics (2026).
+
+\bibitem{HongMandel}
+C. K. Hong, Z. Y. Ou, and L. Mandel, Phys. Rev. Lett. 59, 2044 (1987).
+
+\bibitem{Uren2005}
+A. B. U'Ren et al., Phys. Rev. A 72, 021802 (2005).
+
+\bibitem{Jabir2017}
+M. V. Jabir and G. K. Samanta, Sci. Rep. 7, 12613 (2017).
+
+\bibitem{SPDCQRNG2023}
+S. Singh et al., Adv. Quantum Technol. 6, 2300177 (2023).
+
+\bibitem{CardosoIsidoro2026}
+C. Cardoso-Isidoro and E. J. Galvez, 
+\textit{Clauser–Horne–Shimony–Holt Bell-inequality violability with the full Poincaré–Bloch sphere}, 
+AVS Quantum Sci. 8, 021401 (2026).
+
+\end{thebibliography}
+
+\end{document}

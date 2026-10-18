@@ -1,0 +1,59 @@
+<div id="sefi-vehicle-envelope">
+  <h3>Reference vehicle and envelope</h3>
+  <div class="viz-controls">
+    <label class="form-label">Body length <output data-val="length"></output><input class="form-range" data-key="length" type="range" min="8" max="20" step="0.5" value="14"></label>
+    <label class="form-label">Body radius <output data-val="radius"></output><input class="form-range" data-key="radius" type="range" min="1" max="3" step="0.1" value="2"></label>
+    <label class="form-label">Layer thickness <output data-val="layer"></output><input class="form-range" data-key="layer" type="range" min="0.1" max="3" step="0.1" value="1"></label>
+    <label class="form-label">Hypothetical map amplitude <output data-val="amplitude"></output><input class="form-range" data-key="amplitude" type="range" min="0" max="1" step="0.01" value="0.1"></label>
+    <label class="form-label">Scenario mass <output data-val="mass"></output><input class="form-range" data-key="mass" type="range" min="100" max="20000" step="100" value="1000"></label>
+    <label class="form-label">Scenario acceleration <output data-val="accel"></output><input class="form-range" data-key="accel" type="range" min="0" max="20" step="0.1" value="1"></label>
+  </div>
+  <svg class="vehicle-scene" role="img" aria-label="Spherocylinder reference body inside a geometric analysis shell. No physical warp field is depicted."></svg>
+  <div class="viz-row text-small"><span>Reference geometry only</span><span>•</span><span>No validated SEFI actuator</span></div>
+  <div class="viz-grid">
+    <div class="card viz-stat"><div>Body / layer volume</div><div class="viz-stat-value tabular-nums" data-result="volume"></div><div class="text-small">m³ / m³, geometric regions</div></div>
+    <div class="card viz-stat"><div>Spatial gradient bound</div><div class="viz-stat-value tabular-nums" data-result="gradient"></div><div class="text-small" data-result="bound"></div></div>
+    <div class="card viz-stat"><div>Ordinary total-system force</div><div class="viz-stat-value tabular-nums" data-result="force"></div><div class="text-small">N; mass × acceleration</div></div>
+  </div>
+  <div class="text-small" aria-live="polite" data-result="status"></div>
+</div>
+<style>
+#sefi-vehicle-envelope .vehicle-scene {display:block;width:100%;height:235px;margin:8px 0;color:var(--foreground)}
+#sefi-vehicle-envelope .vehicle-scene text {fill:var(--foreground);font-size:12px;font-weight:400}
+#sefi-vehicle-envelope .viz-grid {margin-top:12px;margin-bottom:12px}
+</style>
+<script>
+(() => {
+ const root=document.getElementById('sefi-vehicle-envelope');
+ const defaults={length:14,radius:2,layer:1,amplitude:.1,mass:1000,accel:1};
+ const limits={length:[8,20],radius:[1,3],layer:[.1,3],amplitude:[0,1],mass:[100,20000],accel:[0,20]};
+ let state={...defaults};
+ const fmt=(v,n=1)=>v.toLocaleString(undefined,{maximumFractionDigits:n,minimumFractionDigits:n});
+ function apply(saved){
+  const data=saved?.modelContent?.vehicle;
+  if(data)for(const key of Object.keys(defaults)){const v=Number(data[key]);if(Number.isFinite(v))state[key]=Math.max(limits[key][0],Math.min(limits[key][1],v));}
+  root.querySelectorAll('[data-key]').forEach(el=>el.value=state[el.dataset.key]);draw();
+ }
+ function draw(){
+  for(const key of Object.keys(defaults)){const unit=['length','radius','layer','amplitude'].includes(key)?' m':key==='mass'?' kg':' m/s²';root.querySelector(`[data-val="${key}"]`).textContent=fmt(state[key],key==='amplitude'?2:key==='mass'?0:1)+unit;}
+  const {length:L,radius:R,layer:d,amplitude:A,mass:M,accel:a}=state;
+  const c=L-2*R,V=r=>Math.PI*r*r*c+4*Math.PI*r*r*r/3;
+  const G=1.875*A/d;
+  root.querySelector('[data-result="volume"]').textContent=fmt(V(R))+' / '+fmt(V(R+d));
+  root.querySelector('[data-result="volume"]').textContent=fmt(V(R))+' / '+fmt(V(R+d)-V(R));
+  root.querySelector('[data-result="gradient"]').textContent=fmt(G,3);
+  root.querySelector('[data-result="bound"]').textContent=G<1?'Separation factor ≥ '+fmt(1-G,3):'Sufficient non-collapse test unavailable';
+  root.querySelector('[data-result="force"]').textContent=fmt(M*a,0);
+  root.querySelector('[data-result="status"]').textContent='Spatial map test only • Propulsion power, achievable speed, and flight readiness: undetermined';
+  const svg=root.querySelector('.vehicle-scene'),w=Math.max(280,root.clientWidth),h=235;
+  svg.setAttribute('viewBox',`0 0 ${w} ${h}`);
+  const scale=Math.min((w-36)/(L+2*d),145/(2*(R+d))),cx=w/2,cy=132;
+  const x=cx-L*scale/2,y=cy-R*scale,ro=R*scale,outer=(R+d)*scale;
+  svg.innerHTML=`<title>Adjustable reference capsule and hypothetical analysis layer</title><desc>Spherocylinder hull with a true normal offset layer. Its geometry is not evidence of a force-producing field.</desc><rect x="${x-d*scale}" y="${cy-outer}" width="${(L+2*d)*scale}" height="${2*outer}" rx="${outer}" fill="var(--viz-series-1)" fill-opacity="0.08" stroke="var(--border)"/><rect x="${x}" y="${y}" width="${L*scale}" height="${2*ro}" rx="${ro}" fill="var(--muted)" stroke="var(--foreground)" stroke-width="1.2"/><text x="${cx}" y="22" text-anchor="middle">Geometric analysis layer</text><line x1="${cx}" y1="30" x2="${cx}" y2="${cy-outer-3}" stroke="var(--border)"/><text x="${cx}" y="${cy+4}" text-anchor="middle">Reference body</text><text x="${cx}" y="222" text-anchor="middle">${fmt(L)} m × ${fmt(2*R)} m • layer ${fmt(d)} m</text>`;
+ }
+ root.querySelectorAll('[data-key]').forEach(el=>el.addEventListener('input',()=>{state[el.dataset.key]=Number(el.value);draw();if(window.openai?.setWidgetState)window.openai.setWidgetState({modelContent:{vehicle:{...state}},privateContent:null}).catch(()=>{});}));
+ window.addEventListener('openai:set_globals',ev=>{if(ev.detail?.globals?.widgetState)apply(ev.detail.globals.widgetState);});
+ apply(window.openai?.widgetState);
+ new ResizeObserver(draw).observe(root);
+})();
+</script>

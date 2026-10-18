@@ -1,0 +1,8 @@
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\01_title.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\02_operator.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\03_stability.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\04_error.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\05_correction.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\06_photonic.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\07_cosmology.mp4'
+file 'C:\Users\jason\OneDrive\Documents\THINKING DEEPLY\Journal Submission\Defining SEFI\jmp_video_clips\08_end.mp4'

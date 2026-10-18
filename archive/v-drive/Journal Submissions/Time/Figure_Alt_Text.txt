@@ -1,0 +1,7 @@
+Figure 1: Three squared-frequency branches start at one. The lower branch decreases through zero at normalized coupling one, the middle branch stays at one, and the upper branch increases. Positive stiffness is restricted to coupling below one.
+
+Figure 2: The first panel compares a bounded oscillator, linear drift, and exponential growth on a compressed magnitude scale. The second panel shows identical constant Origin energy in all three cases. Their initial conditions differ as disclosed in the caption.
+
+Figure 3: A positive linear quadratic potential confines the coordinate, a negative one does not, and a nonlinear quartic potential has a local central well with finite barriers but falls without bound at large coordinate magnitude.
+
+Figure 4: The prescribed resonant coupling oscillates between 0.4 and 0.6. A resonantly driven phase-space norm grows exponentially, while a comparison drive remains bounded, despite positive instantaneous stiffness in both cases. Both responses use the same initial state.

@@ -1,0 +1,16 @@
+{
+  "meaning": "Mathematical consistency checks only; no force measurements or engine simulation.",
+  "beta_linearized_riemann_max_abs": 1.3877787807814457e-17,
+  "beta_linearized_ricci_max_abs": 2.0816681711721685e-17,
+  "alpha_linearized_ricci_max_abs_error": 6.938893903907228e-18,
+  "yukawa_force_relative_finite_difference_error": 4.345836043783337e-11,
+  "four_force_orthogonality_abs_error": 2.0317948712378353e-16,
+  "gaussian_laplacian_abs_error": 2.5715443263685245e-07,
+  "conditional_GR_example": {
+    "a_coordinate_m_s2": 1.0,
+    "k_per_m": 1.0,
+    "energy_density_amplitude_J_m3": 1.0715830073970637e+26,
+    "equivalent_mass_density_kg_m3": 1192296893.246448
+  },
+  "candidate_gaussian_source_sign_change_r_over_ell": 1.8084247288731705
+}

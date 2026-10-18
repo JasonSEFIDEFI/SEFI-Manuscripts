@@ -1,0 +1,381 @@
+\documentclass[aip,jmp,reprint,onecolumn,amsmath,amssymb]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx}
+\usepackage{helvet}
+\usepackage{bm}
+\usepackage{hyperref}
+\hypersetup{hidelinks}
+\setlength{\emergencystretch}{2em}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\Ds}{D_s}
+\newcommand{\I}{\mathcal I}
+\newcommand{\U}{U_{\mathrm{DEFI}}}
+\newtheorem{proposition}{Proposition}
+\newtheorem{hypothesis}{Hypothesis}
+\newtheorem{axiom}{Assumption}
+\begin{document}
+\title{Worldline geometry and layered identity dynamics:\\A conditional variational framework for GWFM, SEFI, and DEFI}
+\author{Jason D. Dutton}
+\affiliation{Castlewood, Virginia, USA}
+% Corresponding email and affiliation description await author confirmation.
+\date{October 16, 2026}
+\begin{abstract}
+Geometric interpretations of particle fields require a distinction between an ontological hypothesis and the dynamical equations that support it. We consolidate the Geometric Worldline Field Model, the Single Entity Field Interpretation, and Dynamic Entity Field Integration into a conditional classical variational framework. A timelike curve is coupled to four internal coordinates representing the proposed Origin, Authorship, Sovereignty, and Warp layers. Vectorization of the original scalar identity functional is explicitly introduced as an additional axiom, with the separate Reality-layer version documented. Proper-time curvature and first torsion are defined on a regular Frenet domain, and the coupling produces a higher-derivative geometric variational problem. The internal equations and a separately conserved Origin oscillator energy are derived. For prescribed constant geometry, we characterize stationary internal configurations and obtain a Schur-complement condition for a positive definite potential Hessian. An exact forced-oscillator example and an acceleration-zero counterexample distinguish stationary balance, dynamical invariance, and attraction. The proposed coupling can lower the effective potential without bound as geometric invariants grow, so internal stability does not establish stability of the full system. The original claims of electron-field emergence, quantum interference from geometric overlap, and equivalence with quantum field theory remain hypotheses: scalar occupation distributions do not supply a spinor field, fermionic statistics, or measurement probabilities. The unified spectral expression is retained as a formal proposal whose domain, coefficient fields, and relation to the action require further construction. The analysis separates assumptions inherited from the source manuscripts from additional modeling choices and establishes a reproducible basis for further mathematical assessment of the proposal.
+\end{abstract}
+\maketitle
+
+\section{Introduction and scope}
+The author-supplied GWFM manuscript proposes a single continuous worldline structure as an interpretation of the electron field.\cite{gwfm} SEFI adds four conceptual layers describing origin, authorship, sovereignty, and warp expression.\cite{sefi} DEFI proposes internal oscillator coordinates coupled to curvature and torsion.\cite{defi} The related unified operator manuscript proposes a field on spacetime times identity space and associates ideal evolution with constant geometric and internal invariants.\cite{unified} An earlier overview also introduces a Reality layer.\cite{overview} Their common question is whether a geometric account of identity can be accompanied by a consistent action and identifiable consequences. A classical action is a useful first step, but it does not establish a quantum field theory.
+
+This article preserves the original interpretive program while restricting its demonstrated content to classical equations and conditional results. Its contribution is an explicit formulation of the internal dynamics, a higher-derivative variational statement for the geometry, and a characterization of what internal equilibrium does and does not imply. The Origin energy conservation in DEFI survives scrutiny. The claimed derivation of a universal invariance condition does not. The construction below is a revised model, not a proof that all claims in the three source manuscripts follow from one action.
+
+\paragraph{Personal consolidation draft.} This document is prepared for the author's review, not as an additional concurrent submission. The author reports that the three source manuscripts and three related manuscripts have already been submitted to the Journal of Mathematical Physics. Their tracking identifiers and overlap are recorded in the companion submission-status note. Any subsequent journal use requires editorial coordination concerning those existing submissions.
+
+Established worldline methods represent selected quantum-field-theoretic quantities using particle path integrals.\cite{strassler,schubert} Such a representation does not itself identify an ensemble of integration paths with one physical curve. We therefore distinguish that established calculational framework from the following source hypotheses.
+
+\begin{hypothesis}[GWFM interpretive program]
+A single geometric entity underlies electron and positron appearances; multiple admissible trajectories encode superposition; boundary selection represents measurement; and a suitable extension of worldline geometry reproduces the electron sector of quantum field theory.
+\end{hypothesis}
+The further proposals that geometric overlap explains interference, that global geometry explains entanglement, and that charge is a topological invariant are retained as motivations, not derived statements. No supplied manuscript defines the quantum state space, amplitudes, detector law, or topological bundle needed to prove them.
+
+\section{Source hierarchy, axioms, and notation}
+\subsection{Interpretive commitments and mathematical assumptions}
+The single-entity interpretation is the author's motivating hypothesis, not a conclusion of the calculations below. GWFM supplies the worldline program; the formal SEFI manuscript supplies a scalar layered identity; DEFI explicitly adds independent identity coordinates and a coupling ansatz; the operator manuscript supplies a separate spectral proposal. These statements have different logical status. The following assumptions specify the classical model studied here, rather than new empirical laws.
+
+\begin{axiom}[Regular geometric sector]
+An admissible classical history is a smooth timelike curve on a finite interval in time-oriented Minkowski spacetime, with nonzero proper curvature on the interval considered. Local variations preserve this regular domain. The model is invariant under orientation-preserving reparametrizations.
+\end{axiom}
+\begin{axiom}[DEFI identity extension]
+The Origin, Authorship, Sovereignty, and Warp coordinates are independent real variables on a fixed affine space. Its tangent metric is positive and constant. A distinguished linear functional recovers a scalar identity observable. This is DEFI's extension of SEFI, not an inversion of the original scalar sum.
+\end{axiom}
+\begin{axiom}[Phenomenological dynamics]
+The internal kinetic metric and quadratic stiffnesses are positive and constant. Curvature squared couples linearly to the Sovereignty coordinate and first torsion squared to the Warp coordinate, with Authorship-dependent coefficients. Origin is excluded from these couplings. The dynamics are stationary points of the action stated below with the specified boundary data.
+\end{axiom}
+\begin{axiom}[Scope of invariance]
+An identity-preserving transformation must belong to a specified allowed class and preserve the chosen identity observable. Action symmetry, conservation along a solution, and invariance of a set under a dynamical flow are separate requirements. None is inferred from the label sovereignty alone.
+\end{axiom}
+The regular Lorentzian domain, dimensional coefficients, and boundary prescription make the source ansatz explicit. No universal acceleration bound, attracting stability manifold, or quantum equivalence is included among these assumptions.
+
+\subsection{Notation}
+\begin{center}
+\begin{tabular}{ll}
+Symbol & Meaning\\ \hline
+$M,\eta$ & Minkowski spacetime and metric of signature $(-,+,+,+)$\\
+$\lambda,s,\Ds$ & Arbitrary parameter, proper time, and $\dd/\dd s$\\
+$y,T,N,b$ & Worldline, unit tangent, principal normal, normal residual\\
+$\kappa,\tau_1$ & Proper curvature and first torsion magnitude\\
+$\I,I^a$ & Affine identity space and four internal coordinates\\
+$H,h_a,k_a$ & Internal kinetic metric, inertial coefficients, stiffnesses\\
+$F,\ell$ & Scalar identity observable and its defining covector\\
+$S[y,I],V,\U$ & Action, internal potential, geometric coupling\\
+$Q_O,E_I$ & Origin first integral and internal energy\\
+$\mathcal T,\Psi$ & Formal unified differential expression and scalar field\\
+\end{tabular}
+\end{center}
+Greek indices denote spacetime components; the label $a$ ranges over $O,A,S,W$. We write components as $I_O,I_A,I_S,I_W$ for readability, without using their subscripts to imply metric lowering. $\mathcal T$ denotes the operator called $T$ in the unified source, avoiding confusion with the worldline tangent. $\tau_1$ denotes its $\tau_g$; it is not the worldline parameter. A derivative on $\mu_j$ acts on $I_A$.
+
+\section{Mathematical setting: geometry and identity}
+\subsection{Timelike geometry and its domain}
+We work in flat Minkowski spacetime $M=\mathbb R^{1,3}$ with signature $(-,+,+,+)$ and $c=\hbar=1$. Curved-spacetime extensions require additional connection and boundary analysis and are not proved here. Let $y(\lambda)$ be a smooth timelike immersion on a finite interval and define
+\begin{equation}
+ v=\sqrt{-\eta_{\mu\nu}y'^{\mu}y'^{\nu}}>0,
+ \qquad \dd s=v\dd\lambda,\qquad
+ \Ds=v^{-1}\dd/\dd\lambda .
+ \label{eq:proper}
+\end{equation}
+A prime on $y$ means $\lambda$ differentiation. Set $T=\Ds y$, $a=\Ds T$, and $\kappa=\sqrt{\eta(a,a)}$. On the domain $\kappa>0$, define
+\begin{equation}
+ N=a/\kappa,\qquad b=\Ds N-\kappa T,
+ \qquad \tau_1^2=\eta(b,b).
+ \label{eq:frenet}
+\end{equation}
+Differentiating $\eta(T,N)=0$ gives $\eta(T,\Ds N)=-\kappa$; thus $b$ is orthogonal to both $T$ and $N$. It lies in a positive definite normal plane and $\tau_1^2\geq0$. Where $\tau_1>0$, $B=b/\tau_1$ yields $\Ds N=\kappa T+\tau_1B$. Four-dimensional curves can have another Frenet invariant, which this ansatz does not use. The square $\tau_1^2$ remains defined at $b=0$ when $\kappa>0$, even though $B$ is then undefined.
+
+Curvature depends on second derivatives of $y$ and first torsion generally on third derivatives. At $\kappa=0$, Eq.~\eqref{eq:frenet} is undefined. We do not assign torsion to a straight worldline by fiat. A straight-curve limit requires a separate smooth extension of the torsion term or removal of that term. Admissible local variations stay within $v>0$ and $\kappa>0$; existence through the singular boundary is an open problem.
+
+SEFI's spatial formula $\|\dot r\times\ddot r\|/\|\dot r\|^3$ is the curvature of a regular Euclidean three-dimensional curve. It cannot be transferred directly to a four-dimensional Lorentzian worldline. Its acceleration bound $\|\ddot r(t)\|\leq S_0$ is also dependent on the chosen coordinate time. A bound $\kappa\leq\kappa_0$ would instead constrain proper acceleration, but is an additional constraint, not a consequence of internal oscillator motion.
+
+\subsection{Explicit vectorization of the SEFI layers}
+SEFI originally defines a scalar $F=O+A+S+W$, with unspecified layer functions evaluated along a spatial curve. DEFI introduces independent coordinates
+\begin{equation}
+ I=(I_O,I_A,I_S,I_W)\in\I=\mathbb R^4,
+ \qquad F=\ell_a I^a,\quad \ell=(1,1,1,1).
+ \label{eq:identity}
+\end{equation}
+This is a deliberate extension: one scalar value does not determine four coordinates. The sum also chooses a distinguished covector $\ell$ and therefore is not invariant under arbitrary changes of identity coordinates unless $\ell$ transforms with them. We take $\I$ to be a fixed affine space with constant positive metric $H=\operatorname{diag}(h_O,h_A,h_S,h_W)$. The labels have interpretive meaning only through specified observables or transformation rules.
+
+SEFI's transformation statement is made precise only after an allowed group $G$ is selected. Scalar sovereignty can mean $F(g\cdot z)=F(z)$ for $g\in G$, while a transforming internal vector may instead obey an equivariance rule. Generic warp maps that alter curvature or torsion need not preserve this action. Neither arbitrary transformation invariance nor constancy of $F$ along solutions is assumed to follow from the layer names.
+
+\subsection{Scalar identity, vector data, and the Reality-layer version}
+For the original four-layer SEFI presentation, $F(s)$ is a scalar evaluated from layer functions along a history. Specifying those four functions would give four evaluated layer values, but SEFI does not thereby prescribe independent variations of those values. DEFI's independent coordinates add precisely that dynamical freedom. The map $I\mapsto\ell(I)$ is surjective with a three-dimensional kernel: for example, adding $(u,-u,0,0)$ leaves $F$ unchanged. Thus scalar sovereignty does not imply that every coordinate is fixed. Likewise, the fixed kinetic metric $H$ does not canonically select the covector $\ell$.
+
+The earlier overview writes $F_5=O+A+S+W+R$ and describes $R$ as the Reality or manifestation layer.\cite{overview} The four-coordinate DEFI source and the operator source use $\mathbb R^4$.\cite{defi,unified} We retain both statements in the provenance rather than silently identifying $F_5$ with $F$ or appending an oscillator $I_R$. In this manuscript $F$ always means the four-layer contraction. A dynamical fifth coordinate would need its own metric, kinetic term, coupling, and observables. Treating Reality as an output map is a possible later formulation, but no such map is specified or assumed here.
+
+The distinction between an internal vector and a spacetime four-vector is also essential. The four identity coordinates are not components of a Lorentz vector, and spacetime index transformations do not act on their layer labels. A nonlinear identity manifold would require a connection and covariant internal acceleration; this paper instead uses the fixed affine structure.
+
+\subsection{Parameters and units}
+We use positive stiffnesses $k_a$ and oscillator frequencies $\omega_a^2=k_a/h_a$, with dimensionless $I^a$. In natural units $[s]=L$, $[m]=L^{-1}$, $[h_a]=L$, $[k_a]=L^{-1}$, $[\kappa]=[\tau_1]=L^{-1}$, and the coupling functions $\mu_j$ have dimension $L$. The source's use of the same coefficients for kinetic and quadratic terms amounts to a nondimensional unit-frequency choice; it is not dimensionally complete in unscaled proper time. Couplings are at least $C^2$ for the Hessian analysis and smooth where higher geometric derivatives are used.
+
+\section{A revised DEFI variational ansatz}
+The joint configuration space is $M\times\I$, but the geometry-dependent Lagrangian is defined on its higher jet space. The proposed action is
+\begin{align}
+ S[y,I]&=\int\dd s\left[-m+\tfrac12\sum_a h_a(\Ds I^a)^2-V(I;\kappa,\tau_1)\right],\label{eq:action}\\
+ V&=\tfrac12\sum_a k_a(I^a)^2+\U,\label{eq:potential}\\
+ \U&=\mu_1(I_A)\kappa^2 I_S+\mu_2(I_A)\tau_1^2 I_W.\label{eq:coupling}
+\end{align}
+In a general parameter, $S=\int\mathcal L\dd\lambda$ with $\mathcal L=v[-m+\frac12\sum h_a(I'^a/v)^2-V]$. This makes the dependence of the proper-time measure on the varied curve explicit. Orientation-preserving reparametrizations leave the action unchanged. Fixing $v=1$ before varying $y$ without imposing its constraint would lose terms and is not legitimate.
+
+The coupling is phenomenological. It associates sovereignty with curvature, warp with torsion, and authorship with coupling strength, following DEFI. Those associations are not uniquely determined by the qualitative SEFI descriptions: a warp may change curvature too. Origin is absent from $\U$ by a separate decoupling assumption. Joint variation gives reciprocal influence, but there is no exchange symmetry between the inequivalent geometry and identity sectors.
+
+\subsection{Internal Euler--Lagrange equations}
+Holding $y$ fixed and varying $I$ with vanishing endpoint variations gives
+\begin{align}
+ h_O\Ds^2 I_O+k_O I_O&=0,\label{eq:origin}\\
+ h_S\Ds^2 I_S+k_S I_S+\mu_1(I_A)\kappa^2&=0,\label{eq:S}\\
+ h_W\Ds^2 I_W+k_W I_W+\mu_2(I_A)\tau_1^2&=0,\label{eq:W}\\
+ h_A\Ds^2 I_A+k_A I_A
+ +\mu_1'(I_A)\kappa^2 I_S+\mu_2'(I_A)\tau_1^2 I_W&=0.\label{eq:A}
+\end{align}
+Here a prime on $\mu_j$ differentiates its scalar argument. These reproduce the source's internal equations after nondimensionalizing to $h_a=k_a$. They extend SEFI rather than recover a dynamics already specified there.
+
+\subsection{Geometric variation and boundary data}
+Since $\mathcal L$ generally depends on $y',y'',y'''$, its coordinate Euler--Lagrange equation in Minkowski space is
+\begin{equation}
+ \frac{\partial\mathcal L}{\partial y^\mu}
+ -\frac{\dd}{\dd\lambda}\frac{\partial\mathcal L}{\partial y'^\mu}
+ +\frac{\dd^2}{\dd\lambda^2}\frac{\partial\mathcal L}{\partial y''^\mu}
+ -\frac{\dd^3}{\dd\lambda^3}\frac{\partial\mathcal L}{\partial y'''^\mu}=0.
+ \label{eq:EL}
+\end{equation}
+For this translation-invariant ansatz the first term vanishes. Equation~\eqref{eq:EL}, with $\mathcal L$ as defined above, is a variational characterization rather than an expanded sixth-order initial-value system. We fix $y,y',y''$ at the endpoints, or use compactly supported variations. Other boundary choices require natural boundary conditions. Reparametrization invariance produces a differential identity between the equations, so constraint analysis is needed before counting independent degrees of freedom.
+
+One can see the feedback without assuming a solution. In proper-time notation the coupling contribution to a geometric first variation includes
+\begin{equation}
+ \delta_y S_{\rm coupling}
+ =-\int\dd s\left[2\mu_1 I_S\kappa\,\delta_y\kappa
+       +\mu_2 I_W\delta_y(\tau_1^2)\right]
+   -\int \U\,\delta_y(\dd s).
+ \label{eq:feedback}
+\end{equation}
+The rest of the action has measure and kinetic variations as well. Vanishing internal acceleration does not remove Eq.~\eqref{eq:feedback}. In particular, the length action $-m\int\dd s$ has no independently specified curvature-squared or torsion-squared expansion of the type claimed in the source.
+
+Higher derivatives raise a separate Hamiltonian question. Nondegenerate higher-derivative systems fall under the Ostrogradsky instability mechanism.\cite{woodard} This action has gauge degeneracies, so that theorem cannot be applied without examining the constrained highest-derivative Hessian. We establish neither ghost freedom nor inevitable instability of every solution. A complete reduced Hamiltonian and local well-posedness analysis remain necessary.
+
+\section{What is conserved and what is stationary}
+\subsection{A separately conserved Origin energy}
+\begin{proposition}
+Along every smooth solution of Eq.~\eqref{eq:origin},
+\begin{equation}
+ Q_O=\tfrac12 h_O(\Ds I_O)^2+\tfrac12 k_O I_O^2
+ \label{eq:Q}
+\end{equation}
+is constant in proper time.
+\end{proposition}
+\textit{Proof.} Direct differentiation gives
+\begin{equation}
+ \Ds Q_O=(\Ds I_O)(h_O\Ds^2 I_O+k_O I_O)=0.
+\end{equation}
+This uses the absence of Origin couplings and constant $h_O,k_O$, not an assertion that $I_O$ itself is constant. For the autonomous Origin oscillator on prescribed geometry, $Q_O$ is its time-translation Noether energy.\cite{noether} In the coupled reparametrization-invariant problem the direct first integral is sufficient; we do not identify it with an electromagnetic charge or a total spacetime energy.
+
+For prescribed geometry the full internal energy obeys
+\begin{align}
+ E_I&=\tfrac12\sum_a h_a(\Ds I^a)^2+V,\\
+ \Ds E_I&=2\mu_1 I_S\kappa\Ds\kappa
+             +\mu_2 I_W\Ds(\tau_1^2).
+ \label{eq:energy}
+\end{align}
+The internal system can exchange energy with varying geometry. If both geometric invariants are constant, $E_I$ is conserved. This fact does not amount to conservation of $E_I$ along arbitrary coupled solutions.
+
+\subsection{Prescribed constant geometry}
+Let $\kappa=\bar\kappa>0$ and $\tau_1=\bar\tau$ be prescribed constants. An internal equilibrium has both $\Ds I=0$ and $\nabla_I V=0$. Its Origin coordinate is zero, and its other coordinates satisfy
+\begin{align}
+ I_S^*&=-\mu_1(A_*)\bar\kappa^2/k_S,\label{eq:IstarS}\\
+ I_W^*&=-\mu_2(A_*)\bar\tau^2/k_W,\label{eq:IstarW}\\
+ 0&=k_A A_*-
+ \mu_1'(A_*)\mu_1(A_*)\bar\kappa^4/k_S
+ -\mu_2'(A_*)\mu_2(A_*)\bar\tau^4/k_W.\label{eq:Astar}
+\end{align}
+There may be no root, one root, or several. The algebraic balance set for varying geometry is located in jet space, where $\kappa$ and $\tau_1$ are defined, rather than merely in $M\times\I$. We reserve ``equilibrium'' for a state whose full internal phase-space velocity vanishes.
+
+\begin{proposition}[Conditional internal stability]
+At a root $A_*$ of Eq.~\eqref{eq:Astar}, the internal potential Hessian is positive definite if and only if
+\begin{equation}
+ \Delta=k_A-
+ \frac{(\mu_1'^2+\mu_1\mu_1'')\bar\kappa^4}{k_S}
+ -\frac{(\mu_2'^2+\mu_2\mu_2'')\bar\tau^4}{k_W}>0,
+ \label{eq:schur}
+\end{equation}
+where the coupling functions and derivatives are evaluated at $A_*$. Under this condition the equilibrium is locally Lyapunov stable in the internal system with prescribed constant geometry. It is not asymptotically attracting.
+\end{proposition}
+\textit{Proof.} Origin contributes a positive one-dimensional block $k_O$. In the ordered coordinates $(A,S,W)$ the remaining Hessian is
+\begin{equation}
+ K=\begin{pmatrix}
+ k_A+\mu_1''\bar\kappa^2I_S^*+\mu_2''\bar\tau^2I_W^*&\mu_1'\bar\kappa^2&\mu_2'\bar\tau^2\\
+ \mu_1'\bar\kappa^2&k_S&0\\
+ \mu_2'\bar\tau^2&0&k_W
+ \end{pmatrix}.
+\end{equation}
+The Schur complement of the positive diagonal $(k_S,k_W)$ block is Eq.~\eqref{eq:schur}. Positive definiteness gives a strict local minimum of $V$. Conservation of the positive kinetic energy plus the potential difference confines sufficiently small initial perturbations to a neighborhood of that minimum. Linearization yields $H\Ds^2\xi+K\xi=0$ with positive squared frequencies. Conservation also precludes convergence from all nearby higher-energy states. $\square$
+
+This result concerns internal variables on fixed geometry. If $\Delta<0$, the Hessian has a negative direction and the internal linearized system has an exponentially growing mode. If $\Delta=0$, nonlinear terms must be examined. For varying geometry, instantaneous positive Hessians alone do not preclude parametric excitation.
+
+\subsection{An exact bounded example and a global obstruction}
+For constant $\mu_1=c_1$ and $\mu_2=c_2$, the internal equilibrium is unique: $A_*=I_O^*=0$ and Eqs.~\eqref{eq:IstarS}--\eqref{eq:IstarW} fix the other coordinates. For example,
+\begin{equation}
+ I_S(s)=I_S^*+C_S\cos(\omega_Ss)+D_S\sin(\omega_Ss).
+ \label{eq:forced}
+\end{equation}
+There are analogous solutions for $I_W,I_A,I_O$. The deviations remain bounded and generically oscillate forever. Boundedness is not relaxation, and does not constrain the worldline's proper acceleration.
+
+Completing squares in the general potential gives
+\begin{align}
+ V={}&\tfrac12 k_O I_O^2+\tfrac12 k_A I_A^2
+ +\tfrac12 k_S\left(I_S+\frac{\mu_1\kappa^2}{k_S}\right)^2\nonumber\\
+ &+\tfrac12 k_W\left(I_W+\frac{\mu_2\tau_1^2}{k_W}\right)^2
+ -\frac{\mu_1^2\kappa^4}{2k_S}
+ -\frac{\mu_2^2\tau_1^4}{2k_W}.
+ \label{eq:negative}
+\end{align}
+At fixed $I_A$ with a nonzero coupling, allowing its associated geometric invariant to grow lowers this internal effective potential without bound. This algebraic observation does not by itself prove that the constrained full Hamiltonian is unbounded, since geometric invariants are derivative variables. It does show that internal oscillator positivity supplies no coercive control of geometry. Adding stabilizing terms, restricting admissible invariants, or using an effective-theory cutoff would alter the model and needs an independent justification.
+
+\subsection{Why acceleration-zero balance is not invariance}
+The source condition can be given a minimal unambiguous reading on $\I=\mathbb R^4$:
+\begin{equation}
+ \Ds(\kappa,\tau_1,\Ds I,\Ds^2I)
+ =(\Ds\kappa,\Ds\tau_1,\Ds^2I,\Ds^3I)=0.
+ \label{eq:invariant}
+\end{equation}
+The entries have different units and form a tuple, not a single vector with an unspecified common covariant derivative. A genuine invariant locus must be preserved by the full phase-space flow. Solving Eqs.~\eqref{eq:IstarS}--\eqref{eq:Astar} at one instant proves neither $\Ds\kappa=\Ds\tau_1=0$ nor $\Ds^3I=0$.
+
+For an explicit counterexample, take constant prescribed geometry and constant couplings; leave $I_A,I_S,I_W$ at equilibrium and choose
+\begin{equation}
+ I_O(s)=\epsilon\sin(\omega_Os),\qquad \epsilon\ne0.
+\end{equation}
+At $s=0$ every internal acceleration vanishes, but
+\begin{equation}
+ \Ds I_O(0)=\epsilon\omega_O\ne0,\qquad
+ \Ds^3I_O(0)=-\epsilon\omega_O^3\ne0.
+\end{equation}
+Thus the source's acceleration-zero criterion does not imply Eq.~\eqref{eq:invariant}, even before geometric feedback is considered. Setting $\Ds I=0$ and $I=I^*$ with constant prescribed invariants does give an internal stationary solution. Realizing it as a full solution also requires Eq.~\eqref{eq:EL} and its constraints. No such general full-system existence or attracting-manifold theorem is claimed.
+
+\section{Quantum interpretation and corrected limits}
+\subsection{Occupation is not an electron field}
+For a finite smooth curve segment, a covariantly stated occupation distribution is defined by its action on a compactly supported test function $f$:
+\begin{equation}
+ \langle\Phi_y,f\rangle=\int\dd s\,f(y(s)),\qquad
+ \Phi_y(x)=\int\dd s\,\delta^{(4)}(x-y(s))
+ \label{eq:occupation}
+\end{equation}
+in flat coordinates. It is a scalar distribution supported on a curve, not a spinor-valued operator. Its dimension is $L^{-3}$ with this measure; no electron-field normalization or statistics follows. A smooth curve image has zero four-dimensional volume, and even density of an image in a limiting construction does not establish an absolutely continuous occupation measure. Infinite curves require convergence conditions.
+
+GWFM's separate path-integral expression for presence density lacks specified endpoints, a parameter insertion or integral, a normalized measure, and regularization. An oscillatory weight is not a positive probability measure. A Lorentzian quantum construction would require these choices plus spin structure, appropriate spin variables and constraints, gauge coupling, and a quantization prescription. Simply appending $\int\psi\dot\psi$ to a length action does not establish the constrained spinning-particle theory or the Dirac field. Worldline methods in the cited literature provide benchmarks rather than a derivation for this ansatz.\cite{strassler,schubert}
+
+\subsection{Interference, time orientation, charge, and measurement}
+For two coherent amplitudes the elementary interference law is
+\begin{equation}
+ |\mathcal A_A+\mathcal A_B|^2
+ =|\mathcal A_A|^2+|\mathcal A_B|^2
+ +2\operatorname{Re}(\mathcal A_A\mathcal A_B^*).
+\end{equation}
+Relative phase can produce destructive interference. A nonnegative measure of an intersection of path sets has no specified mechanism to reproduce this signed cross term. A phase-weighted construction might do so, but is additional structure. Detector boundaries alone likewise do not specify Born probabilities, state update, or multi-particle correlations.
+
+A continuous timelike tangent in a time-oriented Lorentzian manifold cannot change between the future and past timelike cones without leaving the timelike domain. GWFM's proposed interpretation of time orientation therefore cannot be represented by a single smooth timelike trajectory of Eq.~\eqref{eq:proper} with segments that reverse time direction. Feynman's earlier reinterpretation of positron propagation provides an established historical precedent,\cite{feynman} but does not supply this model's missing construction. No positron sector is derived here.
+
+Similarly, a winding number needs a specified target or noncontractible cycle; a Chern class requires a bundle and a connection. An unspecified curve does not define either as an electromagnetic charge. $Q_O$ is an oscillator energy, and the internal layer names supply neither gauge invariance nor charge quantization. Global identity does not prove fermionic exchange statistics, entanglement correlations, or compatibility with locality.
+
+\subsection{Decoupling statements}
+Taking $\mu_1=\mu_2=0$ removes the explicit curvature/torsion potential. On prescribed geometry the internal oscillators then decouple from one another. In the full action they still depend on the curve's proper-time measure; this is not pure GWFM length dynamics. Setting all $I^a=0$ in addition removes the internal kinetic and potential terms and yields $-m\int\dd s$. This length model contains no electromagnetic or spin terms and is only GWFM's classical geometric core.
+
+Freezing nonzero $I^a$ does not remove $\U$; it generally leaves curvature-dependent geometric terms and may violate the internal equations. Nor does $\kappa=\tau_1=0$ define a limit inside our regular Frenet domain. With the torsion term removed or separately extended, zero curvature can eliminate the explicit geometric forcing; the resulting oscillator theory remains a DEFI extension rather than SEFI's original scalar functional. The unified-theory spectral proposal is examined separately below; it is not assumed to be generated by this action.
+
+\section{Unresolved mathematical and physical questions}
+The next classical task is to expand and reduce Eq.~\eqref{eq:EL}, specify admissible initial data and endpoint conditions, analyze constraint degeneracy, and prove local existence and uniqueness on a regular domain. Continuation near $\kappa=0$, coercivity or a controlled cutoff, and coupled stability have not been established. If an attracting manifold is desired, a justified dissipative mechanism must be added and studied; it does not follow from conservative internal oscillators.
+
+The next quantum task is distinct: define observables and a Hilbert space, construct a consistent spinor and gauge sector, determine fermionic statistics, regularize the relevant amplitudes, and compare specified quantities with established electron theory. No electron mass, charge, scattering amplitude, or measurable departure from existing theory is predicted by this manuscript. ``Equivalent to QFT'' remains a conjectural goal rather than a result.
+
+The present revision uses the archived source files recorded in the companion provenance manifest. Source availability is not validation of their conclusions. No simulation, experimental validation, comprehensive priority search, or new particle-spectrum computation is claimed. The conditional results follow from the displayed action and must be independently checked by the author.
+
+\section{The unified operator: retained proposal and missing bridge}
+\subsection{Formal expression and coefficient data}
+The operator manuscript proposes scalar complex fields $\Psi(x,I)$ and the formal expression\cite{unified}
+\begin{align}
+\mathcal T={}&-g^{\mu\nu}\nabla_\mu\nabla_\nu
+             +G^{ab}\nabla_a\nabla_b
+             +V_{\rm geom}+V_{\rm ident}+V_{\rm dyn},\label{eq:formalT}\\
+V_{\rm geom}={}&\lambda_1\kappa^2+\lambda_2\tau_1^2,\\
+V_{\rm ident}={}&\alpha I_O^2+\beta I_A^2+\gamma I_S^2+\delta I_W^2,\\
+V_{\rm dyn}={}&\eta_1\|\dot I\|_G^2+\eta_2\|\ddot I\|_G^2.
+\end{align}
+Here $G_{ab}=\operatorname{diag}(\alpha,\beta,\gamma,\delta)$ records the source identity metric; it is kept separate from the dimensionally specified kinetic metric $H$ of the classical action. Dots in this displayed source proposal refer to differentiation along an internal history. No identification of its spectral eigenvalues with masses, frequencies, or measured excitations is made.
+
+The scalar Hilbert space can be written formally as
+\begin{equation}
+\mathcal H_{\rm prod}=L^2(M\times\I,\sqrt{|\det g|}\,\dd^4x\,\dd\mu_G).
+\end{equation}
+This is an $L^2$ space using a positive volume measure; it is not by itself a one-particle physical Hilbert space or a space of spinors. The source proposes an $H^2$ domain subject to boundary conditions, but does not supply those conditions or a complete potential domain. A differential expression plus a Hilbert space is not yet a specified self-adjoint operator.
+
+More basically, $\kappa,\tau_1,\dot I,\ddot I$ are data along a trajectory, whereas a multiplication potential on $M\times\I$ must assign values to $(x,I)$. Distinct histories through the same $(x,I)$ generally carry different such data. A prescribed background lift, an enlarged state space, or a different operator construction is required. None is selected by the sources. The dimensions of the spacetime derivative term, identity derivative term, potentials, and spectral parameter must also be reconciled by stated scales; the classical units above do not provide this reconciliation automatically.
+
+\subsection{Signature, spectrum, and invariant surfaces}
+In flat signature $(-,+,+,+)$, the spacetime part of Eq.~\eqref{eq:formalT} is $\partial_t^2-\sum_i\partial_i^2$. The full principal symbol has opposite signs in different directions, even when $G$ is positive. It is therefore not elliptic. Positive identity metric alone cannot turn a Lorentzian spacetime operator into an elliptic one. Nor do the signs written in the source produce the usual positive operator $-\Delta_I+V$ for internal confinement. This observation does not preclude every self-adjoint realization; it precludes assuming a positive discrete oscillator spectrum from the displayed formula.
+
+The proposed equation $\mathcal T\Psi_n=\lambda_n\Psi_n$ is accordingly a research objective, not a proved eigenbasis expansion. Compactness, boundary conditions, potential behavior, and operator closure must be specified before statements about spectral type. The occurrence of an invariant in a potential does not prove its conservation. Likewise, $\Psi|_\Sigma\ne0$ does not make $\Sigma$ invariant under a classical flow or define an invariant subspace of a Hilbert-space operator. Such statements require, respectively, tangency of a defined flow or preservation of a defined function subspace.
+
+\subsection{Relation to the action}
+The classical coupling $\U$ is not the same expression as the source's derivative-norm $V_{\rm dyn}$. The length action has no curvature-squared or torsion-squared potential of its own. Thus matching names of sectors does not derive Eq.~\eqref{eq:formalT} from Eq.~\eqref{eq:action}. Quantization of a constrained higher-derivative system would require a reduced phase space or a specified constrained quantization, together with ordering and domain choices. The two constructions are retained as related proposals; no variational or spectral equivalence has been established.
+
+\section{Stability geometry and proposed applications}
+\subsection{Projection and correction}
+The unified source proposes a nearest-point correction to a stability surface by minimizing a sum of spacetime and identity squared distances.\cite{unified} Lorentzian separation is not a positive distance suitable for that minimization. Even after choosing an auxiliary positive metric, a nearest-point projection is generally only local and requires a suitably embedded surface and a tubular neighborhood. Curvature constraints belong to history jets, not just points $(x,I)$. On curved manifolds, a displacement between points also requires a chart or an inverse exponential map rather than literal point subtraction. Those extra choices are absent from the source's global correction formula.
+
+The intended idea of measuring deviations from a reference geometry is preserved. A concrete correction model must define its state space, admissible reference set, positive error cost, projection domain, and control law. A projection rule imposed from outside the conservative action is a new dynamical ingredient. It does not establish that unforced trajectories relax to the reference set.
+
+\subsection{Photonic interpretation}
+The source associates loss, dephasing, mode mixing, and spectral drift with geometric deviations. These associations remain application hypotheses. A photon has a null trajectory, so the timelike proper-time normalization and Frenet construction used here do not apply to it. A null-curve model or a separately defined trajectory in optical mode or polarization space is needed before transferring the equations.
+
+Moreover, the proposed loss criterion of a vanishing tangent does not describe a regular null worldline: its nonzero null tangent already has zero Lorentzian norm. Geometric constraints are not automatically quantum stabilizer operators. Demonstrating error correction requires a defined code space, noise model, physical syndrome measurement, and recovery operation with a quantitative performance criterion. None is derived from the four classical internal coordinates. The manuscript therefore reports no photonic correction threshold or experimental improvement.
+
+\subsection{Cosmological interpretation}
+The source further proposes identity dilution and spectral scaling in an FRW background.\cite{unified} Its first-order expression $\dd I_a/\dd t=-3H(t)I_a+\text{corrections}$ is not derived by the worldline action. In particular, a worldline oscillator action integrated over proper time has no homogeneous spatial-volume factor $a(t)^3$ from which cosmological friction would follow. A cosmological field action would be a separate construction. Likewise, a spatial Laplacian scaling with $a^{-2}$ would not by itself establish the same scaling for the spectrum of the full spacetime-plus-identity operator. No cosmological damping law, inflationary solution, or observational prediction is obtained here.
+
+\section{Conclusion}
+GWFM's geometric interpretation, SEFI's layered identity vocabulary, and DEFI's coupling ansatz can be brought together as a conditional classical model if their distinct assumptions are kept explicit. The resulting internal equations support an Origin energy first integral and a precise positive-Hessian criterion for stability under prescribed constant geometry. They do not derive a dynamically invariant or attracting stability manifold, a universal acceleration bound, or an electron quantum field. The corrected variational formulation and counterexamples define a narrower mathematical starting point for evaluating the original hypotheses. The unified operator and its proposed applications remain a distinct phenomenological program pending a coefficient construction, operator realization, and a justified bridge from the classical action.
+
+\section*{Supplementary material}
+No scientific supplementary material is invoked. The source manuscripts are cited to preserve provenance. Their JMP submission identifiers are supplied by the author; publication and public-preprint status have not been independently verified.
+\section*{Acknowledgments}
+Funding and acknowledgment information awaits author confirmation for this review draft.
+\section*{Author declarations}
+\subsection*{Conflict of interest}
+The author's conflict-of-interest declaration is pending confirmation; no declaration of absence is inferred from the source manuscripts.
+\subsection*{Ethics approval}
+This manuscript presents theoretical mathematical analysis and reports no human or animal experiments.
+\subsection*{Author contributions}
+The originating GWFM, SEFI, and DEFI hypotheses and source manuscripts are attributed to Jason D. Dutton (Jason Dutton in SEFI/DEFI and Jason Duran Dutton in GWFM). The final CRediT contribution statement requires author confirmation, including responsibility for validation of this revision.
+\subsection*{Methods and AI assistance}
+OpenAI Codex (GPT-6), accessed through the Codex desktop application on October 16, 2026, assisted in recovering the earlier draft, reading the archived GWFM, SEFI, DEFI, unified operator, and overview sources, and synthesizing their content, identifying unsupported claims, formulating conditional derivations and counterexamples, checking references and journal instructions, and preparing \LaTeX{} files. It was used to consolidate the framework and critically distinguish hypotheses from demonstrated consequences. This assistance affects the mathematical presentation and conclusions, and is disclosed here. The author must independently validate the revised analysis and approve the final text before submission. No experimental data or numerical research results were generated.
+\section*{Data availability}
+Data sharing is not applicable to this article as no new research datasets were created or analyzed. The mathematical assumptions and derivations are contained in the article; author-supplied manuscripts were reviewed as source documents.
+%aipnum4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (1) range
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{10}
+\bibitem{gwfm} J. D. Dutton, \textit{Geometric Worldline Foundations of the Electron Field} (2026), author-supplied manuscript, August 28.
+\bibitem{sefi} J. Dutton, \textit{SEFI: The Single Entity Field Interpretation---Formal Mathematical Construction} (2026), author-supplied manuscript.
+\bibitem{defi} J. D. Dutton, \textit{Dynamic Entity Field Integration (DEFI): A Coupled Lagrangian Construction Unifying SEFI Identity and GWFM Geometry} (2026), author-supplied manuscript.
+\bibitem{unified} J. D. Dutton, \textit{Unified Geometric Field Theory from Worldline and Identity-Space Invariants} (2026), archived manuscript, \texttt{unifiying.tex}.
+\bibitem{overview} J. D. Dutton, \textit{SEFI/GWFM: Unified Geometric Field Theory} (2026), archived overview, \texttt{Unified Theory Paper.tex}.
+\bibitem{strassler} M. J. Strassler, ``Field theory without Feynman diagrams: One-loop effective actions,'' Nucl. Phys. B \textbf{385}, 145--184 (1992), doi:10.1016/0550-3213(92)90098-V.
+\bibitem{schubert} C. Schubert, ``Perturbative quantum field theory in the string-inspired formalism,'' Phys. Rep. \textbf{355}, 73--234 (2001), doi:10.1016/S0370-1573(01)00013-8.
+\bibitem{woodard} R. P. Woodard, ``Ostrogradsky's theorem on Hamiltonian instability,'' Scholarpedia \textbf{10}(8), 32243 (2015), doi:10.4249/scholarpedia.32243.
+\bibitem{noether} E. Noether, ``Invariant Variation Problems,'' trans. M. A. Tavel, Transp. Theory Stat. Phys. \textbf{1}, 186--207 (1971), doi:10.1080/00411457108231446.
+\bibitem{feynman} R. P. Feynman, ``The Theory of Positrons,'' Phys. Rev. \textbf{76}, 749--759 (1949), doi:10.1103/PhysRev.76.749.
+\end{thebibliography}%
+
+\end{document}
+
