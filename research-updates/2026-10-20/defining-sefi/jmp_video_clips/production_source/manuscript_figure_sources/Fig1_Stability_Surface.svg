@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1800" viewBox="0 0 3000 1800">
+<rect width="3000" height="1800" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#162332}.math{font-family:Cambria,"Times New Roman",serif}.muted{fill:#475766}</style>
+<text x="120" y="140" font-size="76" text-anchor="start" class="" font-weight="bold">Proposed stability manifold</text>
+<text x="120" y="218" font-size="43" text-anchor="start" class="muted" font-weight="normal">Worldline geometry, identity-space constraints and invariant preservation</text>
+<line x1="120" y1="263" x2="2880" y2="263" stroke="#c6d0d8" stroke-width="3"/>
+<text x="120" y="350" font-size="43" text-anchor="start" class="" font-weight="bold">A   Constraint intersection</text>
+<text x="1840" y="350" font-size="43" text-anchor="start" class="" font-weight="bold">B   Conditions stated on Σ</text>
+<line x1="1740" y1="330" x2="1740" y2="1530" stroke="#c6d0d8" stroke-width="3"/>
+<defs>
+<clipPath id="geometry"><circle cx="650" cy="815" r="360"/></clipPath>
+<clipPath id="identity"><circle cx="1090" cy="815" r="360"/></clipPath>
+<clipPath id="sovereignty"><circle cx="870" cy="1130" r="360"/></clipPath>
+</defs>
+<circle cx="650" cy="815" r="360" fill="#2a6d94" fill-opacity="0.08" stroke="#2a6d94" stroke-width="5"/>
+<circle cx="1090" cy="815" r="360" fill="#b45b23" fill-opacity="0.08" stroke="#b45b23" stroke-width="5"/>
+<circle cx="870" cy="1130" r="360" fill="#638348" fill-opacity="0.08" stroke="#638348" stroke-width="5"/>
+<g clip-path="url(#geometry)"><g clip-path="url(#identity)"><circle cx="870" cy="1130" r="360" fill="#176779" fill-opacity="0.3"/></g></g>
+<text x="410" y="405" font-size="39" text-anchor="middle" class="" font-weight="bold">Geometric constraints</text>
+<text x="410" y="458" font-size="55" text-anchor="middle" class="math" font-weight="normal">Σ<tspan baseline-shift="sub" font-size="68%">geom</tspan></text>
+<text x="1310" y="405" font-size="39" text-anchor="middle" class="" font-weight="bold">Identity constraints</text>
+<text x="1310" y="458" font-size="55" text-anchor="middle" class="math" font-weight="normal">Σ<tspan baseline-shift="sub" font-size="68%">ident</tspan></text>
+<text x="870" y="1530" font-size="39" text-anchor="middle" class="" font-weight="bold">Sovereignty constraints, Σ<tspan baseline-shift="sub" font-size="68%">S</tspan></text>
+<text x="870" y="935" font-size="86" text-anchor="middle" class="math" font-weight="normal">Σ</text>
+<text x="870" y="991" font-size="31" text-anchor="middle" class="" font-weight="normal">common locus</text>
+<text x="870" y="1605" font-size="44" text-anchor="middle" class="math" font-weight="normal">Σ = Σ<tspan baseline-shift="sub" font-size="68%">geom</tspan> ∩ Σ<tspan baseline-shift="sub" font-size="68%">ident</tspan> ∩ Σ<tspan baseline-shift="sub" font-size="68%">S</tspan></text>
+<text x="1840" y="466" font-size="39" text-anchor="start" class="" font-weight="bold">Worldline geometry</text>
+<text x="1840" y="539" font-size="57" text-anchor="start" class="math" font-weight="normal">κ = κ<tspan baseline-shift="sub" font-size="68%">Σ</tspan> ;  τ<tspan baseline-shift="sub" font-size="68%">g</tspan> = τ<tspan baseline-shift="sub" font-size="68%">Σ</tspan></text>
+<text x="1840" y="600" font-size="35" text-anchor="start" class="muted" font-weight="normal">Constant curvature and torsion</text>
+<line x1="1840" y1="652" x2="2880" y2="652" stroke="#c6d0d8" stroke-width="3"/>
+<text x="1840" y="732" font-size="39" text-anchor="start" class="" font-weight="bold">Identity and sovereignty</text>
+<text x="1840" y="807" font-size="53" text-anchor="start" class="math" font-weight="normal">I<tspan baseline-shift="super" font-size="68%">a</tspan> = I<tspan baseline-shift="super" font-size="68%">a</tspan><tspan baseline-shift="sub" font-size="68%">Σ</tspan> ;  a ∈ {O, A, S, W}</text>
+<text x="1840" y="875" font-size="35" text-anchor="start" class="muted" font-weight="normal">O: Origin;  A: Authorship</text>
+<text x="1840" y="929" font-size="35" text-anchor="start" class="muted" font-weight="normal">S: Sovereignty;  W: Warp Expression</text>
+<line x1="1840" y1="983" x2="2880" y2="983" stroke="#c6d0d8" stroke-width="3"/>
+<text x="1840" y="1065" font-size="39" text-anchor="start" class="" font-weight="bold">Identity-space dynamics</text>
+<text x="1840" y="1142" font-size="53" text-anchor="start" class="math" font-weight="normal">dI<tspan baseline-shift="super" font-size="68%">a</tspan>/dτ = 0 ;  d<tspan baseline-shift="super" font-size="68%">2</tspan>I<tspan baseline-shift="super" font-size="68%">a</tspan>/dτ<tspan baseline-shift="super" font-size="68%">2</tspan> = 0</text>
+<text x="1840" y="1203" font-size="35" text-anchor="start" class="muted" font-weight="normal">No identity-coordinate drift on Σ</text>
+<line x1="1840" y1="1257" x2="2880" y2="1257" stroke="#c6d0d8" stroke-width="3"/>
+<text x="1840" y="1339" font-size="39" text-anchor="start" class="" font-weight="bold">Associated field condition</text>
+<text x="1840" y="1416" font-size="57" text-anchor="start" class="math" font-weight="normal">TΨ = λΨ ;  Ψ|<tspan baseline-shift="sub" font-size="68%">Σ</tspan> ≠ 0</text>
+<line x1="120" y1="1650" x2="2880" y2="1650" stroke="#c6d0d8" stroke-width="3"/>
+<text x="120" y="1720" font-size="34" text-anchor="start" class="muted" font-weight="normal">Schematic set intersection; no metric scale, computed boundary or experimental phase diagram is implied.</text>
+</svg>

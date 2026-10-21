@@ -1,0 +1,35 @@
+CHECKED FIGURES FOR THIS MANUSCRIPT
+Only these checked figures are used in the video. Original Designer uploads are excluded.
+
+Fig1_Stability_Surface.jpg
+Proposed stability manifold and its stated geometric, identity and dynamical conditions. Schematic, not measured phase boundaries.
+
+Fig2_Worldline_Geometry.jpg
+Schematic worldline projection and local frame, with the manuscript curvature, torsion and geometric potential definitions.
+
+Fig3_Error_Displacement.jpg
+Local coordinate illustration of displacement from a projected point, separated into spacetime and identity components.
+
+Fig4_Correction_Mapping.jpg
+Proposed correction map and target conditions. The arrow denotes a map, not a simulated recovery process.
+
+Fig5_Photonic_Implementation.jpg
+Conceptual photonic syndrome workflow and proposed targets; no demonstrated optical correction performance.
+
+Highlight.jpg
+Graphical organization of the proposed unified framework.
+
+Supplement_S1_Identity_Space.jpg
+Four proposed identity coordinates and the positive diagonal identity metric specified for the manuscript Hilbert-space construction. The cards label coordinates without asserting a measurable orthonormal embedding.
+
+Supplement_S2_Unified_Operator.jpg
+The proposed differential operator and its three potentials, reproducing the manuscript definitions. No claim about self-adjointness, spectrum or physical identification follows from this expression alone.
+
+Supplement_S3_Candidate_Modes.jpg
+Schematic organization of the eigenmode problem. The figure contains no computed eigenfunctions, invented level spacing, assumed one-dimensional eigenspaces or asserted identification with particles.
+
+Supplement_S4_Unified_Error.jpg
+Grouping of the error-vector components defined in the manuscript. The dynamical entries denote deviations of identity-space velocity and acceleration, without introducing new inertial or interaction variables.
+
+Supplement_S5_FRW_Background.jpg
+Schematic expanding grid patches at successive times and the standard definition of the Hubble parameter. Patch sizes are illustrative; they do not specify a cosmological solution, spatial curvature, inflation mechanism or full operator spectrum.

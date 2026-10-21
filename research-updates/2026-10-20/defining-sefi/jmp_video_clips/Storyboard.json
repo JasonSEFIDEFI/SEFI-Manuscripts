@@ -1,0 +1,165 @@
+[
+  {
+    "chapter": 1,
+    "title": "One proposed geometric framework",
+    "start": 0.0,
+    "duration": 8.0,
+    "frame": "storyboard_frames/01_01.png",
+    "clip": "scene_clips/01_01.mp4",
+    "asset": "Highlight.jpg",
+    "crop": null,
+    "narration": "I am Jason Duran Dutton. This manuscript proposes a framework connecting worldline geometry, identity-space structure, and dynamical invariants."
+  },
+  {
+    "chapter": 2,
+    "title": "Three connected ingredients",
+    "start": 8.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/02_01.png",
+    "clip": "scene_clips/02_01.mp4",
+    "asset": "supplemental_figures/Supplement_S2_Unified_Operator.png",
+    "crop": null,
+    "narration": "The starting point is a proposed single continuous entity. The model combines its spacetime geometry with four identity coordinates and invariants preserved during ideal evolution."
+  },
+  {
+    "chapter": 3,
+    "title": "Worldline geometry",
+    "start": 20.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/03_01.png",
+    "clip": "scene_clips/03_01.mp4",
+    "asset": "Fig2_Worldline_Geometry.jpg",
+    "crop": [
+      210,
+      430,
+      1680,
+      1570
+    ],
+    "narration": "A local geometric frame describes worldline curvature and torsion. These diagrams show conceptual relationships, not calculated particle trajectories or experimentally measured paths."
+  },
+  {
+    "chapter": 4,
+    "title": "Identity-space structure",
+    "start": 32.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/04_01.png",
+    "clip": "scene_clips/04_01.mp4",
+    "asset": "supplemental_figures/Supplement_S1_Identity_Space.png",
+    "crop": null,
+    "narration": "Origin, Authorship, Sovereignty, and Warp Expression form the proposed identity coordinates. Their physical interpretation and measurement require further specification. The diagram projects a four-dimensional construction."
+  },
+  {
+    "chapter": 5,
+    "title": "The proposed unified operator",
+    "start": 44.0,
+    "duration": 16.0,
+    "frame": "storyboard_frames/05_01.png",
+    "clip": "scene_clips/05_01.mp4",
+    "asset": "supplemental_figures/Supplement_S2_Unified_Operator.png",
+    "crop": null,
+    "narration": "The unified operator combines spacetime and identity-space derivatives with three potentials. Its mathematical properties depend on the metrics, coefficients, domain, and boundary conditions. The expression defines a proposed model; physical validity requires further tests."
+  },
+  {
+    "chapter": 6,
+    "title": "Candidate modes, not identified particles",
+    "start": 60.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/06_01.png",
+    "clip": "scene_clips/06_01.mp4",
+    "asset": "supplemental_figures/Supplement_S3_Candidate_Modes.png",
+    "crop": null,
+    "narration": "The eigenvalue problem describes candidate excitations. Its modes and spectral values must be calculated. Identifying a mode with an observed particle requires comparison with measured properties."
+  },
+  {
+    "chapter": 7,
+    "title": "The proposed stability manifold",
+    "start": 72.0,
+    "duration": 14.0,
+    "frame": "storyboard_frames/07_01.png",
+    "clip": "scene_clips/07_01.mp4",
+    "asset": "Fig1_Stability_Surface.jpg",
+    "crop": [
+      170,
+      350,
+      1700,
+      1635
+    ],
+    "narration": "A proposed stability manifold collects ideal geometric, identity, and dynamical conditions. Preserving these conditions organizes the framework. This schematic does not prove that nearby disturbances decay."
+  },
+  {
+    "chapter": 8,
+    "title": "Describe departures explicitly",
+    "start": 86.0,
+    "duration": 6.0,
+    "frame": "storyboard_frames/08_01.png",
+    "clip": "scene_clips/08_01.mp4",
+    "asset": "Fig3_Error_Displacement.jpg",
+    "crop": [
+      165,
+      420,
+      1660,
+      1590
+    ],
+    "narration": "The error description combines geometric, identity, and dynamical departures. Displacement points away from a projected reference state, separating the definition of an error from its correction."
+  },
+  {
+    "chapter": 8,
+    "title": "Describe departures explicitly",
+    "start": 92.0,
+    "duration": 6.0,
+    "frame": "storyboard_frames/08_02.png",
+    "clip": "scene_clips/08_02.mp4",
+    "asset": "supplemental_figures/Supplement_S4_Unified_Error.png",
+    "crop": null,
+    "narration": "The error description combines geometric, identity, and dynamical departures. Displacement points away from a projected reference state, separating the definition of an error from its correction."
+  },
+  {
+    "chapter": 9,
+    "title": "Correction as a proposed projection",
+    "start": 98.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/09_01.png",
+    "clip": "scene_clips/09_01.mp4",
+    "asset": "Fig4_Correction_Mapping.jpg",
+    "crop": [
+      165,
+      420,
+      1660,
+      1590
+    ],
+    "narration": "Correction is proposed as projection onto the stability manifold, where that projection is well defined. It specifies a target; a physical recovery process must be established separately."
+  },
+  {
+    "chapter": 10,
+    "title": "Photonic application",
+    "start": 110.0,
+    "duration": 16.0,
+    "frame": "storyboard_frames/10_01.png",
+    "clip": "scene_clips/10_01.mp4",
+    "asset": "Fig5_Photonic_Implementation.jpg",
+    "crop": null,
+    "narration": "For photons, the proposed syndrome uses curvature, torsion, frequency, and polarization deviations. Weak or quantum-nondemolition sampling is discussed conceptually. No detector, decoder, lost-photon recovery, or error-correction advantage is demonstrated by these figures."
+  },
+  {
+    "chapter": 11,
+    "title": "A cosmological extension",
+    "start": 126.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/11_01.png",
+    "clip": "scene_clips/11_01.mp4",
+    "asset": "supplemental_figures/Supplement_S5_FRW_Background.png",
+    "crop": null,
+    "narration": "An expanding cosmological background extends the framework. These slices are schematic. Scaling of spatial derivative terms alone does not establish the full spectrum or explain inflation."
+  },
+  {
+    "chapter": 12,
+    "title": "A proposal for mathematical evaluation",
+    "start": 138.0,
+    "duration": 12.0,
+    "frame": "storyboard_frames/12_01.png",
+    "clip": "scene_clips/12_01.mp4",
+    "asset": "Highlight.jpg",
+    "crop": null,
+    "narration": "The contribution is a proposed mathematical organization. Precise operator analysis, specified dynamics, and discriminating predictions are essential next tests. Identification with observed matter and experimental advantages remain open."
+  }
+]

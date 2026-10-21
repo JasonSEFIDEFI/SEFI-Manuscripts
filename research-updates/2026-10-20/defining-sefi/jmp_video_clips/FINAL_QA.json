@@ -1,0 +1,33 @@
+{
+  "duration_seconds": 150,
+  "chapters": 12,
+  "views": 13,
+  "checked_video_assets": 11,
+  "original_designer_assets_used": 0,
+  "original_uploads_preserved": 8,
+  "script_word_count": 315,
+  "caption_timing_checked": true,
+  "full_decode_passed": [
+    "JMP_Graphical_Abstract_Clean_1080p.mp4",
+    "JMP_Graphical_Abstract_Captioned_1080p.mp4",
+    "JMP_Graphical_Abstract_Upload.mp4"
+  ],
+  "manuscript_source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\unifiying.tex",
+  "manuscript_sha256": "f9fe61387e4e9138e521ac8ca1fdc4f297b74439a5ca61d592e64412d8487e13",
+  "recorded_author_audio_present": false,
+  "editorial_scope": "Illustrations of the manuscript proposal; no computed spectrum or experimental validation implied.",
+  "visual_review": "Reviewed all 12 encoded chapter samples in contact sheet, plus representative identity and photonic frames at full size; no clipping or incorrect original-image labels found.",
+  "used_asset_sha256": {
+    "Highlight.jpg": "a2d22bc6b4e081f7a146580b9f26ce84e93922c79717b642761b6c4fa72dc853",
+    "supplemental_figures/Supplement_S2_Unified_Operator.png": "633aff457f8fd4420817919105a3a28ed627aacd4573db4b884ed37df647d601",
+    "Fig2_Worldline_Geometry.jpg": "7afaf6736f3c13a1cf87fe491e930979842ffbfd49471454593d61415529d31a",
+    "supplemental_figures/Supplement_S1_Identity_Space.png": "ae7843ac198ebf7f31930212e561a5234e782a8daac8a7f9061d44406f62e347",
+    "supplemental_figures/Supplement_S3_Candidate_Modes.png": "61b2ced72813cdc3b37c0f0aa82c73bb8c9b6d40c74673209cbe09d1aa0664ee",
+    "Fig1_Stability_Surface.jpg": "8ce4535b76a00f433ecbb9b1c803c20f735ae3151691e0342d0ae3ef2afc95dc",
+    "Fig3_Error_Displacement.jpg": "8027e01f2d6b7405281b53311204f4df6b94c0ffc2f322dbab2c25669d20ebb4",
+    "supplemental_figures/Supplement_S4_Unified_Error.png": "9c25b3cf57089a0fac10fce0f5f71cb391e61378e691f6e5325d68323ef270a2",
+    "Fig4_Correction_Mapping.jpg": "8083525d02e9ccf70f555cad6ed19b4b7a6b415f57b451ef66d17e056c61e87f",
+    "Fig5_Photonic_Implementation.jpg": "f08f2e21604314eb56986cc0d32a8552fbea04d940a4f024af5f90fb2ca7312e",
+    "supplemental_figures/Supplement_S5_FRW_Background.png": "a42c6885e80b7376fefa8547d4979aa6a3ad5f77efd71cdad1cfc71ca9d3068e"
+  }
+}

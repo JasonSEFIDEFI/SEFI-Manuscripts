@@ -1,0 +1,587 @@
+{
+  "date": "2026-10-20",
+  "parent": "57a23879ba4ee859c27fca49725cdcb42e399b3e",
+  "files": {
+    "research-updates/2026-10-20/defining-sefi/ALT TEXT FOR FIGURES.docx": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\ALT TEXT FOR FIGURES.docx",
+      "sha256": "9d721344696d1b74817ac1f9f8f34795fbe2d921a69bba5e98aff017513c8840",
+      "blob": "f3e05a6cc5d8d0efc94e05ee7c08e4fb41b76e22",
+      "bytes": 15997
+    },
+    "research-updates/2026-10-20/defining-sefi/Fig1_Stability_Surface.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Fig1_Stability_Surface.jpg",
+      "sha256": "8ce4535b76a00f433ecbb9b1c803c20f735ae3151691e0342d0ae3ef2afc95dc",
+      "blob": "c5a8f23d1d0f8cfdea675d359d565b19c413ab4a",
+      "bytes": 687011
+    },
+    "research-updates/2026-10-20/defining-sefi/Fig2_Worldline_Geometry.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Fig2_Worldline_Geometry.jpg",
+      "sha256": "7afaf6736f3c13a1cf87fe491e930979842ffbfd49471454593d61415529d31a",
+      "blob": "ed5a78db6dc0fc802a1c334b95ef758e704349c4",
+      "bytes": 989271
+    },
+    "research-updates/2026-10-20/defining-sefi/Fig3_Error_Displacement.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Fig3_Error_Displacement.jpg",
+      "sha256": "8027e01f2d6b7405281b53311204f4df6b94c0ffc2f322dbab2c25669d20ebb4",
+      "blob": "6da463a6540dd73ed69ac19df3145c6494624bb5",
+      "bytes": 1053437
+    },
+    "research-updates/2026-10-20/defining-sefi/Fig4_Correction_Mapping.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Fig4_Correction_Mapping.jpg",
+      "sha256": "8083525d02e9ccf70f555cad6ed19b4b7a6b415f57b451ef66d17e056c61e87f",
+      "blob": "65faa83879f3d7a41b29c79900d7fc22e94004f3",
+      "bytes": 1014713
+    },
+    "research-updates/2026-10-20/defining-sefi/Fig5_Photonic_Implementation.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Fig5_Photonic_Implementation.jpg",
+      "sha256": "f08f2e21604314eb56986cc0d32a8552fbea04d940a4f024af5f90fb2ca7312e",
+      "blob": "ced7ba80c5531b707d64b4ea896a797927926a14",
+      "bytes": 1255088
+    },
+    "research-updates/2026-10-20/defining-sefi/Graphical Abstract.mp4": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Graphical Abstract.mp4",
+      "sha256": "80fd2b556ddbd9bd71216d62bab56ae69c70f270ea4856f6acfcd0c07aabb6c1",
+      "blob": "91efe4ca2d1eabfa0eef7da1c4c54e87dcb59789",
+      "bytes": 30968744
+    },
+    "research-updates/2026-10-20/defining-sefi/Graphical_Abstract_Under_10MB.mp4": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Graphical_Abstract_Under_10MB.mp4",
+      "sha256": "8ecd6ca14345bd3263d134f630f1b478771da04626356367880b8a7e26f494ee",
+      "blob": "c02b3e549ce63bb3b41a57d632896cf0bae57906",
+      "bytes": 4858016
+    },
+    "research-updates/2026-10-20/defining-sefi/Highlight.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\Highlight.jpg",
+      "sha256": "a2d22bc6b4e081f7a146580b9f26ce84e93922c79717b642761b6c4fa72dc853",
+      "blob": "ca270134e9f43e91d9409150c720b280b3fffb74",
+      "bytes": 1110296
+    },
+    "research-updates/2026-10-20/defining-sefi/LinkedIn_SEFI_Post.pdf": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\LinkedIn_SEFI_Post.pdf",
+      "sha256": "bcd48ecac4bbc09355b83759f2e662bb5400d90e185fd97c7a44276bf49f4536",
+      "blob": "62defbe507823c0ed4fc138e60d9ea7d8ff0963c",
+      "bytes": 1265837
+    },
+    "research-updates/2026-10-20/defining-sefi/LinkedIn_SEFI_Post.tex": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\LinkedIn_SEFI_Post.tex",
+      "sha256": "c32549fdb7988fc5f045c58b938067b394c559b1b38a49761fb8e8cb58c6e6a4",
+      "blob": "9f1382be8b57fa94a48f0c88a4f383b37a9af5a9",
+      "bytes": 6288
+    },
+    "research-updates/2026-10-20/defining-sefi/references.bib": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\references.bib",
+      "sha256": "70fee98eea89021ec46ddbe2f05c94dceb7ad7b943db0ca1951b20a5984e959f",
+      "blob": "0db19540106c96982c97e74b406d21b1d00bc616",
+      "bytes": 7993
+    },
+    "research-updates/2026-10-20/defining-sefi/SEFI_FRW_ToyModel.tex": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\SEFI_FRW_ToyModel.tex",
+      "sha256": "63f7fbd1f512ce18a98a3bb6aa1313d43af308e379183114a9eabf28487775bc",
+      "blob": "06185363b1818c42fd889aad0602687d84b41e24",
+      "bytes": 3801
+    },
+    "research-updates/2026-10-20/defining-sefi/unifiying.pdf": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\unifiying.pdf",
+      "sha256": "03fb09ba5d4d5b598560ca7b99df244235e0c575bbed196eec10d436f65bccd4",
+      "blob": "0120ce491cb5b2308ce6d78ad2941e2a01c7ec72",
+      "bytes": 6505942
+    },
+    "research-updates/2026-10-20/defining-sefi/unifiying.tex": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\unifiying.tex",
+      "sha256": "b5456f5ddeb4ab7a7c1a9d6a66286508f037a345c5f4110288a601799df3bb1b",
+      "blob": "745d9b2f5ff7461dd0a710279ea08f6ae96b1e23",
+      "bytes": 49729
+    },
+    "research-updates/2026-10-20/defining-sefi/unifiyingNotes.bib": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\unifiyingNotes.bib",
+      "sha256": "2678515884bc4c0a2cd113d1c0f60e15624e70fc9dac6998f1002a3ece3cd2b2",
+      "blob": "29f392ff98a88281a388bc05592af227dd1fd882",
+      "bytes": 69
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Add_Author_Voiceover.ps1": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Add_Author_Voiceover.ps1",
+      "sha256": "115e2f06330658524b85e6a0f46adf027c046ab752f696bc3030273a2cdb5dc9",
+      "blob": "83a2209ba02f7dc684c5daeacba419bccdfc431e",
+      "bytes": 1622
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Asset_Manifest.json": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Asset_Manifest.json",
+      "sha256": "f37563d8ff800f331fec2aeb00195fb74384fa82699f764a1c62ddbbaefda3f2",
+      "blob": "9e79fed4f7c90ea4ed59a8c0060f907acdf1d144",
+      "bytes": 5753
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/checked_figures/Captions_and_Scope.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\checked_figures\\Captions_and_Scope.txt",
+      "sha256": "6a18b6ffa58f3f542d0c78bd52a00841e37d9ef6b68c3326657c9fcaee9930d6",
+      "blob": "2dddf5130a327cdef887687a7a90ee9c1bc2199d",
+      "bytes": 2224
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/checked_figures/Supplement_S1_Identity_Space.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\checked_figures\\Supplement_S1_Identity_Space.jpg",
+      "sha256": "ba02c6e322a5f6e5c2ed85b0c3f5929395356ba2a5e0d28707032c36f6b5a35f",
+      "blob": "a4fd4f53d5d4683d4fae1232471f5476d98e6444",
+      "bytes": 730388
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/checked_figures/Supplement_S2_Unified_Operator.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\checked_figures\\Supplement_S2_Unified_Operator.jpg",
+      "sha256": "99cff82e6f143d5f0a768d9fb19067d4c02809eda6ddd80a7023eab923bc354a",
+      "blob": "40b78f77621ec53fe282bce6d810764574ee2ee1",
+      "bytes": 747891
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/checked_figures/Supplement_S3_Candidate_Modes.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\checked_figures\\Supplement_S3_Candidate_Modes.jpg",
+      "sha256": "5422a0273a9ea42275f83fe8f74d4e96a52991c4bdf482341736b4c0cb44ddd6",
+      "blob": "47653b0f2c41c36bcc5dc63adf318240206bab19",
+      "bytes": 802606
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/checked_figures/Supplement_S4_Unified_Error.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\checked_figures\\Supplement_S4_Unified_Error.jpg",
+      "sha256": "2276a872333b83ebbcfc48e98150ba54882c41f8a2d68eb01bb78d98bcce5fa5",
+      "blob": "08bc0ac98410ba6add98321aa9860ab239c03b05",
+      "bytes": 864029
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/checked_figures/Supplement_S5_FRW_Background.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\checked_figures\\Supplement_S5_FRW_Background.jpg",
+      "sha256": "a11e68d8031bd7e9e9ee250dfb42b03d31cb2e1b451881e4e14f2787ab4a34c0",
+      "blob": "e471f22ef892d512e45a99a5bc1269a6426a8ae6",
+      "bytes": 687491
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/FINAL_QA.json": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\FINAL_QA.json",
+      "sha256": "e80aeda6a72cec3388a94439de693e952ab1b49dee38f20646cfcebfa5b953a2",
+      "blob": "943a71895b2a4cdc534bc767e7f41d52755d4e07",
+      "bytes": 2273
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Graphical_Abstract_Captions.ass": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Graphical_Abstract_Captions.ass",
+      "sha256": "43ca7fc82dd08cfc82c89233b14b7acbe254fcfdb1d68ce677be098f9956d0d6",
+      "blob": "117ee2591681408d23e0fc6b16672d52f17fa244",
+      "bytes": 4374
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Graphical_Abstract_Captions.srt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Graphical_Abstract_Captions.srt",
+      "sha256": "75a2535df439ef0d9fcc51718128b8a86c2f57947d77db7c734499ee255feb9c",
+      "blob": "bfae7f242a4edd325bc9c2e79a26805c97465a29",
+      "bytes": 3492
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/JMP_Checked_Figures.zip": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\JMP_Checked_Figures.zip",
+      "sha256": "ecd1a5c378883dba15ecec9937238dc4a4ca5ab904e86875e73d12d95b32b73e",
+      "blob": "d2d4ffbd39a6722ee14d48f6644a596d8b85c394",
+      "bytes": 7451406
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/JMP_Graphical_Abstract_Captioned_1080p.mp4": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\JMP_Graphical_Abstract_Captioned_1080p.mp4",
+      "sha256": "ef7c24ccf5a486d7ae2c570240d32544a7e128b4d4987bfa4b4b0df4f0f82e1f",
+      "blob": "e49d25b268b2b2aa2accbdc61b272a7e8564802e",
+      "bytes": 3800585
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/JMP_Graphical_Abstract_Clean_1080p.mp4": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\JMP_Graphical_Abstract_Clean_1080p.mp4",
+      "sha256": "c312a7d50e60c65e90321e1b4f7c2a4536611428aa0e29b3b2b99612cf8f19c3",
+      "blob": "eabd1c0706ebb078834fe8f0703d7996781b1743",
+      "bytes": 2368070
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_checked_jmp_video.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_checked_jmp_video.py",
+      "sha256": "77e88706375aae685efe1af5856059a8a27148a7cbd53d4c82cfc9cfb0a71912",
+      "blob": "a63bdd1472ab3a85e5308793931f7edcd687cfb8",
+      "bytes": 3309
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_checked_supplemental_figures.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_checked_supplemental_figures.py",
+      "sha256": "9f6ac5f48e67a512957d509d16030a9ecef176413954c28af47de4d8dd70bbc2",
+      "blob": "22b465cfce08ab2d4ba5af1daf66b980f552fdb7",
+      "bytes": 7442
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_jmp_video_package.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_jmp_video_package.py",
+      "sha256": "6b5ba4638ae87808457a26c574cc25632763fa8e47983869adb40b583198980a",
+      "blob": "87c4c2fadda3b4b679a9e7d8ccd6e4c5ef595e56",
+      "bytes": 16449
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_unified_figure1.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_unified_figure1.py",
+      "sha256": "39923c3007c770d2031d66fc98bba6e82b2e2010fffed9b7ce5feec1b7b16da3",
+      "blob": "8d0d0f8b64fb7f56a64c317e2040facb4d3735e8",
+      "bytes": 4492
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_unified_figure2.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_unified_figure2.py",
+      "sha256": "3f37bb3c0ef46068a0a42df4de197f01f273a791783b205dd653586daae69e45",
+      "blob": "5511024f7a5aba5e8c05d9fe1c449c1d3bf1569c",
+      "bytes": 5728
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_unified_figure3.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_unified_figure3.py",
+      "sha256": "24962cd6d32b470307915139f01f53131f535b93e73c67e3e6008a2aefde79d3",
+      "blob": "f25b09abfc22656483e869ff02061c05df330e74",
+      "bytes": 4538
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_unified_figure4.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_unified_figure4.py",
+      "sha256": "60433e1ca0c93d08c2a1ffb0c092d9ca2b4389848334756ca92dcb7530dedd6f",
+      "blob": "c6ff52e4e59fd002ae8a7b67c4e4d81486194bfb",
+      "bytes": 4046
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_unified_figure5.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_unified_figure5.py",
+      "sha256": "17baee12055399f96d66f3567fec4e741b6b3d9fa0a8f85ed245d36acd5e62c6",
+      "blob": "698714f861054aba3d55aa3cc52a3514c30c5e1b",
+      "bytes": 4005
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/build_unified_highlight.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\build_unified_highlight.py",
+      "sha256": "a23b16c960ef040e7c7a6e6d6317601a6649e42e7f2f76054ea138d0f2b0fb9e",
+      "blob": "05f57ed93a4f7c9b2613197d4c41c6e69c029f82",
+      "bytes": 4568
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/concat.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\concat.txt",
+      "sha256": "52f6cf92494cd6460eb6fcc979e4218fbd85eec4bbd50a2c0c9463adb15402c3",
+      "blob": "45ba0361ffd158322352a8687f213689193a16de",
+      "bytes": 390
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/finish_checked_jmp_video.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\finish_checked_jmp_video.py",
+      "sha256": "5c3c23715c937cc1a842d3991e5bd82ac0721c196a0dfbbb73fa7ccdf9e9b96e",
+      "blob": "d96b43fc1b22438584d803f14feaef4701527559",
+      "bytes": 2390
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/manuscript_figure_sources/Fig1_Stability_Surface.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\manuscript_figure_sources\\Fig1_Stability_Surface.svg",
+      "sha256": "e8c93c92196c1829e031387bf785ac174dc62487be57aa3c5ec6e70a7b99f50d",
+      "blob": "0bc873d02a7a4fc81acb193c9e59e9cfeb86811a",
+      "bytes": 5545
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/manuscript_figure_sources/Fig2_Worldline_Geometry.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\manuscript_figure_sources\\Fig2_Worldline_Geometry.svg",
+      "sha256": "5a50d1d5279c0aa3b7377661ca62c4eda325b9fbd2f23ceaf8165d86f518896f",
+      "blob": "42e8c97a38e79edc4ac0903b0e224b05cb32b074",
+      "bytes": 15202
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/manuscript_figure_sources/Fig3_Error_Displacement.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\manuscript_figure_sources\\Fig3_Error_Displacement.svg",
+      "sha256": "1ed8a294ebcb34f94204b1ec5da82f0ed9905682340f38d36bd8873fdd282e0f",
+      "blob": "45ae31cfec803be79bb9405cf07f069a41a13a93",
+      "bytes": 11882
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/manuscript_figure_sources/Fig4_Correction_Mapping.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\manuscript_figure_sources\\Fig4_Correction_Mapping.svg",
+      "sha256": "077fd7d38b3d770b256970c9decabc4c185124ab80c7843bc623fab5c16d24fd",
+      "blob": "14679cc1dc18b17caf38a10bed52653a6c6a2501",
+      "bytes": 11314
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/manuscript_figure_sources/Fig5_Photonic_Implementation.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\manuscript_figure_sources\\Fig5_Photonic_Implementation.svg",
+      "sha256": "883dc618c1ea170fc6291714a8185de23c6f96be2ae94e250a5ddfbc322631b8",
+      "blob": "53ea5d2739761c47b5d0029aef20416d718e0180",
+      "bytes": 8029
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/manuscript_figure_sources/Highlight.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\manuscript_figure_sources\\Highlight.svg",
+      "sha256": "2f37c861e6cb9157d1cec8e7c42d4e072ff0b07a05998c3837ed95325b45f8c1",
+      "blob": "6f1cee6775ccdd63e3a80de831458058b564ec71",
+      "bytes": 11700
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/REBUILD_NOTE.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\REBUILD_NOTE.txt",
+      "sha256": "dbc04a5d80ef8e07b60360991e24bb961b084747ebd530c01ae0a79e9b3edafd",
+      "blob": "ccca7cf9296cec442136ffbd3c3ea615e98e924f",
+      "bytes": 310
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/production_source/verify_deliver_jmp_video.py": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\production_source\\verify_deliver_jmp_video.py",
+      "sha256": "904adeaa43c6217e6e7967926b6f7dd01690a4fa1c75bd2f2ed1c9280efe37a2",
+      "blob": "2d7dee692513c2a34c7e2ffbf90c970eba1dcfa4",
+      "bytes": 3518
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/README_FIRST.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\README_FIRST.txt",
+      "sha256": "7a003f8e828cd65ba9a63ae2a3d4af8af249b152aa732443399b1764728df637",
+      "blob": "a7078647db7b9ee07834f6ac4092330856cc9725",
+      "bytes": 4554
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/DO_NOT_SUBMIT.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\DO_NOT_SUBMIT.txt",
+      "sha256": "9ed2b3e7c92a8eb2214fd309fa80e2e7c6169ffc7da41f61fd80a001542aa465",
+      "blob": "c09c827b9108311d2e98ebcbc739a2dc10de05d4",
+      "bytes": 196
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Frenet_Serret_Error_Geometry.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Frenet_Serret_Error_Geometry.png",
+      "sha256": "4f91e000aa24c2c0cca66b1ad5309d3af7aea1a33c1a11ddf3966e5f57036e89",
+      "blob": "8276c5a8bdb58d83429b49f8653d7072153621c0",
+      "bytes": 1214321
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_FRW_Cosmological_Extension.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_FRW_Cosmological_Extension.png",
+      "sha256": "ee0892b52221e256130468b06262a1502cc45e049d028d5e74c3e704d93cc5b7",
+      "blob": "886f8482c298b277904b81f39b7ffab648ee1756",
+      "bytes": 1327858
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Identity_Space_Structure.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Identity_Space_Structure.png",
+      "sha256": "8eacd5bc56f93ae78a42403981c2ae6242e69506361e28db17e3104bbb355b57",
+      "blob": "873e4054322429cc09a984937cc823c7ce964337",
+      "bytes": 983540
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Photonic_Stability_Surface.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Photonic_Stability_Surface.png",
+      "sha256": "5847c9deda0328d19ed11aba8d3d1497da5275f8ccee0a3127ce41a010e4e16f",
+      "blob": "c4e25fe243dfca7dd9b2f2d270d35448fb364cf3",
+      "bytes": 1452565
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Stability_Manifold.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Stability_Manifold.png",
+      "sha256": "e859bf64cd53244089bd41628f79e3b7f351f88b26dec9419df8fcb93de7a252",
+      "blob": "ae8ed82a9fd565bf5e32cd6fb9a66d2bb9b76397",
+      "bytes": 1100590
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Unified_Error_Vector.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Unified_Error_Vector.png",
+      "sha256": "8be516a17ffa5c7827188335bb5accf3ebc6d01e2817bb725dddd19fbc23b86a",
+      "blob": "4906954e6885cba695da90640af9ae0e8449b642",
+      "bytes": 1002539
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Unified_Operator_Architecture.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Unified_Operator_Architecture.png",
+      "sha256": "995190eefa956dd0a67e86f8d3a2981e77115494791f01c7bc5a4d67b9acf344",
+      "blob": "020f9443688dac443b5201685b1af46f58291cd4",
+      "bytes": 997309
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/reference_only_original_uploads/Uploaded_Unified_Operator_Spectrum.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\reference_only_original_uploads\\Uploaded_Unified_Operator_Spectrum.png",
+      "sha256": "86f9b4ce8dd310b83eee265154b07fa0a47dc05b75c07c99f527ee05db71427a",
+      "blob": "f2234b68e61ebb932945cab10b6e50c744ca1f27",
+      "bytes": 1098134
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Representative_Still.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Representative_Still.jpg",
+      "sha256": "c3cd475ef5265ef6da8d2b7e7efe30bef38cf414439fc71ee98ad0eb9c7c1e13",
+      "blob": "a6b7ba423f306ccb5b497e1be02021e06aa3981d",
+      "bytes": 195952
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Storyboard.csv": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Storyboard.csv",
+      "sha256": "ed661a33b4d2b0dc2152aa6375f2f98bc404578c06772038d3c8acbe4c03dc00",
+      "blob": "f351ee29e4078aeeaa021975b7b7b4a504879eb0",
+      "bytes": 1214
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Storyboard.json": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Storyboard.json",
+      "sha256": "148fef439deb1d023ecaa2f8033769a009af0379d94826a87bed3144d3d9c223",
+      "blob": "640a99c08cea0f20bb8f981351f3b2cbcf0255f2",
+      "bytes": 6782
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S1_Identity_Space.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S1_Identity_Space.png",
+      "sha256": "ae7843ac198ebf7f31930212e561a5234e782a8daac8a7f9061d44406f62e347",
+      "blob": "5baae1aeadb1b50e17c3b6e7cb1dbb3c0b3c8247",
+      "bytes": 136012
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S1_Identity_Space.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S1_Identity_Space.svg",
+      "sha256": "f6d69ddd24780f35b973514a1cf45fef77542bddaed0f47e00b7c80e7e2bc87c",
+      "blob": "06750b1326d95cb4b5b18f44b41206d8a4bc1d24",
+      "bytes": 4435
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S2_Unified_Operator.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S2_Unified_Operator.png",
+      "sha256": "633aff457f8fd4420817919105a3a28ed627aacd4573db4b884ed37df647d601",
+      "blob": "8ae61294bb1439ce907684dde876858efa406467",
+      "bytes": 118234
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S2_Unified_Operator.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S2_Unified_Operator.svg",
+      "sha256": "b7a4d415f7508194d79e7e2fa8285522b62d72fea617b6eab7cdde6c31ba8f51",
+      "blob": "ec9204b3e9a5f8e5c42b903b533e5d604e11f64f",
+      "bytes": 5116
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S3_Candidate_Modes.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S3_Candidate_Modes.png",
+      "sha256": "61b2ced72813cdc3b37c0f0aa82c73bb8c9b6d40c74673209cbe09d1aa0664ee",
+      "blob": "9a7168de41a96499efcee3d09f1426a8c0ffd637",
+      "bytes": 137759
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S3_Candidate_Modes.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S3_Candidate_Modes.svg",
+      "sha256": "00c69eba35be9f2d325b4332a508830617b3ddae58006262d76fe6852ce1af05",
+      "blob": "7d3bda25060049811072ccac2606d77b6591f3a8",
+      "bytes": 3233
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S4_Unified_Error.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S4_Unified_Error.png",
+      "sha256": "9c25b3cf57089a0fac10fce0f5f71cb391e61378e691f6e5325d68323ef270a2",
+      "blob": "451e28a7c56c8baa1033cf5c7b6e028af5e81104",
+      "bytes": 149317
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S4_Unified_Error.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S4_Unified_Error.svg",
+      "sha256": "80d589902ede600af5eaf59bc06e150c5031788c8f016906f578496962eecbf7",
+      "blob": "f8e7cc9ddf1ffa8abc34c89e26e2fb7fc6f4e4c6",
+      "bytes": 4616
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S5_FRW_Background.png": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S5_FRW_Background.png",
+      "sha256": "a42c6885e80b7376fefa8547d4979aa6a3ad5f77efd71cdad1cfc71ca9d3068e",
+      "blob": "5001db9c081dab6de466d0fdb2f74c4963f4413a",
+      "bytes": 99430
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplement_S5_FRW_Background.svg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplement_S5_FRW_Background.svg",
+      "sha256": "01a106d9d07563bdd6794aee5947ca2d509e56edd5f438cf3c5d8869d2fcb7d9",
+      "blob": "32fe9838635ccc560c1c4310d8f2e687867e1df8",
+      "bytes": 5402
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/supplemental_figures/Supplemental_Figure_Captions.json": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\supplemental_figures\\Supplemental_Figure_Captions.json",
+      "sha256": "3f1ac9300d90c678717dcad734d7189ce1a82c2e0b61d7db9d4f4637c4e5a7c4",
+      "blob": "f4bf71caba01bdff8d71293ab2280a9ba4636703",
+      "bytes": 2045
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Supplemental_Figures_Contact.jpg": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Supplemental_Figures_Contact.jpg",
+      "sha256": "113c7df0e7f96b18b6a7ff4fd42b3fbaf0b0b1f30da49ae964a619e71612d3f4",
+      "blob": "222894159e6dfed3c2f2b41d07ef82bb4460c81d",
+      "bytes": 153327
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/VIDEO_VERIFICATION.json": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\VIDEO_VERIFICATION.json",
+      "sha256": "3ad4508b4c8fed32b6268683bd8b4d8c8600cc314d8fadafbefc3d2b24bec81c",
+      "blob": "abc9f232501c8ac2ab1618a3962bf08a139f87fd",
+      "bytes": 893
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Voiceover_Script_Timed.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Voiceover_Script_Timed.txt",
+      "sha256": "46404546c099282c6d26a90a41de8899e69fdb36b488dadc61817c6606b5763f",
+      "blob": "8865bcab6803d0e88f04927b0498477413753130",
+      "bytes": 3621
+    },
+    "research-updates/2026-10-20/defining-sefi/jmp_video_clips/Voiceover_Transcript.txt": {
+      "source": "V:\\V Drive and GitHub Content\\Journal Submissions\\Defining SEFI\\jmp_video_clips\\Voiceover_Transcript.txt",
+      "sha256": "4b2ff1a9fd35893dad01ffd06f1892b7a08f32376e52bcfd4f56430831e57b1b",
+      "blob": "f94f9ab8a151d951333e965aa2e529bf32e652d5",
+      "bytes": 2533
+    }
+  },
+  "identical_content_aliases": [
+    {
+      "source": "jmp_video_clips/checked_figures/Fig1_Stability_Surface.jpg",
+      "identical_to": "Fig1_Stability_Surface.jpg"
+    },
+    {
+      "source": "jmp_video_clips/checked_figures/Fig2_Worldline_Geometry.jpg",
+      "identical_to": "Fig2_Worldline_Geometry.jpg"
+    },
+    {
+      "source": "jmp_video_clips/checked_figures/Fig3_Error_Displacement.jpg",
+      "identical_to": "Fig3_Error_Displacement.jpg"
+    },
+    {
+      "source": "jmp_video_clips/checked_figures/Fig4_Correction_Mapping.jpg",
+      "identical_to": "Fig4_Correction_Mapping.jpg"
+    },
+    {
+      "source": "jmp_video_clips/checked_figures/Fig5_Photonic_Implementation.jpg",
+      "identical_to": "Fig5_Photonic_Implementation.jpg"
+    },
+    {
+      "source": "jmp_video_clips/checked_figures/Highlight.jpg",
+      "identical_to": "Highlight.jpg"
+    },
+    {
+      "source": "jmp_video_clips/Fig1_Stability_Surface.jpg",
+      "identical_to": "Fig1_Stability_Surface.jpg"
+    },
+    {
+      "source": "jmp_video_clips/Fig2_Worldline_Geometry.jpg",
+      "identical_to": "Fig2_Worldline_Geometry.jpg"
+    },
+    {
+      "source": "jmp_video_clips/Fig3_Error_Displacement.jpg",
+      "identical_to": "Fig3_Error_Displacement.jpg"
+    },
+    {
+      "source": "jmp_video_clips/Fig4_Correction_Mapping.jpg",
+      "identical_to": "Fig4_Correction_Mapping.jpg"
+    },
+    {
+      "source": "jmp_video_clips/Fig5_Photonic_Implementation.jpg",
+      "identical_to": "Fig5_Photonic_Implementation.jpg"
+    },
+    {
+      "source": "jmp_video_clips/Highlight.jpg",
+      "identical_to": "Highlight.jpg"
+    },
+    {
+      "source": "jmp_video_clips/JMP_Graphical_Abstract_Upload.mp4",
+      "identical_to": "jmp_video_clips/JMP_Graphical_Abstract_Captioned_1080p.mp4"
+    },
+    {
+      "source": "jmp_video_clips/supplemental_figures/Supplement_S1_Identity_Space.jpg",
+      "identical_to": "jmp_video_clips/checked_figures/Supplement_S1_Identity_Space.jpg"
+    },
+    {
+      "source": "jmp_video_clips/supplemental_figures/Supplement_S2_Unified_Operator.jpg",
+      "identical_to": "jmp_video_clips/checked_figures/Supplement_S2_Unified_Operator.jpg"
+    },
+    {
+      "source": "jmp_video_clips/supplemental_figures/Supplement_S3_Candidate_Modes.jpg",
+      "identical_to": "jmp_video_clips/checked_figures/Supplement_S3_Candidate_Modes.jpg"
+    },
+    {
+      "source": "jmp_video_clips/supplemental_figures/Supplement_S4_Unified_Error.jpg",
+      "identical_to": "jmp_video_clips/checked_figures/Supplement_S4_Unified_Error.jpg"
+    },
+    {
+      "source": "jmp_video_clips/supplemental_figures/Supplement_S5_FRW_Background.jpg",
+      "identical_to": "jmp_video_clips/checked_figures/Supplement_S5_FRW_Background.jpg"
+    },
+    {
+      "source": "figure_sources/Fig1_Stability_Surface.svg",
+      "identical_to": "jmp_video_clips/production_source/manuscript_figure_sources/Fig1_Stability_Surface.svg"
+    },
+    {
+      "source": "figure_sources/Fig2_Worldline_Geometry.svg",
+      "identical_to": "jmp_video_clips/production_source/manuscript_figure_sources/Fig2_Worldline_Geometry.svg"
+    },
+    {
+      "source": "figure_sources/Fig3_Error_Displacement.svg",
+      "identical_to": "jmp_video_clips/production_source/manuscript_figure_sources/Fig3_Error_Displacement.svg"
+    },
+    {
+      "source": "figure_sources/Fig4_Correction_Mapping.svg",
+      "identical_to": "jmp_video_clips/production_source/manuscript_figure_sources/Fig4_Correction_Mapping.svg"
+    },
+    {
+      "source": "figure_sources/Fig5_Photonic_Implementation.svg",
+      "identical_to": "jmp_video_clips/production_source/manuscript_figure_sources/Fig5_Photonic_Implementation.svg"
+    },
+    {
+      "source": "figure_sources/Highlight.svg",
+      "identical_to": "jmp_video_clips/production_source/manuscript_figure_sources/Highlight.svg"
+    },
+    {
+      "source": "production_source/build_checked_supplemental_figures.py",
+      "identical_to": "jmp_video_clips/production_source/build_checked_supplemental_figures.py"
+    },
+    {
+      "source": "production_source/build_checked_jmp_video.py",
+      "identical_to": "jmp_video_clips/production_source/build_checked_jmp_video.py"
+    },
+    {
+      "source": "production_source/build_jmp_video_package.py",
+      "identical_to": "jmp_video_clips/production_source/build_jmp_video_package.py"
+    },
+    {
+      "source": "production_source/finish_checked_jmp_video.py",
+      "identical_to": "jmp_video_clips/production_source/finish_checked_jmp_video.py"
+    },
+    {
+      "source": "production_source/verify_deliver_jmp_video.py",
+      "identical_to": "jmp_video_clips/production_source/verify_deliver_jmp_video.py"
+    }
+  ],
+  "scope": "Author manuscript and media archive; previous versions preserved."
+}

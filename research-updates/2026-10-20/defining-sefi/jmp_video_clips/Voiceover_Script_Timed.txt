@@ -1,0 +1,39 @@
+AUTHOR VOICE-OVER | 150 seconds
+
+Speak naturally, approximately 125-135 words per minute, allowing the chapter pauses. Follow the timestamps; do not read headings aloud. Record in a quiet room with a consistent microphone distance. The supplied video has no recorded narration. Do not read equations symbol by symbol; follow this spoken explanation.
+
+00:00:00.000 - 00:00:08.000 | One proposed geometric framework
+I am Jason Duran Dutton. This manuscript proposes a framework connecting worldline geometry, identity-space structure, and dynamical invariants.
+
+00:00:08.000 - 00:00:20.000 | Three connected ingredients
+The starting point is a proposed single continuous entity. The model combines its spacetime geometry with four identity coordinates and invariants preserved during ideal evolution.
+
+00:00:20.000 - 00:00:32.000 | Worldline geometry
+A local geometric frame describes worldline curvature and torsion. These diagrams show conceptual relationships, not calculated particle trajectories or experimentally measured paths.
+
+00:00:32.000 - 00:00:44.000 | Identity-space structure
+Origin, Authorship, Sovereignty, and Warp Expression form the proposed identity coordinates. Their physical interpretation and measurement require further specification. The diagram projects a four-dimensional construction.
+
+00:00:44.000 - 00:01:00.000 | The proposed unified operator
+The unified operator combines spacetime and identity-space derivatives with three potentials. Its mathematical properties depend on the metrics, coefficients, domain, and boundary conditions. The expression defines a proposed model; physical validity requires further tests.
+
+00:01:00.000 - 00:01:12.000 | Candidate modes, not identified particles
+The eigenvalue problem describes candidate excitations. Its modes and spectral values must be calculated. Identifying a mode with an observed particle requires comparison with measured properties.
+
+00:01:12.000 - 00:01:26.000 | The proposed stability manifold
+A proposed stability manifold collects ideal geometric, identity, and dynamical conditions. Preserving these conditions organizes the framework. This schematic does not prove that nearby disturbances decay.
+
+00:01:26.000 - 00:01:38.000 | Describe departures explicitly
+The error description combines geometric, identity, and dynamical departures. Displacement points away from a projected reference state, separating the definition of an error from its correction.
+
+00:01:38.000 - 00:01:50.000 | Correction as a proposed projection
+Correction is proposed as projection onto the stability manifold, where that projection is well defined. It specifies a target; a physical recovery process must be established separately.
+
+00:01:50.000 - 00:02:06.000 | Photonic application
+For photons, the proposed syndrome uses curvature, torsion, frequency, and polarization deviations. Weak or quantum-nondemolition sampling is discussed conceptually. No detector, decoder, lost-photon recovery, or error-correction advantage is demonstrated by these figures.
+
+00:02:06.000 - 00:02:18.000 | A cosmological extension
+An expanding cosmological background extends the framework. These slices are schematic. Scaling of spatial derivative terms alone does not establish the full spectrum or explain inflation.
+
+00:02:18.000 - 00:02:30.000 | A proposal for mathematical evaluation
+The contribution is a proposed mathematical organization. Precise operator analysis, specified dynamics, and discriminating predictions are essential next tests. Identification with observed matter and experimental advantages remain open.

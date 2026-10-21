@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1800" viewBox="0 0 3000 1800">
+<rect width="3000" height="1800" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#162332}.math{font-family:Cambria,"Times New Roman",serif}.muted{fill:#475766}</style>
+<defs>
+<marker id="curve" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#2a6d94"/></marker>
+<marker id="tangent" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#2a6d94"/></marker>
+<marker id="normal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#b45b23"/></marker>
+<marker id="binormal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#638348"/></marker>
+</defs>
+<text x="120" y="140" font-size="76" text-anchor="start" class="" font-weight="bold">Unified error description</text>
+<text x="120" y="218" font-size="43" text-anchor="start" class="muted" font-weight="normal">Geometric, identity-space and dynamical deviations listed in the manuscript</text>
+<line x1="120" y1="263" x2="2880" y2="263" stroke="#c6d0d8" stroke-width="3"/>
+<rect x="120" y="420" width="840" height="640" rx="18" fill="#2a6d94" fill-opacity="0.045" stroke="#2a6d94" stroke-width="4"/>
+<text x="540" y="535" font-size="53" text-anchor="middle" class="" font-weight="bold">Geometric sector</text>
+<text x="540" y="735" font-size="76" text-anchor="middle" class="math" font-weight="normal">d<tspan dy="12" font-size="68%">N</tspan><tspan dy="-12">&#8203;</tspan>, d<tspan dy="12" font-size="68%">B</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="540" y="905" font-size="76" text-anchor="middle" class="math" font-weight="normal">Δκ, Δτ<tspan dy="12" font-size="68%">g</tspan><tspan dy="-12">&#8203;</tspan></text>
+<line x1="540" y1="1085" x2="540" y2="1190" stroke="#2a6d94" stroke-width="7" marker-end="url(#tangent)"/>
+<rect x="1080" y="420" width="840" height="640" rx="18" fill="#b45b23" fill-opacity="0.045" stroke="#b45b23" stroke-width="4"/>
+<text x="1500" y="535" font-size="53" text-anchor="middle" class="" font-weight="bold">Identity sector</text>
+<text x="1500" y="735" font-size="76" text-anchor="middle" class="math" font-weight="normal">d<tspan dy="12" font-size="68%">O</tspan><tspan dy="-12">&#8203;</tspan>, d<tspan dy="12" font-size="68%">A</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="1500" y="905" font-size="76" text-anchor="middle" class="math" font-weight="normal">d<tspan dy="12" font-size="68%">S</tspan><tspan dy="-12">&#8203;</tspan>, d<tspan dy="12" font-size="68%">W</tspan><tspan dy="-12">&#8203;</tspan></text>
+<line x1="1500" y1="1085" x2="1500" y2="1190" stroke="#2a6d94" stroke-width="7" marker-end="url(#tangent)"/>
+<rect x="2040" y="420" width="840" height="640" rx="18" fill="#638348" fill-opacity="0.045" stroke="#638348" stroke-width="4"/>
+<text x="2460" y="535" font-size="53" text-anchor="middle" class="" font-weight="bold">Dynamical sector</text>
+<text x="2460" y="735" font-size="70" text-anchor="middle" class="math" font-weight="normal">Δ(dI<tspan dy="-20" font-size="68%">a</tspan><tspan dy="20">&#8203;</tspan>/dτ)</text>
+<text x="2460" y="905" font-size="70" text-anchor="middle" class="math" font-weight="normal">Δ(d<tspan dy="-20" font-size="68%">2</tspan><tspan dy="20">&#8203;</tspan>I<tspan dy="-20" font-size="68%">a</tspan><tspan dy="20">&#8203;</tspan>/dτ<tspan dy="-20" font-size="68%">2</tspan><tspan dy="20">&#8203;</tspan>)</text>
+<line x1="2460" y1="1085" x2="2460" y2="1190" stroke="#2a6d94" stroke-width="7" marker-end="url(#tangent)"/>
+<rect x="120" y="1220" width="2760" height="310" rx="18" fill="#176779" fill-opacity="0.045" stroke="#176779" stroke-width="4"/>
+<text x="1500" y="1340" font-size="65" text-anchor="middle" class="math" font-weight="normal">E(τ) = (geometric, identity, dynamical components)</text>
+<text x="1500" y="1450" font-size="43" text-anchor="middle" class="muted" font-weight="normal">Velocity and acceleration deviations are not renamed as inertial or interaction coordinates.</text>
+<line x1="120" y1="1650" x2="2880" y2="1650" stroke="#c6d0d8" stroke-width="3"/>
+<text x="120" y="1720" font-size="36" text-anchor="start" class="muted" font-weight="normal">Component labels follow the manuscript; the diagram does not supply a measured error model.</text>
+</svg>

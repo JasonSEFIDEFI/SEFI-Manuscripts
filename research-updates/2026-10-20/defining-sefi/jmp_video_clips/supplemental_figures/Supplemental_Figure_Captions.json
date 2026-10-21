@@ -1,0 +1,27 @@
+[
+  {
+    "filename": "Supplement_S1_Identity_Space.png",
+    "caption": "Four proposed identity coordinates and the positive diagonal identity metric specified for the manuscript Hilbert-space construction. The cards label coordinates without asserting a measurable orthonormal embedding.",
+    "scope": "Internal coordinates of the proposed model; no experimental coordinate measurements are shown."
+  },
+  {
+    "filename": "Supplement_S2_Unified_Operator.png",
+    "caption": "The proposed differential operator and its three potentials, reproducing the manuscript definitions. No claim about self-adjointness, spectrum or physical identification follows from this expression alone.",
+    "scope": "A defined operator expression; its properties require a specified domain, metrics and boundary conditions."
+  },
+  {
+    "filename": "Supplement_S3_Candidate_Modes.png",
+    "caption": "Schematic organization of the eigenmode problem. The figure contains no computed eigenfunctions, invented level spacing, assumed one-dimensional eigenspaces or asserted identification with particles.",
+    "scope": "No eigenfunctions or spectral values are calculated in this diagram."
+  },
+  {
+    "filename": "Supplement_S4_Unified_Error.png",
+    "caption": "Grouping of the error-vector components defined in the manuscript. The dynamical entries denote deviations of identity-space velocity and acceleration, without introducing new inertial or interaction variables.",
+    "scope": "Component labels follow the manuscript; the diagram does not supply a measured error model."
+  },
+  {
+    "filename": "Supplement_S5_FRW_Background.png",
+    "caption": "Schematic expanding grid patches at successive times and the standard definition of the Hubble parameter. Patch sizes are illustrative; they do not specify a cosmological solution, spatial curvature, inflation mechanism or full operator spectrum.",
+    "scope": "Schematic grid patches only; no expansion data, inflation result or spectral prediction is plotted."
+  }
+]

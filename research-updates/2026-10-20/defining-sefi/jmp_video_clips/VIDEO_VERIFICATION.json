@@ -1,0 +1,35 @@
+{
+  "JMP_Graphical_Abstract_Clean_1080p.mp4": {
+    "bytes": 2368070,
+    "duration": 150.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "24/1",
+    "has_recorded_narration": false
+  },
+  "JMP_Graphical_Abstract_Captioned_1080p.mp4": {
+    "bytes": 3800585,
+    "duration": 150.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "24/1",
+    "has_recorded_narration": false
+  },
+  "JMP_Graphical_Abstract_Upload.mp4": {
+    "bytes": 3800585,
+    "duration": 150.0,
+    "codec": "h264",
+    "pixel_format": "yuv420p",
+    "width": 1920,
+    "height": 1080,
+    "frame_rate": "24/1",
+    "has_recorded_narration": false
+  },
+  "script_word_count": 315,
+  "narration_words_per_minute": 126.0,
+  "original_images_sha256_checked": true
+}

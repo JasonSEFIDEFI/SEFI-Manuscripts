@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1800" viewBox="0 0 3000 1800">
+<rect width="3000" height="1800" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#162332}.math{font-family:Cambria,"Times New Roman",serif}.muted{fill:#475766}</style>
+<defs>
+<marker id="curve" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#2a6d94"/></marker>
+<marker id="tangent" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#2a6d94"/></marker>
+<marker id="normal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#b45b23"/></marker>
+<marker id="binormal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#638348"/></marker>
+</defs>
+<text x="120" y="140" font-size="76" text-anchor="start" class="" font-weight="bold">Candidate eigenmode relation</text>
+<text x="120" y="218" font-size="43" text-anchor="start" class="muted" font-weight="normal">A mathematical problem to solve, without invented eigenfunctions or spectral values</text>
+<line x1="120" y1="263" x2="2880" y2="263" stroke="#c6d0d8" stroke-width="3"/>
+<rect x="120" y="420" width="830" height="780" rx="18" fill="#2a6d94" fill-opacity="0.045" stroke="#2a6d94" stroke-width="4"/>
+<rect x="1085" y="420" width="1795" height="780" rx="18" fill="#176779" fill-opacity="0.045" stroke="#176779" stroke-width="4"/>
+<text x="535" y="545" font-size="51" text-anchor="middle" class="" font-weight="bold">Specify the problem</text>
+<text x="535" y="700" font-size="49" text-anchor="middle" class="" font-weight="normal">Metrics and potentials</text>
+<text x="535" y="855" font-size="49" text-anchor="middle" class="" font-weight="normal">Operator domain</text>
+<text x="535" y="1010" font-size="49" text-anchor="middle" class="" font-weight="normal">Boundary conditions</text>
+<line x1="967" y1="810" x2="1063" y2="810" stroke="#2a6d94" stroke-width="7" marker-end="url(#tangent)"/>
+<text x="1982" y="600" font-size="56" text-anchor="middle" class="" font-weight="bold">Candidate mode equation</text>
+<text x="1982" y="805" font-size="110" text-anchor="middle" class="math" font-weight="normal">TΨ<tspan dy="12" font-size="68%">n</tspan><tspan dy="-12">&#8203;</tspan> = λ<tspan dy="12" font-size="68%">n</tspan><tspan dy="-12">&#8203;</tspan>Ψ<tspan dy="12" font-size="68%">n</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="1982" y="1010" font-size="48" text-anchor="middle" class="muted" font-weight="normal">Modes and spectral values must be calculated.</text>
+<text x="1500" y="1390" font-size="55" text-anchor="middle" class="" font-weight="normal">Particle identification requires masses, charges, spins and couplings.</text>
+<line x1="120" y1="1650" x2="2880" y2="1650" stroke="#c6d0d8" stroke-width="3"/>
+<text x="120" y="1720" font-size="36" text-anchor="start" class="muted" font-weight="normal">No eigenfunctions or spectral values are calculated in this diagram.</text>
+</svg>

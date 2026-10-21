@@ -1,0 +1,36 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+WrapStyle: 0
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Arial,30,&H00322316,&H00322316,&H00FFFFFF,&H00FFFFFF,0,0,0,0,100,100,0,0,3,1,0,2,75,75,36,1
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.00,0:00:06.67,Default,,0,0,0,,I am Jason Duran Dutton. This manuscript proposes a framework connecting worldline geometry,\Nidentity-space structure,
+Dialogue: 0,0:00:06.67,0:00:08.00,Default,,0,0,0,,and dynamical invariants.
+Dialogue: 0,0:00:08.00,0:00:15.20,Default,,0,0,0,,The starting point is a proposed single continuous entity. The model combines its spacetime\Ngeometry
+Dialogue: 0,0:00:15.20,0:00:20.00,Default,,0,0,0,,with four identity coordinates and invariants preserved during ideal evolution.
+Dialogue: 0,0:00:20.00,0:00:28.18,Default,,0,0,0,,A local geometric frame describes worldline curvature and torsion. These diagrams show\Nconceptual relationships, not
+Dialogue: 0,0:00:28.18,0:00:32.00,Default,,0,0,0,,calculated particle trajectories or experimentally measured paths.
+Dialogue: 0,0:00:32.00,0:00:39.20,Default,,0,0,0,,Origin, Authorship, Sovereignty, and Warp Expression form the proposed identity coordinates.\NTheir physical interpretation and
+Dialogue: 0,0:00:39.20,0:00:44.00,Default,,0,0,0,,measurement require further specification. The diagram projects a four-dimensional construction.
+Dialogue: 0,0:00:44.00,0:00:51.06,Default,,0,0,0,,The unified operator combines spacetime and identity-space derivatives with three potentials.\NIts mathematical properties depend
+Dialogue: 0,0:00:51.06,0:00:58.12,Default,,0,0,0,,on the metrics, coefficients, domain, and boundary conditions. The expression defines a proposed\Nmodel; physical
+Dialogue: 0,0:00:58.12,0:01:00.00,Default,,0,0,0,,validity requires further tests.
+Dialogue: 0,0:01:00.00,0:01:06.92,Default,,0,0,0,,The eigenvalue problem describes candidate excitations. Its modes and spectral values must be\Ncalculated. Identifying
+Dialogue: 0,0:01:06.92,0:01:12.00,Default,,0,0,0,,a mode with an observed particle requires comparison with measured properties.
+Dialogue: 0,0:01:12.00,0:01:20.08,Default,,0,0,0,,A proposed stability manifold collects ideal geometric, identity, and dynamical conditions.\NPreserving these conditions organizes
+Dialogue: 0,0:01:20.08,0:01:26.00,Default,,0,0,0,,the framework. This schematic does not prove that nearby disturbances decay.
+Dialogue: 0,0:01:26.00,0:01:32.92,Default,,0,0,0,,The error description combines geometric, identity, and dynamical departures. Displacement\Npoints away from a projected
+Dialogue: 0,0:01:32.92,0:01:38.00,Default,,0,0,0,,reference state, separating the definition of an error from its correction.
+Dialogue: 0,0:01:38.00,0:01:44.67,Default,,0,0,0,,Correction is proposed as projection onto the stability manifold, where that projection is well\Ndefined.
+Dialogue: 0,0:01:44.67,0:01:50.00,Default,,0,0,0,,It specifies a target; a physical recovery process must be established separately.
+Dialogue: 0,0:01:50.00,0:01:57.50,Default,,0,0,0,,For photons, the proposed syndrome uses curvature, torsion, frequency, and polarization\Ndeviations. Weak or quantum-nondemolition
+Dialogue: 0,0:01:57.50,0:02:05.00,Default,,0,0,0,,sampling is discussed conceptually. No detector, decoder, lost-photon recovery, or error-\Ncorrection advantage is demonstrated by
+Dialogue: 0,0:02:05.00,0:02:06.00,Default,,0,0,0,,these figures.
+Dialogue: 0,0:02:06.00,0:02:12.92,Default,,0,0,0,,An expanding cosmological background extends the framework. These slices are schematic. Scaling\Nof spatial derivative
+Dialogue: 0,0:02:12.92,0:02:18.00,Default,,0,0,0,,terms alone does not establish the full spectrum or explain inflation.
+Dialogue: 0,0:02:18.00,0:02:24.43,Default,,0,0,0,,The contribution is a proposed mathematical organization. Precise operator analysis, specified\Ndynamics, and discriminating predictions
+Dialogue: 0,0:02:24.43,0:02:30.00,Default,,0,0,0,,are essential next tests. Identification with observed matter and experimental advantages remain\Nopen.

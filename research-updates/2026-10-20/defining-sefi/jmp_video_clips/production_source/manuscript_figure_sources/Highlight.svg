@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="3000" height="1800" viewBox="0 0 3000 1800">
+<rect width="3000" height="1800" fill="white"/>
+<style>text{font-family:Arial,sans-serif;fill:#162332}.math{font-family:Cambria,"Times New Roman",serif}.muted{fill:#475766}</style>
+<defs>
+<marker id="curve" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#2a6d94"/></marker>
+<marker id="tangent" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#2a6d94"/></marker>
+<marker id="normal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#b45b23"/></marker>
+<marker id="binormal" viewBox="0 0 12 12" refX="10" refY="6" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L12,6 L0,12 Z" fill="#638348"/></marker>
+</defs>
+<text x="120" y="140" font-size="76" text-anchor="start" class="" font-weight="bold">Unified geometric field framework</text>
+<text x="120" y="218" font-size="43" text-anchor="start" class="muted" font-weight="normal">Worldline geometry + identity space + dynamical invariants</text>
+<line x1="120" y1="263" x2="2880" y2="263" stroke="#c6d0d8" stroke-width="3"/>
+<rect x="120" y="340" width="840" height="400" rx="18" fill="#2a6d94" fill-opacity="0.055" stroke="#2a6d94" stroke-width="4"/>
+<rect x="1080" y="340" width="840" height="400" rx="18" fill="#b45b23" fill-opacity="0.055" stroke="#b45b23" stroke-width="4"/>
+<rect x="2040" y="340" width="840" height="400" rx="18" fill="#638348" fill-opacity="0.055" stroke="#638348" stroke-width="4"/>
+<text x="540" y="412" font-size="44" text-anchor="middle" class="" font-weight="bold">Worldline geometry</text>
+<text x="540" y="465" font-size="34" text-anchor="middle" class="muted" font-weight="normal">GWFM</text>
+<polyline points="260.00,555.00 262.81,556.52 265.63,558.03 268.44,559.54 271.26,561.05 274.07,562.55 276.88,564.04 279.70,565.52 282.51,567.00 285.33,568.46 288.14,569.90 290.95,571.34 293.77,572.75 296.58,574.15 299.40,575.53 302.21,576.89 305.03,578.23 307.84,579.54 310.65,580.83 313.47,582.10 316.28,583.34 319.10,584.55 321.91,585.72 324.72,586.87 327.54,587.99 330.35,589.07 333.17,590.13 335.98,591.14 338.79,592.12 341.61,593.06 344.42,593.97 347.24,594.83 350.05,595.66 352.86,596.44 355.68,597.19 358.49,597.89 361.31,598.55 364.12,599.16 366.93,599.73 369.75,600.26 372.56,600.74 375.38,601.18 378.19,601.57 381.01,601.91 383.82,602.21 386.63,602.46 389.45,602.66 392.26,602.82 395.08,602.93 397.89,602.99 400.70,603.00 403.52,602.96 406.33,602.88 409.15,602.75 411.96,602.57 414.77,602.34 417.59,602.07 420.40,601.75 423.22,601.38 426.03,600.97 428.84,600.51 431.66,600.00 434.47,599.45 437.29,598.86 440.10,598.22 442.91,597.54 445.73,596.82 448.54,596.05 451.36,595.25 454.17,594.40 456.98,593.52 459.80,592.60 462.61,591.63 465.43,590.64 468.24,589.60 471.06,588.54 473.87,587.44 476.68,586.30 479.50,585.14 482.31,583.94 485.13,582.72 487.94,581.47 490.75,580.19 493.57,578.89 496.38,577.56 499.20,576.22 502.01,574.85 504.82,573.46 507.64,572.05 510.45,570.62 513.27,569.18 516.08,567.73 518.89,566.26 521.71,564.78 524.52,563.29 527.34,561.80 530.15,560.29 532.96,558.78 535.78,557.27 538.59,555.76 541.41,554.24 544.22,552.73 547.04,551.22 549.85,549.71 552.66,548.20 555.48,546.71 558.29,545.22 561.11,543.74 563.92,542.27 566.73,540.82 569.55,539.38 572.36,537.95 575.18,536.54 577.99,535.15 580.80,533.78 583.62,532.44 586.43,531.11 589.25,529.81 592.06,528.53 594.87,527.28 597.69,526.06 600.50,524.86 603.32,523.70 606.13,522.56 608.94,521.46 611.76,520.40 614.57,519.36 617.39,518.37 620.20,517.40 623.02,516.48 625.83,515.60 628.64,514.75 631.46,513.95 634.27,513.18 637.09,512.46 639.90,511.78 642.71,511.14 645.53,510.55 648.34,510.00 651.16,509.49 653.97,509.03 656.78,508.62 659.60,508.25 662.41,507.93 665.23,507.66 668.04,507.43 670.85,507.25 673.67,507.12 676.48,507.04 679.30,507.00 682.11,507.01 684.92,507.07 687.74,507.18 690.55,507.34 693.37,507.54 696.18,507.79 698.99,508.09 701.81,508.43 704.62,508.82 707.44,509.26 710.25,509.74 713.07,510.27 715.88,510.84 718.69,511.45 721.51,512.11 724.32,512.81 727.14,513.56 729.95,514.34 732.76,515.17 735.58,516.03 738.39,516.94 741.21,517.88 744.02,518.86 746.83,519.87 749.65,520.93 752.46,522.01 755.28,523.13 758.09,524.28 760.90,525.45 763.72,526.66 766.53,527.90 769.35,529.17 772.16,530.46 774.97,531.77 777.79,533.11 780.60,534.47 783.42,535.85 786.23,537.25 789.05,538.66 791.86,540.10 794.67,541.54 797.49,543.00 800.30,544.48 803.12,545.96 805.93,547.45 808.74,548.95 811.56,550.46 814.37,551.97 817.19,553.48 820.00,555.00" fill="none" stroke="#2a6d94" stroke-width="7"/>
+<text x="540" y="676" font-size="45" text-anchor="middle" class="math" font-weight="normal">Curvature κ; torsion τ<tspan dy="12" font-size="68%">g</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="1500" y="412" font-size="44" text-anchor="middle" class="" font-weight="bold">Identity space</text>
+<text x="1500" y="465" font-size="34" text-anchor="middle" class="muted" font-weight="normal">SEFI</text>
+<circle cx="1230" cy="555" r="43" fill="white" stroke="#b45b23" stroke-width="4"/>
+<text x="1230" y="571" font-size="43" text-anchor="middle" class="math" font-weight="normal">O</text>
+<circle cx="1410" cy="555" r="43" fill="white" stroke="#b45b23" stroke-width="4"/>
+<text x="1410" y="571" font-size="43" text-anchor="middle" class="math" font-weight="normal">A</text>
+<circle cx="1590" cy="555" r="43" fill="white" stroke="#b45b23" stroke-width="4"/>
+<text x="1590" y="571" font-size="43" text-anchor="middle" class="math" font-weight="normal">S</text>
+<circle cx="1770" cy="555" r="43" fill="white" stroke="#b45b23" stroke-width="4"/>
+<text x="1770" y="571" font-size="43" text-anchor="middle" class="math" font-weight="normal">W</text>
+<text x="1500" y="676" font-size="45" text-anchor="middle" class="math" font-weight="normal">I = (I<tspan dy="12" font-size="68%">O</tspan><tspan dy="-12">&#8203;</tspan>, I<tspan dy="12" font-size="68%">A</tspan><tspan dy="-12">&#8203;</tspan>, I<tspan dy="12" font-size="68%">S</tspan><tspan dy="-12">&#8203;</tspan>, I<tspan dy="12" font-size="68%">W</tspan><tspan dy="-12">&#8203;</tspan>)</text>
+<text x="2460" y="412" font-size="44" text-anchor="middle" class="" font-weight="bold">Dynamical invariants</text>
+<text x="2460" y="465" font-size="34" text-anchor="middle" class="muted" font-weight="normal">DEFI</text>
+<text x="2460" y="550" font-size="36" text-anchor="middle" class="muted" font-weight="normal">Ideal evolution preserves</text>
+<text x="2460" y="615" font-size="47" text-anchor="middle" class="math" font-weight="normal">κ, τ<tspan dy="12" font-size="68%">g</tspan><tspan dy="-12">&#8203;</tspan>, dI/dτ, d<tspan dy="-20" font-size="68%">2</tspan><tspan dy="20">&#8203;</tspan>I/dτ<tspan dy="-20" font-size="68%">2</tspan><tspan dy="20">&#8203;</tspan></text>
+<text x="2460" y="681" font-size="40" text-anchor="middle" class="math" font-weight="normal">D/dτ (invariants) = 0</text>
+<line x1="540" y1="755" x2="540" y2="831" stroke="#2a6d94" stroke-width="6" marker-end="url(#tangent)"/>
+<line x1="1500" y1="755" x2="1500" y2="831" stroke="#2a6d94" stroke-width="6" marker-end="url(#tangent)"/>
+<line x1="2460" y1="755" x2="2460" y2="831" stroke="#2a6d94" stroke-width="6" marker-end="url(#tangent)"/>
+<rect x="120" y="850" width="2760" height="340" rx="18" fill="#176779" fill-opacity="0.055" stroke="#176779" stroke-width="4"/>
+<text x="1500" y="921" font-size="45" text-anchor="middle" class="" font-weight="bold">Proposed unified operator acting on Ψ(x, I)</text>
+<text x="1500" y="1015" font-size="68" text-anchor="middle" class="math" font-weight="normal">T = T<tspan dy="12" font-size="68%">M</tspan><tspan dy="-12">&#8203;</tspan> + T<tspan dy="12" font-size="68%">I</tspan><tspan dy="-12">&#8203;</tspan> + V<tspan dy="12" font-size="68%">geom</tspan><tspan dy="-12">&#8203;</tspan> + V<tspan dy="12" font-size="68%">ident</tspan><tspan dy="-12">&#8203;</tspan> + V<tspan dy="12" font-size="68%">dyn</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="1500" y="1111" font-size="52" text-anchor="middle" class="math" font-weight="normal">T<tspan dy="12" font-size="68%">M</tspan><tspan dy="-12">&#8203;</tspan> = −g<tspan dy="-20" font-size="68%">μν</tspan><tspan dy="20">&#8203;</tspan>∇<tspan dy="12" font-size="68%">μ</tspan><tspan dy="-12">&#8203;</tspan>∇<tspan dy="12" font-size="68%">ν</tspan><tspan dy="-12">&#8203;</tspan> ;  T<tspan dy="12" font-size="68%">I</tspan><tspan dy="-12">&#8203;</tspan> = g<tspan dy="12" font-size="68%">I</tspan><tspan dy="-12">&#8203;</tspan><tspan dy="-20" font-size="68%">ab</tspan><tspan dy="20">&#8203;</tspan>∇<tspan dy="12" font-size="68%">a</tspan><tspan dy="-12">&#8203;</tspan>∇<tspan dy="12" font-size="68%">b</tspan><tspan dy="-12">&#8203;</tspan></text>
+<line x1="540" y1="1205" x2="540" y2="1280" stroke="#2a6d94" stroke-width="6" marker-end="url(#tangent)"/>
+<line x1="1500" y1="1205" x2="1500" y2="1280" stroke="#2a6d94" stroke-width="6" marker-end="url(#tangent)"/>
+<line x1="2460" y1="1205" x2="2460" y2="1280" stroke="#2a6d94" stroke-width="6" marker-end="url(#tangent)"/>
+<rect x="120" y="1300" width="840" height="270" rx="18" fill="#2a6d94" fill-opacity="0.055" stroke="#2a6d94" stroke-width="4"/>
+<rect x="1080" y="1300" width="840" height="270" rx="18" fill="#176779" fill-opacity="0.055" stroke="#176779" stroke-width="4"/>
+<rect x="2040" y="1300" width="840" height="270" rx="18" fill="#638348" fill-opacity="0.055" stroke="#638348" stroke-width="4"/>
+<text x="540" y="1374" font-size="43" text-anchor="middle" class="" font-weight="bold">Candidate modes</text>
+<text x="540" y="1450" font-size="54" text-anchor="middle" class="math" font-weight="normal">TΨ<tspan dy="12" font-size="68%">n</tspan><tspan dy="-12">&#8203;</tspan> = λ<tspan dy="12" font-size="68%">n</tspan><tspan dy="-12">&#8203;</tspan>Ψ<tspan dy="12" font-size="68%">n</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="540" y="1523" font-size="32" text-anchor="middle" class="muted" font-weight="normal">Physical identification requires testing</text>
+<text x="1500" y="1374" font-size="43" text-anchor="middle" class="" font-weight="bold">Stability and projection</text>
+<text x="1500" y="1450" font-size="54" text-anchor="middle" class="math" font-weight="normal">Σ;  C = Π<tspan dy="12" font-size="68%">Σ</tspan><tspan dy="-12">&#8203;</tspan></text>
+<text x="1500" y="1523" font-size="32" text-anchor="middle" class="muted" font-weight="normal">Geometric and identity constraints</text>
+<text x="2460" y="1374" font-size="43" text-anchor="middle" class="" font-weight="bold">Photonic application</text>
+<text x="2460" y="1450" font-size="43" text-anchor="middle" class="math" font-weight="normal">S<tspan dy="12" font-size="68%">ph</tspan><tspan dy="-12">&#8203;</tspan> = (Δκ, Δτ<tspan dy="12" font-size="68%">g</tspan><tspan dy="-12">&#8203;</tspan>, Δω, Δθ<tspan dy="12" font-size="68%">pol</tspan><tspan dy="-12">&#8203;</tspan>)</text>
+<text x="2460" y="1523" font-size="32" text-anchor="middle" class="muted" font-weight="normal">Proposed syndrome framework</text>
+<line x1="120" y1="1650" x2="2880" y2="1650" stroke="#c6d0d8" stroke-width="3"/>
+<text x="120" y="1720" font-size="34" text-anchor="start" class="muted" font-weight="normal">Conceptual summary of the manuscript; arrows show mathematical organization, not experimental validation.</text>
+</svg>

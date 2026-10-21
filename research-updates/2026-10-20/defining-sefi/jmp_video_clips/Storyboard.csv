@@ -1,0 +1,14 @@
+chapter,title,start,duration,asset,crop
+1,One proposed geometric framework,0.0,8.0,Highlight.jpg,
+2,Three connected ingredients,8.0,12.0,supplemental_figures/Supplement_S2_Unified_Operator.png,
+3,Worldline geometry,20.0,12.0,Fig2_Worldline_Geometry.jpg,"(210, 430, 1680, 1570)"
+4,Identity-space structure,32.0,12.0,supplemental_figures/Supplement_S1_Identity_Space.png,
+5,The proposed unified operator,44.0,16.0,supplemental_figures/Supplement_S2_Unified_Operator.png,
+6,"Candidate modes, not identified particles",60.0,12.0,supplemental_figures/Supplement_S3_Candidate_Modes.png,
+7,The proposed stability manifold,72.0,14.0,Fig1_Stability_Surface.jpg,"(170, 350, 1700, 1635)"
+8,Describe departures explicitly,86.0,6.0,Fig3_Error_Displacement.jpg,"(165, 420, 1660, 1590)"
+8,Describe departures explicitly,92.0,6.0,supplemental_figures/Supplement_S4_Unified_Error.png,
+9,Correction as a proposed projection,98.0,12.0,Fig4_Correction_Mapping.jpg,"(165, 420, 1660, 1590)"
+10,Photonic application,110.0,16.0,Fig5_Photonic_Implementation.jpg,
+11,A cosmological extension,126.0,12.0,supplemental_figures/Supplement_S5_FRW_Background.png,
+12,A proposal for mathematical evaluation,138.0,12.0,Highlight.jpg,

@@ -1,0 +1,1 @@
+These are production source records. The builders reference the original workspace paths, the bundled Python runtime, Pillow, resvg_py, Windows fonts and C:/ffmpeg. They are not a standalone installer. The checked build is build_checked_jmp_video.py; the base builder is superseded for final asset selection.
