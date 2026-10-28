@@ -1,0 +1,91 @@
+1
+00:00:00,600 --> 00:00:05,740
+My research explores a geometric interpretation of how photonic
+
+2
+00:00:05,660 --> 00:00:09,420
+systems depart from an intended configuration and how a
+
+3
+00:00:09,340 --> 00:00:11,620
+mathematical model can describe their return.
+
+4
+00:00:12,220 --> 00:00:16,760
+The Single Entity Field Interpretation describes proposed identity constraints.
+
+5
+00:00:17,320 --> 00:00:20,780
+The Geometric Worldline Field Model describes trajectory geometry.
+
+6
+00:00:21,380 --> 00:00:25,460
+Dynamic Entity Field Integration proposes a connection between those
+
+7
+00:00:25,380 --> 00:00:26,920
+constraints and their evolution.
+
+8
+00:00:27,520 --> 00:00:30,960
+In the illustrated example, a reference trajectory lies on
+
+9
+00:00:30,880 --> 00:00:32,220
+a saddle-shaped surface.
+
+10
+00:00:32,820 --> 00:00:37,180
+A deliberately introduced vertical perturbation moves trajectory away from
+
+11
+00:00:37,100 --> 00:00:37,820
+that surface.
+
+12
+00:00:38,420 --> 00:00:42,860
+A prescribed vertical projection then returns the trajectory to
+
+13
+00:00:42,780 --> 00:00:45,920
+the surface. The residual becomes zero by construction.
+
+14
+00:00:46,520 --> 00:00:50,420
+This verifies the chosen mathematical operation rather than demonstrating
+
+15
+00:00:50,340 --> 00:00:52,140
+physical quantum error correction.
+
+16
+00:00:52,740 --> 00:00:56,140
+The next step is to connect these geometric quantities
+
+17
+00:00:56,060 --> 00:01:00,300
+to measurable optical behavior, specify a physically allowed recovery
+
+18
+00:01:00,220 --> 00:01:04,660
+operation and test projections against established methods and experimental
+
+19
+00:01:04,580 --> 00:01:05,180
+evidence.
+
+20
+00:01:05,780 --> 00:01:12,180
+The deliverables include reproducible calculations, diagrams, numerical data, and
+
+21
+00:01:12,100 --> 00:01:13,140
+research manuscripts.
+
+22
+00:01:13,740 --> 00:01:18,020
+Together they present a proposed direction for investigation with
+
+23
+00:01:17,940 --> 00:01:20,180
+assumptions and limitations stated openly.

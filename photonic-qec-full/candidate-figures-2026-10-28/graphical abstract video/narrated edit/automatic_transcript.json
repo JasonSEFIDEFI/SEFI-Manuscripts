@@ -1,0 +1,934 @@
+[
+  {
+    "file": "1.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 10.94,
+        "text": " My research explores a geometric interpretation of how photonic systems depart from an intended configuration and how a mathematical model can describe their return.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.38,
+            "word": " My"
+          },
+          {
+            "start": 1.38,
+            "end": 1.76,
+            "word": " research"
+          },
+          {
+            "start": 1.76,
+            "end": 2.36,
+            "word": " explores"
+          },
+          {
+            "start": 2.36,
+            "end": 2.64,
+            "word": " a"
+          },
+          {
+            "start": 2.64,
+            "end": 3.02,
+            "word": " geometric"
+          },
+          {
+            "start": 3.02,
+            "end": 3.88,
+            "word": " interpretation"
+          },
+          {
+            "start": 3.88,
+            "end": 4.32,
+            "word": " of"
+          },
+          {
+            "start": 4.32,
+            "end": 4.52,
+            "word": " how"
+          },
+          {
+            "start": 4.52,
+            "end": 5.06,
+            "word": " photonic"
+          },
+          {
+            "start": 5.06,
+            "end": 5.62,
+            "word": " systems"
+          },
+          {
+            "start": 5.62,
+            "end": 5.88,
+            "word": " depart"
+          },
+          {
+            "start": 5.88,
+            "end": 6.56,
+            "word": " from"
+          },
+          {
+            "start": 6.56,
+            "end": 6.64,
+            "word": " an"
+          },
+          {
+            "start": 6.64,
+            "end": 6.94,
+            "word": " intended"
+          },
+          {
+            "start": 6.94,
+            "end": 7.66,
+            "word": " configuration"
+          },
+          {
+            "start": 7.66,
+            "end": 8.44,
+            "word": " and"
+          },
+          {
+            "start": 8.44,
+            "end": 8.64,
+            "word": " how"
+          },
+          {
+            "start": 8.64,
+            "end": 8.74,
+            "word": " a"
+          },
+          {
+            "start": 8.74,
+            "end": 9.04,
+            "word": " mathematical"
+          },
+          {
+            "start": 9.04,
+            "end": 9.66,
+            "word": " model"
+          },
+          {
+            "start": 9.66,
+            "end": 9.86,
+            "word": " can"
+          },
+          {
+            "start": 9.86,
+            "end": 10.18,
+            "word": " describe"
+          },
+          {
+            "start": 10.18,
+            "end": 10.5,
+            "word": " their"
+          },
+          {
+            "start": 10.5,
+            "end": 10.94,
+            "word": " return."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "2.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 8.48,
+        "text": " The Single Entity Field Interpretation describes proposed identity constraints. The Geometric Worldline Field Model describes trajectory geometry.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.42,
+            "word": " The"
+          },
+          {
+            "start": 0.42,
+            "end": 0.72,
+            "word": " Single"
+          },
+          {
+            "start": 0.72,
+            "end": 1.02,
+            "word": " Entity"
+          },
+          {
+            "start": 1.02,
+            "end": 1.42,
+            "word": " Field"
+          },
+          {
+            "start": 1.42,
+            "end": 2.3,
+            "word": " Interpretation"
+          },
+          {
+            "start": 2.3,
+            "end": 2.62,
+            "word": " describes"
+          },
+          {
+            "start": 2.62,
+            "end": 3.24,
+            "word": " proposed"
+          },
+          {
+            "start": 3.24,
+            "end": 3.72,
+            "word": " identity"
+          },
+          {
+            "start": 3.72,
+            "end": 4.46,
+            "word": " constraints."
+          },
+          {
+            "start": 5.1,
+            "end": 5.12,
+            "word": " The"
+          },
+          {
+            "start": 5.12,
+            "end": 5.56,
+            "word": " Geometric"
+          },
+          {
+            "start": 5.56,
+            "end": 6.18,
+            "word": " Worldline"
+          },
+          {
+            "start": 6.18,
+            "end": 6.44,
+            "word": " Field"
+          },
+          {
+            "start": 6.44,
+            "end": 6.74,
+            "word": " Model"
+          },
+          {
+            "start": 6.74,
+            "end": 7.22,
+            "word": " describes"
+          },
+          {
+            "start": 7.22,
+            "end": 7.56,
+            "word": " trajectory"
+          },
+          {
+            "start": 7.56,
+            "end": 8.48,
+            "word": " geometry."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "3.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.46,
+        "text": " Dynamic Entity Field Integration proposes a connection between those constraints and their evolution.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.56,
+            "word": " Dynamic"
+          },
+          {
+            "start": 0.56,
+            "end": 1.1,
+            "word": " Entity"
+          },
+          {
+            "start": 1.1,
+            "end": 1.46,
+            "word": " Field"
+          },
+          {
+            "start": 1.46,
+            "end": 1.7,
+            "word": " Integration"
+          },
+          {
+            "start": 1.7,
+            "end": 2.52,
+            "word": " proposes"
+          },
+          {
+            "start": 2.52,
+            "end": 2.84,
+            "word": " a"
+          },
+          {
+            "start": 2.84,
+            "end": 3.12,
+            "word": " connection"
+          },
+          {
+            "start": 3.12,
+            "end": 3.74,
+            "word": " between"
+          },
+          {
+            "start": 3.74,
+            "end": 4.0,
+            "word": " those"
+          },
+          {
+            "start": 4.0,
+            "end": 4.4,
+            "word": " constraints"
+          },
+          {
+            "start": 4.4,
+            "end": 4.8,
+            "word": " and"
+          },
+          {
+            "start": 4.8,
+            "end": 4.98,
+            "word": " their"
+          },
+          {
+            "start": 4.98,
+            "end": 5.46,
+            "word": " evolution."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "4.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.62,
+        "text": " In the illustrated example, a reference trajectory lies on a saddle-shaped surface.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.3,
+            "word": " In"
+          },
+          {
+            "start": 0.3,
+            "end": 0.4,
+            "word": " the"
+          },
+          {
+            "start": 0.4,
+            "end": 0.66,
+            "word": " illustrated"
+          },
+          {
+            "start": 0.66,
+            "end": 1.42,
+            "word": " example,"
+          },
+          {
+            "start": 1.74,
+            "end": 1.76,
+            "word": " a"
+          },
+          {
+            "start": 1.76,
+            "end": 2.04,
+            "word": " reference"
+          },
+          {
+            "start": 2.04,
+            "end": 2.4,
+            "word": " trajectory"
+          },
+          {
+            "start": 2.4,
+            "end": 3.04,
+            "word": " lies"
+          },
+          {
+            "start": 3.04,
+            "end": 3.36,
+            "word": " on"
+          },
+          {
+            "start": 3.36,
+            "end": 3.46,
+            "word": " a"
+          },
+          {
+            "start": 3.46,
+            "end": 3.74,
+            "word": " saddle"
+          },
+          {
+            "start": 3.74,
+            "end": 3.98,
+            "word": "-shaped"
+          },
+          {
+            "start": 3.98,
+            "end": 4.62,
+            "word": " surface."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "5.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 4.92,
+        "text": " A deliberately introduced vertical perturbation moves trajectory away from that surface.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.52,
+            "word": " A"
+          },
+          {
+            "start": 0.52,
+            "end": 0.78,
+            "word": " deliberately"
+          },
+          {
+            "start": 0.78,
+            "end": 1.58,
+            "word": " introduced"
+          },
+          {
+            "start": 1.58,
+            "end": 1.82,
+            "word": " vertical"
+          },
+          {
+            "start": 1.82,
+            "end": 2.78,
+            "word": " perturbation"
+          },
+          {
+            "start": 2.78,
+            "end": 3.16,
+            "word": " moves"
+          },
+          {
+            "start": 3.16,
+            "end": 3.38,
+            "word": " trajectory"
+          },
+          {
+            "start": 3.38,
+            "end": 4.08,
+            "word": " away"
+          },
+          {
+            "start": 4.08,
+            "end": 4.28,
+            "word": " from"
+          },
+          {
+            "start": 4.28,
+            "end": 4.46,
+            "word": " that"
+          },
+          {
+            "start": 4.46,
+            "end": 4.92,
+            "word": " surface."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "6.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.42,
+        "text": " A prescribed vertical projection then returns the trajectory to the surface. The residual becomes zero by construction.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.24,
+            "word": " A"
+          },
+          {
+            "start": 1.24,
+            "end": 1.46,
+            "word": " prescribed"
+          },
+          {
+            "start": 1.46,
+            "end": 2.0,
+            "word": " vertical"
+          },
+          {
+            "start": 2.0,
+            "end": 2.48,
+            "word": " projection"
+          },
+          {
+            "start": 2.48,
+            "end": 2.86,
+            "word": " then"
+          },
+          {
+            "start": 2.86,
+            "end": 3.22,
+            "word": " returns"
+          },
+          {
+            "start": 3.22,
+            "end": 3.5,
+            "word": " the"
+          },
+          {
+            "start": 3.5,
+            "end": 3.9,
+            "word": " trajectory"
+          },
+          {
+            "start": 3.9,
+            "end": 4.36,
+            "word": " to"
+          },
+          {
+            "start": 4.36,
+            "end": 4.5,
+            "word": " the"
+          },
+          {
+            "start": 4.5,
+            "end": 4.84,
+            "word": " surface."
+          },
+          {
+            "start": 5.66,
+            "end": 5.66,
+            "word": " The"
+          },
+          {
+            "start": 5.66,
+            "end": 5.94,
+            "word": " residual"
+          },
+          {
+            "start": 5.94,
+            "end": 6.4,
+            "word": " becomes"
+          },
+          {
+            "start": 6.4,
+            "end": 6.9,
+            "word": " zero"
+          },
+          {
+            "start": 6.9,
+            "end": 7.2,
+            "word": " by"
+          },
+          {
+            "start": 7.2,
+            "end": 7.42,
+            "word": " construction."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "7.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 5.54,
+        "text": " This verifies the chosen mathematical operation rather than demonstrating physical quantum error correction.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.34,
+            "word": " This"
+          },
+          {
+            "start": 0.34,
+            "end": 0.84,
+            "word": " verifies"
+          },
+          {
+            "start": 0.84,
+            "end": 1.1,
+            "word": " the"
+          },
+          {
+            "start": 1.1,
+            "end": 1.36,
+            "word": " chosen"
+          },
+          {
+            "start": 1.36,
+            "end": 1.68,
+            "word": " mathematical"
+          },
+          {
+            "start": 1.68,
+            "end": 2.5,
+            "word": " operation"
+          },
+          {
+            "start": 2.5,
+            "end": 2.98,
+            "word": " rather"
+          },
+          {
+            "start": 2.98,
+            "end": 3.32,
+            "word": " than"
+          },
+          {
+            "start": 3.32,
+            "end": 3.82,
+            "word": " demonstrating"
+          },
+          {
+            "start": 3.82,
+            "end": 4.34,
+            "word": " physical"
+          },
+          {
+            "start": 4.34,
+            "end": 4.68,
+            "word": " quantum"
+          },
+          {
+            "start": 4.68,
+            "end": 5.02,
+            "word": " error"
+          },
+          {
+            "start": 5.02,
+            "end": 5.54,
+            "word": " correction."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "8.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.78,
+        "text": " The next step is to connect these geometric quantities to measurable optical behavior, specify a physically",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 0.74,
+            "word": " The"
+          },
+          {
+            "start": 0.74,
+            "end": 0.9,
+            "word": " next"
+          },
+          {
+            "start": 0.9,
+            "end": 1.24,
+            "word": " step"
+          },
+          {
+            "start": 1.24,
+            "end": 1.42,
+            "word": " is"
+          },
+          {
+            "start": 1.42,
+            "end": 1.56,
+            "word": " to"
+          },
+          {
+            "start": 1.56,
+            "end": 1.8,
+            "word": " connect"
+          },
+          {
+            "start": 1.8,
+            "end": 2.14,
+            "word": " these"
+          },
+          {
+            "start": 2.14,
+            "end": 2.56,
+            "word": " geometric"
+          },
+          {
+            "start": 2.56,
+            "end": 3.32,
+            "word": " quantities"
+          },
+          {
+            "start": 3.32,
+            "end": 3.56,
+            "word": " to"
+          },
+          {
+            "start": 3.56,
+            "end": 3.78,
+            "word": " measurable"
+          },
+          {
+            "start": 3.78,
+            "end": 4.62,
+            "word": " optical"
+          },
+          {
+            "start": 4.62,
+            "end": 5.08,
+            "word": " behavior,"
+          },
+          {
+            "start": 5.6,
+            "end": 5.88,
+            "word": " specify"
+          },
+          {
+            "start": 5.88,
+            "end": 6.46,
+            "word": " a"
+          },
+          {
+            "start": 6.46,
+            "end": 6.78,
+            "word": " physically"
+          }
+        ]
+      },
+      {
+        "start": 6.78,
+        "end": 12.36,
+        "text": " allowed recovery operation and test projections against established methods and experimental evidence.",
+        "words": [
+          {
+            "start": 6.78,
+            "end": 7.26,
+            "word": " allowed"
+          },
+          {
+            "start": 7.26,
+            "end": 7.48,
+            "word": " recovery"
+          },
+          {
+            "start": 7.48,
+            "end": 8.36,
+            "word": " operation"
+          },
+          {
+            "start": 8.36,
+            "end": 8.68,
+            "word": " and"
+          },
+          {
+            "start": 8.68,
+            "end": 9.0,
+            "word": " test"
+          },
+          {
+            "start": 9.0,
+            "end": 9.52,
+            "word": " projections"
+          },
+          {
+            "start": 9.52,
+            "end": 9.94,
+            "word": " against"
+          },
+          {
+            "start": 9.94,
+            "end": 10.44,
+            "word": " established"
+          },
+          {
+            "start": 10.44,
+            "end": 11.02,
+            "word": " methods"
+          },
+          {
+            "start": 11.02,
+            "end": 11.36,
+            "word": " and"
+          },
+          {
+            "start": 11.36,
+            "end": 11.84,
+            "word": " experimental"
+          },
+          {
+            "start": 11.84,
+            "end": 12.36,
+            "word": " evidence."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "9.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 7.28,
+        "text": " The deliverables include reproducible calculations, diagrams, numerical data, and research manuscripts.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.14,
+            "word": " The"
+          },
+          {
+            "start": 1.14,
+            "end": 1.8,
+            "word": " deliverables"
+          },
+          {
+            "start": 1.8,
+            "end": 2.32,
+            "word": " include"
+          },
+          {
+            "start": 2.32,
+            "end": 3.24,
+            "word": " reproducible"
+          },
+          {
+            "start": 3.24,
+            "end": 4.0,
+            "word": " calculations,"
+          },
+          {
+            "start": 4.48,
+            "end": 4.66,
+            "word": " diagrams,"
+          },
+          {
+            "start": 5.28,
+            "end": 5.42,
+            "word": " numerical"
+          },
+          {
+            "start": 5.42,
+            "end": 5.94,
+            "word": " data,"
+          },
+          {
+            "start": 6.3,
+            "end": 6.32,
+            "word": " and"
+          },
+          {
+            "start": 6.32,
+            "end": 6.6,
+            "word": " research"
+          },
+          {
+            "start": 6.6,
+            "end": 7.28,
+            "word": " manuscripts."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "file": "10.wav",
+    "segments": [
+      {
+        "start": 0.0,
+        "end": 6.36,
+        "text": " Together they present a proposed direction for investigation with assumptions and limitations stated openly.",
+        "words": [
+          {
+            "start": 0.0,
+            "end": 1.14,
+            "word": " Together"
+          },
+          {
+            "start": 1.14,
+            "end": 1.44,
+            "word": " they"
+          },
+          {
+            "start": 1.44,
+            "end": 1.74,
+            "word": " present"
+          },
+          {
+            "start": 1.74,
+            "end": 1.98,
+            "word": " a"
+          },
+          {
+            "start": 1.98,
+            "end": 2.26,
+            "word": " proposed"
+          },
+          {
+            "start": 2.26,
+            "end": 2.72,
+            "word": " direction"
+          },
+          {
+            "start": 2.72,
+            "end": 3.1,
+            "word": " for"
+          },
+          {
+            "start": 3.1,
+            "end": 3.78,
+            "word": " investigation"
+          },
+          {
+            "start": 3.78,
+            "end": 4.2,
+            "word": " with"
+          },
+          {
+            "start": 4.2,
+            "end": 4.66,
+            "word": " assumptions"
+          },
+          {
+            "start": 4.66,
+            "end": 4.98,
+            "word": " and"
+          },
+          {
+            "start": 4.98,
+            "end": 5.38,
+            "word": " limitations"
+          },
+          {
+            "start": 5.38,
+            "end": 5.9,
+            "word": " stated"
+          },
+          {
+            "start": 5.9,
+            "end": 6.36,
+            "word": " openly."
+          }
+        ]
+      }
+    ]
+  }
+]

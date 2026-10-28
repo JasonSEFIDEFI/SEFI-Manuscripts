@@ -1,0 +1,130 @@
+{
+  "duration": 81.60000000000001,
+  "sample_rate": 48000,
+  "gain_db": -0.9406034152743059,
+  "source_peak_dbfs": -0.05939658472569332,
+  "clips": [
+    {
+      "file": "1.wav",
+      "scene": 1,
+      "start": 0.6,
+      "end": 12.04,
+      "original_duration": 12.5,
+      "retained_duration": 11.44,
+      "trim_start": 0
+    },
+    {
+      "file": "2.wav",
+      "scene": 2,
+      "start": 12.219999999999999,
+      "end": 21.2,
+      "original_duration": 9.0,
+      "retained_duration": 8.98,
+      "trim_start": 0
+    },
+    {
+      "file": "3.wav",
+      "scene": 2,
+      "start": 21.38,
+      "end": 27.34,
+      "original_duration": 6.938,
+      "retained_duration": 5.96,
+      "trim_start": 0
+    },
+    {
+      "file": "4.wav",
+      "scene": 3,
+      "start": 27.52,
+      "end": 32.64,
+      "original_duration": 5.25,
+      "retained_duration": 5.12,
+      "trim_start": 0
+    },
+    {
+      "file": "5.wav",
+      "scene": 3,
+      "start": 32.82,
+      "end": 38.24,
+      "original_duration": 5.5,
+      "retained_duration": 5.42,
+      "trim_start": 0
+    },
+    {
+      "file": "6.wav",
+      "scene": 4,
+      "start": 38.42,
+      "end": 46.34,
+      "original_duration": 8.312354166666667,
+      "retained_duration": 7.92,
+      "trim_start": 0
+    },
+    {
+      "file": "7.wav",
+      "scene": 4,
+      "start": 46.52,
+      "end": 52.56,
+      "original_duration": 7.1780625,
+      "retained_duration": 6.04,
+      "trim_start": 0
+    },
+    {
+      "file": "8.wav",
+      "scene": 5,
+      "start": 52.74,
+      "end": 65.6,
+      "original_duration": 13.2631875,
+      "retained_duration": 12.86,
+      "trim_start": 0
+    },
+    {
+      "file": "9.wav",
+      "scene": 6,
+      "start": 65.78,
+      "end": 73.56,
+      "original_duration": 8.180375,
+      "retained_duration": 7.78,
+      "trim_start": 0
+    },
+    {
+      "file": "10.wav",
+      "scene": 6,
+      "start": 73.74000000000001,
+      "end": 80.60000000000001,
+      "original_duration": 7.975041666666667,
+      "retained_duration": 6.86,
+      "trim_start": 0
+    }
+  ],
+  "scenes": [
+    {
+      "start": 0,
+      "end": 12.129999999999999,
+      "title": "A geometric view of photonic errors"
+    },
+    {
+      "start": 12.129999999999999,
+      "end": 27.43,
+      "title": "Identity, geometry, and dynamics"
+    },
+    {
+      "start": 27.43,
+      "end": 38.33,
+      "title": "Represent a deviation"
+    },
+    {
+      "start": 38.33,
+      "end": 52.65,
+      "title": "Apply the prescribed projection"
+    },
+    {
+      "start": 52.65,
+      "end": 65.69,
+      "title": "Connect the model to physics"
+    },
+    {
+      "start": 65.69,
+      "end": 81.60000000000001,
+      "title": "Make the work reviewable"
+    }
+  ]
+}

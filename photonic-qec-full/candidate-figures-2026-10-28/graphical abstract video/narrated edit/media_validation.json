@@ -1,0 +1,29 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1280,
+        "height": 720
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio"
+      },
+      {
+        "codec_name": "mov_text",
+        "codec_type": "subtitle"
+      }
+    ],
+    "format": {
+      "duration": "81.666667"
+    }
+  },
+  "full_decode": "passed",
+  "clip_count": 10,
+  "speech_time_stretch": false,
+  "source_recordings_modified": false
+}
