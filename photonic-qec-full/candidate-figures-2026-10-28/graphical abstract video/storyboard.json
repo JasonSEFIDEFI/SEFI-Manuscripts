@@ -1,0 +1,44 @@
+[
+  {
+    "start": 0,
+    "end": 14,
+    "title": "A geometric view of photonic errors",
+    "narration": "My research explores a geometric interpretation of how photonic systems depart from an intended configuration, and how a mathematical model can describe their return.",
+    "caption": "Conceptual model \u2022 not an experimental result"
+  },
+  {
+    "start": 14,
+    "end": 32,
+    "title": "Identity, geometry, and dynamics",
+    "narration": "The Single Entity Field Interpretation describes proposed identity constraints. The Geometric Worldline Field Model describes trajectory geometry. Dynamic Entity Field Integration proposes a connection between those constraints and their evolution.",
+    "caption": "Identity constraints \u2192 trajectory geometry \u2192 proposed coupled dynamics"
+  },
+  {
+    "start": 32,
+    "end": 48,
+    "title": "Represent a deviation",
+    "narration": "In the illustrated example, a reference trajectory lies on a saddle shaped surface. A deliberately introduced vertical perturbation moves the trajectory away from that surface.",
+    "caption": "\u03a3: z = 0.25x\u00b2 \u2212 0.25y\u00b2     |     \u03b3(t) = \u03b3\u03a3(t) + (0, 0, 0.15 cos t)"
+  },
+  {
+    "start": 48,
+    "end": 66,
+    "title": "Apply the prescribed projection",
+    "narration": "A prescribed vertical projection then returns the trajectory to the surface. The residual becomes zero by construction. This verifies the chosen mathematical operation, rather than demonstrating physical quantum error correction.",
+    "caption": "\u03a0\u1d65(x, y, z) = (x, y, 0.25x\u00b2 \u2212 0.25y\u00b2)     |     rafter = 0"
+  },
+  {
+    "start": 66,
+    "end": 84,
+    "title": "Connect the model to physics",
+    "narration": "The next step is to connect these geometric quantities to measurable optical behavior, specify a physically allowed recovery operation, and test predictions against established methods and experimental evidence.",
+    "caption": "Physical mapping \u2192 allowed recovery operation \u2192 independent comparison"
+  },
+  {
+    "start": 84,
+    "end": 100,
+    "title": "Make the work reviewable",
+    "narration": "The deliverables include reproducible calculations, diagrams, numerical data, and research manuscripts. Together, they present a proposed direction for investigation, with assumptions and limitations stated openly.",
+    "caption": "Jason Duran Dutton \u2022 Independent research \u2022 Candidate graphical abstract"
+  }
+]

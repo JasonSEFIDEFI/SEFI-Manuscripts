@@ -1,0 +1,75 @@
+{
+  "parameters": {
+    "alpha": 0.25,
+    "beta": 0.25,
+    "epsilon": 0.15,
+    "samples": 501,
+    "domain": [
+      -2,
+      2
+    ]
+  },
+  "max_post_projection_residual": 0.0,
+  "figures": [
+    {
+      "figure": 1,
+      "stem": "figure_01_stability_manifold",
+      "type": "conceptual mathematical illustration",
+      "caption": "Illustrative proposed constraint manifold and reference trajectory; surface geometry alone does not establish dynamical stability."
+    },
+    {
+      "figure": 2,
+      "stem": "figure_02_reference_trajectory",
+      "type": "computed mathematical illustration",
+      "caption": "Reference curve (t, sin t, 0.25 t\u00b2 \u2212 0.25 sin\u00b2 t), for \u22122 \u2264 t \u2264 2, on the illustrative manifold."
+    },
+    {
+      "figure": 3,
+      "stem": "figure_03_identity_constraint",
+      "type": "conceptual schematic",
+      "caption": "Proposed constraint S(q)=0 defining a permissible set. A constraint definition does not by itself establish conservation under dynamics."
+    },
+    {
+      "figure": 4,
+      "stem": "figure_04_vertical_displacement",
+      "type": "computed geometric diagram",
+      "caption": "q=(1,0.5,0.4375), \u03a0v(q)=(1,0.5,0.1875). The orange displacement is vertical; the gray surface normal is a different direction."
+    },
+    {
+      "figure": 5,
+      "stem": "figure_05_projection_mapping",
+      "type": "computed mathematical illustration",
+      "caption": "Prescribed vertical projection removes the specified vertical perturbation by construction; physical quantum recovery is not demonstrated."
+    },
+    {
+      "figure": 6,
+      "stem": "figure_06_frenet_frame",
+      "type": "computed geometric diagram",
+      "caption": "Calculated curve frame at u=0 for the helix (cos u, sin u, 0.5u). Curvature 0.8, torsion 0.4; curve normal and surface normal are distinct concepts."
+    },
+    {
+      "figure": 7,
+      "stem": "figure_07_frame_components",
+      "type": "mathematical schematic",
+      "caption": "A deliberately transverse displacement decomposed in the normal\u2013binormal plane of a curve. General displacement can include a tangent component."
+    },
+    {
+      "figure": 8,
+      "stem": "figure_08_proposed_workflow",
+      "type": "conceptual schematic; software audit pending",
+      "caption": "Conceptual roles and proposed analysis sequence. All connections are marked proposed; this is not a verified implementation architecture for SEFI_QEC_Stack."
+    },
+    {
+      "figure": 9,
+      "stem": "figure_09_validation_surface",
+      "type": "computed toy-model plot",
+      "caption": "Computed saddle surface and reference curve using proposed illustration parameters alpha=beta=0.25. These are not recovered original experimental settings."
+    },
+    {
+      "figure": 10,
+      "stem": "figure_10_validation_projection",
+      "type": "computed toy-model plot",
+      "caption": "Perturbation epsilon*cos(t) and its removal by vertical projection. Post-projection constraint satisfaction follows algebraically from the prescribed map; this is not quantum error-rate evidence."
+    }
+  ]
+}
