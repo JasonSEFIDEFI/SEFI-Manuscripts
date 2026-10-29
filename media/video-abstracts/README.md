@@ -4,7 +4,7 @@ Three separate visual introductions to Jason Duran Dutton's independent research
 
 ## Geometric Photonic Quantum Error Correction
 
-[![Watch the narrated photonics abstract](photonics_poster.png)](../../photonic-qec-full/candidate-figures-2026-10-28/graphical%20abstract%20video/narrated%20edit/graphical_abstract_narrated.mp4)
+[![Watch the narrated photonics abstract](photonics_poster.png)](https://youtu.be/ICITJzIhq30)
 
 [Download or open the narrated video](../../photonic-qec-full/candidate-figures-2026-10-28/graphical%20abstract%20video/narrated%20edit/graphical_abstract_narrated.mp4) — 81.6 seconds, with the author's recorded narration. The prescribed vertical projection restores the toy-model constraint by construction. This is not a demonstration of physical quantum recovery.
 
@@ -12,14 +12,14 @@ Three separate visual introductions to Jason Duran Dutton's independent research
 
 ## Single Entity Field Interpretation
 
-[![Open the graphical abstract](sefi_poster.png)](Graphical_Abstract_SEFI_rebuilt.mp4)
+[![Open the graphical abstract](sefi_poster.png)](https://youtu.be/OifuoTEW7PI)
 
 [Download or open the graphical abstract](Graphical_Abstract_SEFI_rebuilt.mp4) — 20 seconds, silent. Rebuilt from the four original illustration sources after the original video failed a media-index check. This is a separately named reconstruction, not a repaired bit-for-bit copy. The source illustrations are conceptual; their embedded expressions are not independently validated here.
 
 ## Unified Geometric Field Theory
 
-[![Open the unified-field video abstract](unified_poster.png)](JMP_Video_Abstract_Unified_Geometric_Field_Theory.mp4)
+[![Open the unified-field video abstract](unified_poster.png)](https://youtu.be/j3l01r9OOj8)
 
 [Download or open the video abstract](JMP_Video_Abstract_Unified_Geometric_Field_Theory.mp4) — 85 seconds, silent. The original video is preserved. [Related manuscript materials](../../unified/).
 
-Videos are available here as files. YouTube links will be added after the public uploads are verified.
+All three videos were published publicly on the Jason Dutton channel (@jasondutton5487) on October 29, 2026. Click a thumbnail to watch on YouTube; the original downloadable files remain available below each thumbnail.
