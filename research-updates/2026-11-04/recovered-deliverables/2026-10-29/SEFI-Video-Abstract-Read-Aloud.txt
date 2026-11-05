@@ -1,0 +1,47 @@
+Read the paragraphs only. Scene headings are recording markers.
+
+SCENE 1 - Introduction
+
+Hello, I'm Jason Duran Dutton. This paper introduces the Single Entity Field Interpretation, as my geometric interpretation of quantum phenomena. It follows my work on the Geometric Worldline Field Model.
+
+--------------------
+
+SCENE 2 - The central picture
+
+The central picture is a shared underlying field with internal phase structure. In a simple example, two components evolve with opposite phase directions, producing an orbit signature in the field's internal state. How those phase directions relate to physical temporal orientation remains an open question.
+
+--------------------
+
+SCENE 3 - Giving the picture mathematical form
+
+To examine this picture, we state the assumptions and specify a field model. We derive equations and conserved currents, then calculate a localized numerical profile in a particular scalar model. These calculations give the interpretation a precise mathematical realization, with stability questions stated explicitly.
+
+--------------------
+
+SCENE 4 - Observation
+
+The field, the model, and the interpretation are distinct. Observation requires another ingredient: a defined detector response. We distinguish a persistent concentration of field energy from a detection event, and examine how an observer's trajectory and coupling enter the measurement description.
+
+--------------------
+
+SCENE 5 - The photonics mapping
+
+In photonics, the mapping connects complex mode amplitudes, relative phase, and optical readout. Changing a path phase changes the interference pattern. Established optics provides a benchmark for checking this mapping, while stronger claims about quantum error correction require a specified encoding, noise model, and recovery process.
+
+--------------------
+
+SCENE 6 - The DNA mapping
+
+For DNA, the mapping is geometric. Radius and pitch determine an ideal helix's curvature and torsion. Those quantities connect a spatial phase pattern to explicit geometric invariants. Testing a proposed physical coupling requires measured structures and comparison with established molecular or elastic models.
+
+--------------------
+
+SCENE 7 - The cosmology mapping
+
+In cosmology, we examine the field on an expanding spacetime. We derive how the density associated with a conserved current dilutes with expansion, and distinguish that result from the evolution of energy, which also depends on pressure. A fully self-consistent gravitational solution remains a further task.
+
+--------------------
+
+SCENE 8 - Purpose and next steps
+
+My aim is conceptual economy: making quantum geometry easier for a human reader to picture and reason about. These mappings organize that investigation. Electron and positron derivation remains open for future mathematics, vortex experiments, and field work. The goal is a framework we can understand, calculate with, and test.

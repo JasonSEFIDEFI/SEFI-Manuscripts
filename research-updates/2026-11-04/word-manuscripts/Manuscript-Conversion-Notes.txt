@@ -1,0 +1,41 @@
+WORD MANUSCRIPT PACKAGE
+Prepared November 4, 2026
+
+New conversions
+1. DEFI-manuscript.docx
+   Source: DEFI/DEFI_Formal_Construction.pdf and matching LaTeX source.
+   Native Word equations; four manuscript figures retained.
+2. Big-Picture-manuscript.docx
+   Source: Big Picture/Big Picture.pdf (the selected six-page article).
+   The adjacent LaTeX file is a different book-length draft and was not used.
+   Converted directly with Microsoft Word. Text is editable; mathematical content
+   includes graphical elements and is not uniformly native Word math.
+3. DNA-manuscript.docx
+   Source: DNA/DNAmanuscript.pdf and matching manuscript.tex.
+   Native Word equations; three manuscript figures retained.
+   Original September 21, 2026 date preserved.
+4. Photonics-manuscript.docx
+   Source: Photonics Submission/manuscript.pdf and matching LaTeX source.
+   Native Word equations; eight manuscript figures retained.
+5. Phase-Dynamics-Temporal-Ordering.docx
+   Source: Time/Jason_D_Dutton_Phase_Dynamics_Temporal_Ordering.pdf
+   and matching LaTeX source. Native Word equations and four supplied plot
+   exports retained.
+
+Existing conversions included in the seven-manuscript ZIP
+- GWFM-manuscript.docx
+- SEFI-manuscript.docx
+
+Conversion checks
+The five new documents were rendered with Microsoft Word and visually reviewed.
+Page counts may differ from the PDFs because the source-based conversions use
+a single-column Word layout. The selected manuscript wording and claims were
+preserved; this conversion does not provide scientific or editorial validation.
+
+Source issues retained for later editorial attention
+- The DEFI source cites Strogatz2015 and MarsdenRatiu1999 without corresponding
+  bibliography entries. Unresolved citation markers were retained.
+- The Photonics PDF contains two unresolved Figure ?? references, corresponding
+  to the missing fig:validation_correction label. These were preserved.
+
+The ZIP contains all seven Word manuscripts and these conversion notes.

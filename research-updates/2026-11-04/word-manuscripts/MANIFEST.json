@@ -1,0 +1,47 @@
+[
+  {
+    "name": "SEFI-manuscript.docx",
+    "bytes": 535117,
+    "sha256": "d94a2210acc75feea7928553cda09c63fe0e67aa7677502f6abb0f60a8fc8c02"
+  },
+  {
+    "name": "GWFM-manuscript.docx",
+    "bytes": 193176,
+    "sha256": "c661f5099053016e4d1ab39f95201449a2a5b04cf82d6a3b8a41f47dab016e9f"
+  },
+  {
+    "name": "DEFI-manuscript.docx",
+    "bytes": 2630576,
+    "sha256": "d74d8de57cfc83524692539ecab3bd49b32a43822c54f6e12a3408c45c4a0370"
+  },
+  {
+    "name": "Phase-Dynamics-Temporal-Ordering.docx",
+    "bytes": 379676,
+    "sha256": "4870c692c74639f77eb2ec1dffae5642f322015a908261a9a403d506d3ff0d0d"
+  },
+  {
+    "name": "DNA-manuscript.docx",
+    "bytes": 986224,
+    "sha256": "1bfc7a3abd1736bbf8210a63a740f5b7f596a8ac556e11c6b3387157d7eeff2e"
+  },
+  {
+    "name": "Photonics-manuscript.docx",
+    "bytes": 4621546,
+    "sha256": "fe3f1b544f2ece548a239a033d27853c6fedf71c3bc8934fe4b7b525394d9395"
+  },
+  {
+    "name": "Big-Picture-manuscript.docx",
+    "bytes": 284384,
+    "sha256": "056f10e7477a25560f7c3c6cb53371cef732bcd9a68a6a58936921c413078c68"
+  },
+  {
+    "name": "Manuscript-Conversion-Notes.txt",
+    "bytes": 1983,
+    "sha256": "5f127b255025a10cf9669e9c45d18be504ce3398e5e0ac41f708897dd9470888"
+  },
+  {
+    "name": "SEFI-GWFM-DEFI-A-Student-Guide.pdf",
+    "bytes": 18519,
+    "sha256": "26a9b743022f888840110bcf81c98510e72815d3f7161b99be9e1edaab6b8124"
+  }
+]

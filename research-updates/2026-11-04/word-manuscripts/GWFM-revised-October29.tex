@@ -1,0 +1,496 @@
+% GWFM initial-submission manuscript, October 29, 2026.
+\documentclass[aip,jmp,reprint,onecolumn,amsmath,amssymb]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx,bm,graphicx,amsthm,hyperref}
+\hypersetup{hidelinks,pdftitle={Geometric Worldline Foundations of the Electron Field},pdfauthor={Jason Duran Dutton}}
+\setlength{\emergencystretch}{2em}
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\R}{\mathbb R}
+\newcommand{\T}{\mathbb T}
+\newcommand{\Pp}{\mathcal P}
+\newcommand{\C}{\mathcal C}
+\newcommand{\G}{\mathcal G}
+\newcommand{\Lip}{\operatorname{Lip}}
+\newcommand{\supp}{\operatorname{supp}}
+\newcommand{\dist}{\operatorname{dist}}
+\newcommand{\push}{\mathord\#}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{lemma}[theorem]{Lemma}
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{remark}[theorem]{Remark}
+\begin{document}
+\title{Geometric Worldline Foundations of the Electron Field}
+\author{Jason Duran Dutton}
+\thanks{ORCID: \href{https://orcid.org/0009-0004-8655-9901}{0009-0004-8655-9901}}
+\email{Jason.Dutton7@student.aiuonline.edu}
+\affiliation{SEFI Research Program, Castlewood, Virginia 24224, USA}
+\affiliation{American InterContinental University, USA}
+\date{October 29, 2026}
+\begin{abstract}
+We introduce the Geometric Worldline Field Model, developed through SEFI Research Program, and formulate its phase-coherent mathematical foundation. The construction explicitly represents superposition and interference while separating amplitudes from classical worldline occupation. A finite layered network of bounded-speed trajectory segments is equipped with complex initial amplitudes, unitary transition maps, and the Born readout rule. Its finite history sum equals the unitary state evolution, so superposition is linear and detector probabilities include phase-dependent cross terms. An exact two-channel interferometer and a spatial fringe example show constructive and destructive interference. Detector tagging gives an explicit loss-of-visibility formula. These quantum ingredients are stated assumptions, consistent with established history and quantum-walk constructions, rather than consequences derived from bare geometry. We then prove a complementary classical reconstruction result: for a static target on compact spatial space, finitely many bounded-speed graphs have exactly the spatial point-quantization error when temporal displacement costs at least the speed bound. The equality extends to isometrically transported targets, and a counterexample establishes the importance of the cost condition. Explicit density bounds, weak compactness, and an ensemble continuity equation delimit occupation-based continuum descriptions. A spin-equivariance obstruction identifies additional data needed for a spinor reconstruction. The framework demonstrates how a phase-enriched GWFM can accommodate superposition and interference; it does not establish a unique single-curve ontology or derive an electron quantum field.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+This article introduces the Geometric Worldline Field Model (GWFM), developed by Jason Duran Dutton through SEFI Research Program. Its organizing proposal is that a common geometric worldline structure can underlie the alternative histories used to describe a physical entity. The intended application is a geometric foundation for the electron field. The first task is to give that proposal definite mathematical content: identify the state, specify how histories contribute to it, and distinguish demonstrated consequences from further interpretive ambitions. Readers are not assumed to know an earlier GWFM formulation.
+
+Worldline methods provide established representations of selected quantities in quantum field theory.\cite{schubert,strassler} The paths occurring in such a representation are integration variables with specified weights and boundary conditions. Interpreting those paths as one physical geometric object is an additional proposal. To assess that proposal, one must first specify which mathematical object represents the worldline and which operation is supposed to produce a field.
+
+The Geometric Worldline Field Model (GWFM) motivates the question studied here: can the occupation of one continuous trajectory, or a fixed finite number of trajectories, become a spatially distributed continuum on a finite physical time interval? A curve, a measure on curves, a spacetime measure, a current, and a quantum amplitude answer different questions. Replacing one by another without specifying a reconstruction map obscures the content of a field-emergence claim.
+
+This paper first makes the superposition and interference mechanism explicit. A finite causal network carries complex amplitudes and unitary transitions. A history expansion reproduces the state evolution exactly; phase-sensitive recombination gives interference. This is an application of established quantum-mechanical history and quantum-walk structure,\cite{feynmanpath,aharonov,kempe} not a claim to derive the complex Hilbert space or Born rule from a geometric set. In this formulation, the proposed shared entity is represented by one coherently evolving state over alternative histories. It is not identified mathematically with one classical trajectory occupying all alternatives simultaneously.
+
+The complementary approximation result is an exact optimization identity: for a static spatial target and an appropriate auxiliary spacetime metric, approximation by at most $N$ bounded-speed trajectory graphs has precisely the spatial $N$-point quantization error. A stationary choice attains the infimum. An extension treats rigidly transported targets, and a counterexample shows why the temporal-cost hypothesis matters. These results distinguish a coherent sum over histories from a positive density obtained by occupation of finitely many curves.
+
+The mathematical setting is related to established superposition principles, which represent solutions of continuity equations by measures on trajectories,\cite{stepanov,miller} and to spatial quantization of probability measures.\cite{kloeckner} Curve-supported approximation has also been studied with discrepancy metrics and a varying curve-speed budget.\cite{ehler} Our construction keeps physical time as a coordinate, bounds spatial speed relative to that time, and measures error in the joint spacetime distribution. These choices differ from a long-time spatial occupation limit or an approximation in which the curve parameter is not physical time. The quantization exponent itself is established approximation theory; the issue addressed here is its exact transfer to bounded-speed spacetime graphs.
+
+The resulting answer to the physical motivation is conditional and constructive: GWFM supports superposition and interference when its histories retain complex amplitudes, relative phase, and a specified coherent readout. Plain geometric overlap or positive occupation alone is insufficient. The finite construction uses no undefined functional integral. It does not supply Dirac dynamics, fermionic field algebra, or a derivation of the quantum measurement postulates.
+
+\section{A phase-coherent worldline model}
+\label{sec:coherent}
+\subsection{Explicit assumptions and causal network}
+Choose times $t_0<\cdots<t_n$ and $m$ spatial sites $x_{j,r}$ at each layer $j$. A history is a sequence $h=(r_0,\ldots,r_n)$, represented geometrically by the piecewise-linear worldline through $(t_j,x_{j,r_j})$. Work in a convex spatial region in Minkowski space, and assume every allowed transition obeys
+\begin{equation}
+ |x_{j,r}-x_{j-1,s}|\le v(t_j-t_{j-1}),\qquad v\le1.
+ \label{eq:networkcausal}
+\end{equation}
+The segments are causal and are timelike if the bound is strict. Corners are permitted in this finite kinematic construction; no smooth classical equation of motion is asserted for them.
+
+The additional quantum structure consists of the Hilbert space $\mathcal H_j=\mathbb C^m$ with its standard inner product and orthonormal site labels, a normalized initial vector $c\in\mathcal H_0$, and unitary matrices $U_j:\mathcal H_{j-1}\to\mathcal H_j$. Inner products are conjugate-linear in the first argument. We require $(U_j)_{rs}=0$ whenever Eq.~\eqref{eq:networkcausal} is violated. The existence of unitary matrices with this zero pattern is an assumption on the chosen network; arbitrary causal adjacency patterns need not admit such matrices. The matrix entries are complex transition amplitudes, not transition probabilities. Their phases may be parameterized as $\exp(iS_{j,rs}/\hbar)$ times their magnitudes; the assigned $S_{j,rs}$ are edge phase data, not an action derived by this paper from proper-time length.
+
+For a history $h$, set
+\begin{equation}
+ A(h)=c_{r_0}\prod_{j=1}^n(U_j)_{r_jr_{j-1}},\qquad
+ \Psi_n(r)=\sum_{h:r_n=r}A(h).
+ \label{eq:history}
+\end{equation}
+The sums are finite. Detector probabilities are assigned by the Born rule $p_n(r)=|\Psi_n(r)|^2$. These assumptions specify exactly where phase, linearity, normalization, and readout enter. They are not claimed to follow from a positive worldline density.
+
+\begin{theorem}[Finite-history superposition and interference]
+Under the preceding assumptions,
+\begin{equation}
+ \Psi_n=U_n\cdots U_1c,\qquad\sum_r p_n(r)=1.
+ \label{eq:unitaryhistory}
+\end{equation}
+The state reconstruction is linear in $c$. At each output,
+\begin{equation}
+ p_n(r)=\sum_{h:r_n=r}|A(h)|^2
+ +2\operatorname{Re}\sum_{\substack{h<k\\h_n=k_n=r}}A(h)\overline{A(k)},
+ \label{eq:historycross}
+\end{equation}
+where $h<k$ is any fixed ordering of the finite history set.
+\end{theorem}
+\begin{proof}
+Expanding the matrix product yields Eq.~\eqref{eq:history} term by term. Unitarity preserves the norm of $c$, giving normalization. Linearity is matrix linearity, and Eq.~\eqref{eq:historycross} is the expansion of the squared modulus of a finite complex sum.
+\end{proof}
+This theorem establishes consistency of the specified amplitude reconstruction. It is not offered as a new proof of the quantum superposition principle: the unitary history expansion is established quantum mechanics.\cite{feynmanpath,aharonov,kempe} Its role in GWFM is to replace the informal claim that overlap alone explains interference with the precise mechanism that actually produces the cross terms.
+
+\subsection{Phase conventions and relative-history phase}
+\begin{proposition}[Local basis rephasing]
+Let $R_j=\operatorname{diag}(e^{i\chi_{j,1}},\ldots,e^{i\chi_{j,m}})$. Under $c'=R_0c$ and $U_j'=R_jU_jR_{j-1}^\dagger$, the reconstructed state is $\Psi_n'=R_n\Psi_n$, and the site probabilities are unchanged. Each history amplitude ending at $r$ is multiplied by $e^{i\chi_{n,r}}$, so relative phase between histories with a common output is unchanged.
+\end{proposition}
+\begin{proof}
+In the matrix product the adjacent factors $R_{j-1}^\dagger R_{j-1}$ cancel. In an individual history product the intermediate vertex phases cancel as well, including the initial phase against the transformation of $c$. Only the common final-site phase remains, which has unit modulus.
+\end{proof}
+Thus an arbitrary choice of phase for a site basis vector is not a physical interference shift. The arguments of nonzero edge amplitudes transform by a vertex-phase difference, as a discrete $U(1)$ connection does; relative products along two routes to the same output retain the phase information used in Eq.~\eqref{eq:historycross}. The edge phases and their magnitudes remain model inputs. No electromagnetic field equation or quantization of electric charge follows from this basis covariance.
+
+\subsection{An exact two-channel experiment}
+Take two fixed sites a distance $\ell$ apart and a layer separation $\Delta t>\ell$, in units $c=1$. All transitions between the two sites satisfy a strict timelike segment bound. Let
+\begin{equation}
+ H=\frac1{\sqrt2}\begin{pmatrix}1&1\\1&-1\end{pmatrix},\qquad
+ D_\theta=\begin{pmatrix}1&0\\0&e^{i\theta}\end{pmatrix},\qquad c=\begin{pmatrix}1\\0\end{pmatrix}.
+\end{equation}
+After splitting, the state is $(1,1)^\mathsf T/\sqrt2$. Phase accumulation gives $(1,e^{i\theta})^\mathsf T/\sqrt2$. Coherent recombination gives
+\begin{equation}
+ HD_\theta Hc=\frac12\begin{pmatrix}1+e^{i\theta}\\1-e^{i\theta}\end{pmatrix},\qquad
+ p_\pm=\frac{1\pm\cos\theta}{2}.
+ \label{eq:interferometer}
+\end{equation}
+At phase zero the plus output has probability one; at phase $\pi$ it has probability zero. Destructive interference is cancellation of complex amplitudes, not disappearance of positive geometric support. The corresponding classical complete-history weights $|A(h)|^2$ are independent of $\theta$; replacing amplitudes by those weights before summing gives $1/2$ at each output and loses the fringe.
+
+The fixed geometric sites and the set of allowed histories do not change with $\theta$. Thus neither path-set intersection nor the positive occupation and current built from those history weights determines the coherent output. A worldline description works for this experiment because it carries phase data and recombines amplitudes before applying the Born rule.
+
+\subsection{Spatial fringes and detector information}
+An exactly normalized spatial example uses a detector coordinate $x\in\T^1=[0,1)$ and orthonormal output modes $\varphi_A(x)=e^{2\pi ikx}$ and $\varphi_B(x)=e^{-2\pi ikx}$, with nonzero integer $k$. The isometry from the two-channel state space into $L^2(\T^1,\dd x)$ maps the branch state to
+\begin{align}
+ \psi_\theta(x)&=\frac1{\sqrt2}[\varphi_A(x)+e^{i\theta}\varphi_B(x)],\\
+ |\psi_\theta(x)|^2&=1+\cos(4\pi kx-\theta),\qquad
+ \int_0^1|\psi_\theta|^2\dd x=1.
+ \label{eq:spatialfringe}
+\end{align}
+This is a scalar two-mode fringe example, not a derived electron double-slit propagator. The local overlap of orthogonal global modes permits the cross term, but their relative phase controls its sign. Figure~\ref{fig:fringe} plots the exact densities for $k=1$.
+\begin{figure}[tb]
+\centering\includegraphics[width=\linewidth]{figures/figure4-spatial-fringes.pdf}
+\caption{Exact two-mode detector densities $1+\cos(4\pi x-\theta)$ for relative phases zero and $\pi$. The constant density one is obtained by removing coherence. Each density integrates to one on the unit circle. These are analytic illustrations, not measured double-slit data or a derived electron propagator.}
+\label{fig:fringe}
+\end{figure}
+
+Detector tagging is described explicitly by normalized tag states $d_A,d_B$ in an additional Hilbert space. Before recombination the joint state is $(|A\rangle d_A+e^{i\theta}|B\rangle d_B)/\sqrt2$. Writing $\nu=\langle d_A,d_B\rangle$, tracing over the tag gives
+\begin{equation}
+ p_\pm=\frac{1\pm\operatorname{Re}(e^{i\theta}\nu)}2,
+ \qquad\mathcal V=|\nu|\le1.
+ \label{eq:visibility}
+\end{equation}
+Indeed, the unnormalized tag state at the plus or minus output is $(d_A\pm e^{i\theta}d_B)/2$; its squared norm gives the stated probability. Varying $\theta$ gives maximum and minimum $(1\pm|\nu|)/2$, hence the stated visibility. Orthogonal tags remove the cross term, while identical tags preserve full visibility. The tensor-product description, partial trace, and Born readout are standard quantum assumptions; the model does not derive a collapse law from detector boundary geometry.
+
+\section{Geometric and measure-theoretic setup}
+\subsection{Time-oriented worldlines}
+For the covariant definitions, work first in Minkowski spacetime $(\R^{1,3},\eta)$ with signature $(-,+,+,+)$ and $c=1$. Let $y:[a,b]\to\R^{1,3}$ be a $C^1$ timelike immersion. Set
+\begin{equation}
+ \dd s=\sqrt{-\eta(\dot y,\dot y)}\,\dd\lambda,
+ \qquad u=\dd y/\dd s .
+ \label{eq:proper}
+\end{equation}
+Choosing a future orientation makes the time coordinate strictly increasing. On any segment spanning coordinate times $0$ to $T$, the curve can therefore be written as $y(t)=(t,\gamma(t))$, with $|\dot\gamma(t)|<1$. Its causal closure permits $|\dot\gamma|\le1$ almost everywhere and Lipschitz spatial paths. Including the causal closure is necessary for compactness: a sequence of strictly timelike curves can converge to a null curve.
+
+\begin{proposition}[Time orientation]
+A $C^1$ timelike immersion on a connected parameter interval cannot change from future-directed to past-directed while remaining a timelike immersion.
+\end{proposition}
+\begin{proof}
+The timelike cone has two connected components. In Minkowski coordinates, timelikeness implies $|\dot y^0|>|\dot{\mathbf y}|$, so $\dot y^0$ is continuous and never zero. Its sign is constant. The same argument uses any continuous time orientation on a time-oriented Lorentzian manifold.
+\end{proof}
+This proposition concerns regular timelike curves. It does not prohibit a quantum-field-theoretic antiparticle interpretation, which involves additional structure; the historical backward-propagation interpretation is not a construction of a single smooth timelike curve reversing its orientation.\cite{feynman}
+
+\subsection{Three distinct trajectory objects}
+The proper-time occupation measure and oriented current are defined by testing against a scalar function $f$ and a one-form $\alpha$:
+\begin{align}
+ \Phi_y(f)&=\int_a^b f(y(\lambda))\sqrt{-\eta(\dot y,\dot y)}\,\dd\lambda,
+ \label{eq:scalar}\\
+ J_y(\alpha)&=q\int_a^b\alpha_\mu(y(\lambda))\dot y^\mu(\lambda)\,\dd\lambda.
+ \label{eq:current}
+\end{align}
+Both are finite on a compact parameter interval. The first is positive. The second is an oriented vector-valued measure, equivalently a current acting on one-forms. Orientation-preserving reparametrization leaves both unchanged. Reversing the traversal leaves $\Phi_y$ unchanged and sends $J_y$ to $-J_y$. The constant $q$ is an assigned coupling, not a topological charge derived from the curve.
+
+For smooth compactly supported $f$,
+\begin{equation}
+ J_y(\dd f)=q[f(y(b))-f(y(a))].
+ \label{eq:endpoint}
+\end{equation}
+Thus the current boundary is $q(\delta_{y(b)}-\delta_{y(a)})$. If the coordinate divergence is defined by $\langle\partial_\mu J^\mu,f\rangle=-J_y(\dd f)$, its sign is reversed:
+\begin{equation}
+ \partial_\mu J_y^\mu=q(\delta_{y(a)}-\delta_{y(b)}).
+\end{equation}
+These identities follow directly from the chain rule and specify endpoint sources without a formal delta-function manipulation.
+
+The normalized coordinate-time occupation is a third object:
+\begin{equation}
+ P_\gamma(f)=\frac1T\int_0^T f(t,\gamma(t))\,\dd t.
+ \label{eq:graphoccupation}
+\end{equation}
+It is a probability measure with temporal marginal $\dd t/T$. It depends on the chosen time coordinate. In a Minkowski chart,
+\begin{align}
+ \Phi_y(f)&=\int_0^T f(t,\gamma(t))\sqrt{1-|\dot\gamma(t)|^2}\,\dd t,\\
+ J_y(\alpha)&=q\int_0^T[\alpha_0+\bm\alpha\cdot\dot\gamma](t,\gamma(t))\,\dd t.
+\end{align}
+Proper-time occupation and coordinate-time occupation are not interchangeable, particularly near a null limit. Only Eq.~\eqref{eq:graphoccupation} and explicitly stated graph-supported measures enter the approximation theorems below.
+
+\subsection{Compact spatial model and comparison metric}
+Let $(X,d_X)$ be a nonempty compact metric space, $T>0$, and $v\ge0$. Define
+\begin{equation}
+ \C_v=\{\gamma:[0,T]\to X: d_X(\gamma(t),\gamma(s))\le v|t-s|\}.
+\end{equation}
+For Lorentzian applications, take $X=\T^d=\R^d/\mathbb Z^d$ with its flat geodesic distance and the ultrastatic metric $-\dd t^2+\dd x^2$ on $\R\times\T^d$. The physical causal case is $v\le1$. The time cylinder $Z=[0,T]\times X$ is compact and is assigned the auxiliary metric
+\begin{equation}
+ D_a((t,x),(s,y))=a|t-s|+d_X(x,y),\qquad a>0.
+ \label{eq:metric}
+\end{equation}
+The conversion factor $a$ has units of speed when coordinates carry units. $D_a$ is an error metric, not the Lorentzian interval or Lorentzian time separation. The results do not assert observer independence of its numerical values.
+
+For $\mu,\nu\in\Pp(Z)$, the Wasserstein distance used throughout is
+\begin{equation}
+ W_{1,a}(\nu,\mu)=\inf_{\pi\in\Pi(\nu,\mu)}\int_{Z\times Z}D_a(z,w)\,\dd\pi(z,w).
+ \label{eq:W}
+\end{equation}
+Let $\G_{N,v}$ contain all probability measures supported on a union of at most $N$ graphs of paths in $\C_v$. This deliberately broad class includes weights that vary with time and measures with arbitrary temporal marginal. The physically simpler subclass
+\begin{equation}
+ \mathcal E_{N,v}=\left\{\sum_{i=1}^N w_iP_{\gamma_i}:w_i\ge0,\ \sum_iw_i=1,\ \gamma_i\in\C_v\right\}
+ \label{eq:E}
+\end{equation}
+has constant weights and temporal marginal $\dd t/T$. Every lower bound for $\G_{N,v}$ also holds for $\mathcal E_{N,v}$.
+
+\section{An exact quantization obstruction}
+For $\sigma\in\Pp(X)$, define the spatial quantization error
+\begin{equation}
+ e_N(\sigma)=\min_{x_1,\ldots,x_N\in X}\int_X\min_i d_X(x,x_i)\,\dd\sigma(x).
+ \label{eq:quantization}
+\end{equation}
+The minimum exists by compactness and continuity in the centers. This equals the minimum spatial $W_1$ distance from $\sigma$ to a measure supported on at most $N$ points: every coupling pays at least the nearest-center distance, and a measurable nearest-center assignment attains that cost with the induced atomic weights. Ties are resolved by the smallest index, yielding a Borel partition.
+
+\begin{lemma}[Distance to trajectory graphs]
+\label{lem:distance}
+For $\gamma_1,\ldots,\gamma_N\in\C_v$, let $G$ be their union of graphs and $L=\max\{1,v/a\}$. Then
+\begin{equation}
+ \dist_{D_a}((t,x),G)\ge\frac1L\min_i d_X(x,\gamma_i(t)).
+ \label{eq:distance}
+\end{equation}
+\end{lemma}
+\begin{proof}
+For every $i$ and every $s\in[0,T]$,
+\begin{align}
+ d_X(x,\gamma_i(t))
+ &\le d_X(x,\gamma_i(s))+v|t-s|\\
+ &\le L[d_X(x,\gamma_i(s))+a|t-s|].
+\end{align}
+Take the minimum over $i$ on the left and the infimum over $(s,i)$ on the right.
+\end{proof}
+
+\begin{theorem}[Exact static reduction]
+\label{thm:static}
+Let $a\ge v$, $N\ge1$, and $\nu=(\dd t/T)\otimes\sigma$ on $Z$. Then
+\begin{equation}
+ \inf_{\mu\in\G_{N,v}}W_{1,a}(\nu,\mu)
+ =\inf_{\mu\in\mathcal E_{N,v}}W_{1,a}(\nu,\mu)
+ =e_N(\sigma).
+ \label{eq:main}
+\end{equation}
+Both infima are attained by a mixture of stationary trajectories.
+\end{theorem}
+\begin{proof}
+Fix $\mu\in\G_{N,v}$, supported on $G$, and any coupling $\pi\in\Pi(\nu,\mu)$. Since its second coordinate belongs to $G$ almost surely,
+\begin{align}
+ \int D_a\,\dd\pi
+ &\ge\int_Z\dist_{D_a}(z,G)\,\dd\nu(z)\\
+ &\ge\frac1T\int_0^T\int_X\min_i d_X(x,\gamma_i(t))\,\dd\sigma(x)\,\dd t\\
+ &\ge e_N(\sigma).
+\end{align}
+The second inequality is Lemma~\ref{lem:distance} with $L=1$. Infimizing over $\pi$ proves the lower bound even for the larger class.
+
+For the upper bound, choose minimizing centers $x_i$ in Eq.~\eqref{eq:quantization}, their nearest-center cells $A_i$, and weights $w_i=\sigma(A_i)$. Let $\gamma_i(t)=x_i$. Couple $(t,x)$ to $(t,x_i)$ whenever $x\in A_i$. This gives a coupling to $\sum_iw_iP_{\gamma_i}$ with cost exactly $e_N(\sigma)$. It belongs to both classes. The two bounds agree.
+\end{proof}
+
+\begin{remark}
+The temporal marginal of the approximating measure need not be prescribed for the lower bound. Allowing the approximant to move mass to other times cannot circumvent the estimate when $a\ge v$. The matching upper bound respects the physical temporal marginal and uses constant trajectory weights.
+\end{remark}
+
+\begin{corollary}[Fixed multiplicity]
+If $\sigma$ is not supported on at most $N$ points, then $e_N(\sigma)>0$. Under the assumptions of Theorem~\ref{thm:static}, no sequence in $\G_{N,v}$ converges weakly to $(\dd t/T)\otimes\sigma$.
+\end{corollary}
+\begin{proof}
+If the attained minimum in Eq.~\eqref{eq:quantization} were zero, $\sigma$ would be supported on its minimizing centers. On the compact metric space $Z$, weak convergence is equivalent to convergence in $W_{1,a}$, contradicting Eq.~\eqref{eq:main}. Alternatively, the compactness argument in Sec.~\ref{sec:compact} gives a direct proof.
+\end{proof}
+
+The theorem does not forbid continuum descriptions. It specifies the failure of one reconstruction prescription: a fixed finite set of bounded-speed physical trajectories, with positive graph-supported weights, cannot reproduce a static diffuse spacetime density with arbitrarily small error in this topology. Figure~\ref{fig:graphs} illustrates the distinction between a finite graph support and a continuum target.
+\begin{figure}[tb]
+\centering\includegraphics[width=\linewidth]{figures/figure1-trajectory-support.pdf}
+\caption{Schematic supports in one spatial dimension. Left: three bounded-speed spacetime graphs. Right: a uniform spacetime target. Horizontal slices of the first support have at most three positions. The illustration is not simulation data.}
+\label{fig:graphs}
+\end{figure}
+
+\section{Time-dependent targets and explicit bounds}
+Suppose a target has a disintegration
+\begin{equation}
+ \nu(\dd t,\dd x)=\frac{\dd t}{T}\nu_t(\dd x),
+ \label{eq:disintegrate}
+\end{equation}
+where $t\mapsto\nu_t$ is a measurable probability kernel. The same graph-distance argument proves
+\begin{equation}
+ W_{1,a}(\nu,\mu)\ge\frac1{LT}\int_0^T e_N(\nu_t)\,\dd t
+ \quad (\mu\in\G_{N,v}).
+ \label{eq:dynamic}
+\end{equation}
+Measurability of the integrand follows by taking the infimum over a countable dense subset of $X^N$ in the continuous center-dependent integral. This is a lower bound, not an existence theorem for optimally tracking the minimizing centers. In a time-dependent target those centers may not satisfy the speed constraint.
+
+\begin{corollary}[Exactly transported targets]
+Suppose $a\ge v$ and $F_t:X\to X$ is a family of surjective isometries such that each path $t\mapsto F_t(x)$ belongs to $\C_v$. For $\nu_t=(F_t)_{\push}\sigma$ in Eq.~\eqref{eq:disintegrate},
+\begin{equation}
+ \inf_{\mu\in\G_{N,v}}W_{1,a}(\nu,\mu)
+ =\inf_{\mu\in\mathcal E_{N,v}}W_{1,a}(\nu,\mu)=e_N(\sigma).
+ \label{eq:transported}
+\end{equation}
+\end{corollary}
+\begin{proof}
+Surjective isometries preserve $e_N$, so Eq.~\eqref{eq:dynamic} gives the lower bound. Let $x_i,A_i,w_i$ be minimizing centers, nearest-center cells, and cell weights for $\sigma$. Set $\gamma_i(t)=F_t(x_i)$ and transport $(t,F_t(x))$ to $(t,F_t(x_i))$ for $x\in A_i$. This coupling has unchanged spatial cost $e_N(\sigma)$ and its second marginal is $\sum_iw_iP_{\gamma_i}$. Joint continuity of $(t,x)\mapsto F_t(x)$ follows from the isometry property and the uniform temporal Lipschitz bound, so the coupling is measurable.
+\end{proof}
+For example, on a flat torus, $F_t(x)=x+bt$ with $|b|\le v$ transports an arbitrary spatial probability measure. The corollary therefore includes nonuniform profiles moving rigidly at an allowed speed. It does not extend the equality to deforming profiles with unrelated slice quantizers.
+
+\begin{proposition}[Why the temporal-cost condition matters]
+On the unit circle, let $0<a<v$, let $\nu=(\dd t/T)\otimes\dd x$, and assume $T\ge2/v$. There is a measure $\mu\in\G_{1,v}$ such that
+\begin{equation}
+ \frac{a}{4v}\le W_{1,a}(\nu,\mu)
+ \le\frac{a}{4v}+\frac{2a}{v^2T}.
+ \label{eq:cheap-time}
+\end{equation}
+Consequently, for sufficiently large finite $T$, the static identity in Eq.~\eqref{eq:main} fails if its condition $a\ge v$ is removed.
+\end{proposition}
+\begin{proof}
+Take the single path $\gamma(s)=vs\pmod1$. For each $(t,x)$, choose the closest $s\in[0,T]$ with $vs=x\pmod1$, resolving ties by the earlier time. Such a time exists since $T\ge2/v$. Sending $(t,x)$ to $(s,x)$ is a Borel map onto the graph and defines a coupling to some $\mu\in\G_{1,v}$. Its cost is $a|t-s|$.
+
+For $t\in[1/v,T-1/v]$, the closest point of the full arithmetic progression of visit times lies in $[0,T]$. As $x$ varies uniformly, its offset modulo $1/v$ is uniform, and the mean distance is $1/(4v)$. On the remaining temporal set, of length at most $2/v$, a visit can be chosen within $1/v$ of $t$. The total mean cost is at most $a/(4v)+2a/(v^2T)$. The lower bound follows from Eq.~\eqref{eq:dynamic}, $e_1(\dd x)=1/4$, and $L=v/a$.
+\end{proof}
+The constructed measure need not have temporal marginal $\dd t/T$. The proposition concerns the explicitly broader class $\G_{1,v}$ and makes no assertion of the same upper bound for constant-weight coordinate-time occupation. It shows that the factor $1/L$ is asymptotically sharp for this broader support class as $T$ grows.
+
+\begin{theorem}[Bounded-density obstruction on a flat torus]
+Let $X=\T^d$, $d\ge1$, have unit volume and flat geodesic distance. Suppose $\nu_t=p_t\dd x$, where $0\le p_t\le M<\infty$ and $\int p_t\dd x=1$ for almost every $t$. Write $\omega_d$ for the Euclidean unit-ball volume and put
+\begin{equation}
+ r_N=\min\left\{\frac12,(MN\omega_d)^{-1/d}\right\}.
+\end{equation}
+Then every $\mu\in\G_{N,v}$ satisfies
+\begin{align}
+ W_{1,a}(\nu,\mu)
+ &\ge\frac1L\left[r_N-\frac{MN\omega_d}{d+1}r_N^{d+1}\right]\label{eq:bound}\\
+ &\ge\frac{d\,r_N}{(d+1)L}>0.
+\end{align}
+\end{theorem}
+\begin{proof}
+At a fixed time, set $h_t(x)=\min_i d_X(x,\gamma_i(t))$. For $0\le r\le1/2$, flat-torus balls have volume $\omega_dr^d$ up to boundary sets of zero volume. The union bound gives
+\begin{equation}
+ \nu_t\{h_t\le r\}\le MN\omega_dr^d.
+\end{equation}
+Using the layer-cake identity for a nonnegative function,
+\begin{align}
+ \int h_t\,\dd\nu_t
+ &\ge\int_0^{r_N}\nu_t\{h_t>r\}\,\dd r\\
+ &\ge\int_0^{r_N}(1-MN\omega_dr^d)\,\dd r\\
+ &=r_N-\frac{MN\omega_d}{d+1}r_N^{d+1}.
+\end{align}
+Integrating Eq.~\eqref{eq:distance} against $\nu$ and using the coupling lower bound proves Eq.~\eqref{eq:bound}. Finally, $MN\omega_dr_N^d\le1$ gives the second estimate.
+\end{proof}
+
+\subsection{Sharp examples and interpretation}
+For uniform $\sigma$ on $\T^1$, one has
+\begin{equation}
+ e_N(\sigma)=\frac1{4N}.
+ \label{eq:circle}
+\end{equation}
+Indeed, the preceding theorem has $d=1$, $M=1$, $\omega_1=2$, and $r_N=1/(2N)$, giving $1/(4N)$. Equally spaced centers attain this value: each cell has length $1/N$ and contributes $\int_{-1/(2N)}^{1/(2N)}|x|\dd x=1/(4N^2)$. Consequently Eq.~\eqref{eq:circle} is also the exact optimum for causal spacetime graphs when $a\ge v$.
+
+For $\T^d$ and $N=m^d$, place stationary curves at the centers of the regular $m^d$ grid. Transport each spatial cell to its center without changing time. Its maximal cost is $\sqrt d/(2m)$, so
+\begin{equation}
+ W_{1,a}(\nu,\mu_{m})\le\frac{\sqrt d}{2}N^{-1/d}
+ \label{eq:grid}
+\end{equation}
+for the uniform target. Combined with Eq.~\eqref{eq:bound}, this establishes the order $N^{-1/d}$. The exponent agrees with established spatial quantization theory; it is not presented as a new quantization exponent. Figure~\ref{fig:rate} displays only the exact one-dimensional result and its proven bound, not fitted or empirical rates.
+
+For a target with no more than $N$ spatial atoms, a zero-error representation may exist, so a diffuseness or density hypothesis is essential. If $a<v$, the lower bound retains the factor $1/L$, but the exact static identity is not asserted. Long observation times do not remove the obstruction for the joint spacetime distribution. A spatial marginal obtained after discarding time is a different object and can have entirely different approximation behavior.
+\begin{figure}[tb]
+\centering\includegraphics[width=\linewidth]{figures/figure2-exact-error.pdf}
+\caption{Analytic benchmark for a uniform target on the unit spatial circle with $a\ge v$. The curve is the exact formula $1/(4N)$, attained by stationary equally spaced trajectories. The plotted points are evaluations of the formula, not numerical evidence for the theorem.}
+\label{fig:rate}
+\end{figure}
+
+\section{Compactness, ensembles, and conservation}
+\label{sec:compact}
+\subsection{Qualitative closure of finite-trajectory representations}
+\begin{proposition}
+The classes $\G_{N,v}$ and $\mathcal E_{N,v}$ are weakly compact in $\Pp(Z)$.
+\end{proposition}
+\begin{proof}
+The path space $\C_v$ is compact in the uniform topology by equicontinuity, compactness of $X$, and closedness of the speed inequality. Given $\mu_n\in\G_{N,v}$, pad each list of supporting paths to length $N$. A subsequence has each path $\gamma_{i,n}$ converging uniformly to $\gamma_i\in\C_v$. Compactness of $\Pp(Z)$ gives a further subsequence with $\mu_n\rightharpoonup\mu$.
+
+Write $G_n$ and $G$ for the corresponding graph unions. Their Hausdorff distance in $D_a$ is at most $\max_i\sup_t d_X(\gamma_{i,n}(t),\gamma_i(t))$, hence tends to zero. The continuous nonnegative function $F=\dist_{D_a}(\,\cdot\,,G)$ satisfies $\int F\dd\mu_n\to0$, since $\mu_n(G_n)=1$. Weak convergence yields $\int F\dd\mu=0$, so $\mu(G)=1$.
+
+For $\mathcal E_{N,v}$, choose convergent weights in the compact simplex as well. The map $\gamma\mapsto P_\gamma$ is weakly continuous, since continuous functions on $Z$ are uniformly continuous. The limiting measure is the mixture of the limiting paths and weights.
+\end{proof}
+Every finite graph union has zero product measure with respect to $\dd t\otimes\dd x$ on $[0,T]\times\T^d$, by Fubini's theorem: each time slice is a finite set of zero $d$-dimensional volume. Thus an absolutely continuous spacetime probability cannot lie in either closed class. Singularity alone would not exclude weak approximation, because singular measures can converge to diffuse measures when support complexity grows. Fixed multiplicity and uniform speed supply the additional compactness needed here.
+
+\subsection{Ensemble occupation and current}
+Let $\eta\in\Pp(\C_v)$, allowing a genuine distribution on trajectories. Define $\mu_t=(e_t)_{\push}\eta$, where $e_t(\gamma)=\gamma(t)$, and
+\begin{equation}
+ P_\eta(f)=\int_{\C_v}P_\gamma(f)\,\dd\eta(\gamma)
+ =\frac1T\int_0^T\int_X f(t,x)\,\dd\mu_t(x)\,\dd t.
+ \label{eq:ensemble}
+\end{equation}
+Here and below, $F_{\push}\eta$ denotes push-forward. Continuity of evaluations and compactness ensure these integrals are well defined. This formula is an ordinary positive ensemble average, not a coherent quantum sum.
+
+On $X=\T^d$, define the spatial flux by
+\begin{equation}
+ j_\eta(b)=\frac1T\int_{\C_v}\int_0^T b(t,\gamma(t))\cdot\dot\gamma(t)\,\dd t\,\dd\eta(\gamma).
+ \label{eq:flux}
+\end{equation}
+The velocity is interpreted in the flat torus tangent frame and exists almost everywhere. It can be chosen jointly measurably using limits of local difference quotients; its value on the null set where differentiation fails can be set to zero. Fubini's theorem is applicable because the speed is uniformly bounded. Equivalently, the flux is the bounded linear functional on continuous spatial one-forms defined by these line integrals.
+
+\begin{proposition}[Distributional continuity and speed]
+Writing $\rho_\eta=P_\eta$, the vector measure $j_\eta$ satisfies $|j_\eta|\le v\rho_\eta$ and, for $f\in C^1([0,T]\times\T^d)$,
+\begin{equation}
+ \int\partial_t f\,\dd\rho_\eta+\int\nabla_xf\cdot\dd j_\eta
+ =\frac1T\left[\int f(T,x)\,\dd\mu_T-\int f(0,x)\,\dd\mu_0\right].
+ \label{eq:continuity}
+\end{equation}
+In particular $\partial_t\rho_\eta+\nabla_x\cdot j_\eta=0$ in the open cylinder.
+\end{proposition}
+\begin{proof}
+The chain rule for a Lipschitz curve gives $\dd f(t,\gamma(t))/\dd t=\partial_t f+\nabla_xf\cdot\dot\gamma$ almost everywhere. Integrate over time and then over $\eta$ to obtain Eq.~\eqref{eq:continuity}. For a continuous vector test field $b$, Eq.~\eqref{eq:flux} gives $|j_\eta(b)|\le v\int|b|\dd\rho_\eta$. The total-variation characterization yields $|j_\eta|\le v\rho_\eta$.
+\end{proof}
+The converse problem---representing suitable continuity-equation solutions by path measures---belongs to established superposition theory.\cite{stepanov,miller} We do not reprove or claim that theory. A simple diffuse example suffices here: choose $z\in\T^d$ uniformly and set $\gamma_z(t)=z$. Its path distribution has uniform spacetime occupation and zero spatial flux. This is an ensemble of stationary histories, not one history visiting every spatial point at the same physical time.
+
+The ensemble is generally not identifiable from one-time densities. On $\T^1$, uniformly distributed stationary paths and uniformly distributed paths $\gamma_z(t)=z+bt$ have the same $\mu_t$ for any constant $0<|b|\le v$, but different fluxes. Even occupation and flux together need not determine the path law: the half-mixture of speeds $+b$ and $-b$ with uniform initial position has the same uniform occupation and zero flux as the stationary ensemble. It has different two-time correlations. A claimed unique global identity therefore requires information beyond these first-moment objects.
+
+\section{Reconstruction limits: phase and spin}
+\subsection{Positive mixtures do not specify coherence}
+Two histories with equal positive weights determine the same classical label distribution for every relative phase. The phase dependence can be stated without a formal path integral. Consider the family of two-channel density matrices
+\begin{equation}
+ R_\theta=\frac12\begin{pmatrix}1&e^{-i\theta}\\e^{i\theta}&1\end{pmatrix}.
+ \label{eq:coherence}
+\end{equation}
+All have diagonal probabilities $(1/2,1/2)$. With the orthonormal output vectors $h_\pm=(1,\pm1)/\sqrt2$, quantum probabilities are
+\begin{equation}
+ p_\pm(\theta)=h_\pm^\dagger R_\theta h_\pm=\frac{1\pm\cos\theta}{2}.
+ \label{eq:phase}
+\end{equation}
+Thus $\theta=0$ and $\theta=\pi$ have identical positive history weights but exchange the two output probabilities. No rule depending only on those weights can reproduce the entire family.
+
+More generally, a Hermitian matrix $R=\left(\begin{smallmatrix}p&c\\\bar c&1-p\end{smallmatrix}\right)$ is positive semidefinite precisely when $0\le p\le1$ and $|c|^2\le p(1-p)$. Its diagonal does not determine $c$. Positivity follows from the nonnegative principal minors in dimension two, and the output probabilities are $1/2\pm\operatorname{Re}c$. The extra coherence variable is mathematically explicit. Adopting it is additional quantum structure, not a consequence of set intersection or worldline occupation. Figure~\ref{fig:phase} contrasts two allowed coherences with the same positive weights.
+\begin{figure}[tb]
+\centering\includegraphics[width=\linewidth]{figures/figure3-phase-information.pdf}
+\caption{Two-channel information loss. Both cases have history weights $(1/2,1/2)$, while a relative phase of zero or $\pi$ gives opposite deterministic outputs in the specified interference basis. Bars show exact analytic probabilities from Eq.~\eqref{eq:phase}, not experimental data.}
+\label{fig:phase}
+\end{figure}
+
+\subsection{Tensorial data alone cannot select a spinor}
+\begin{proposition}[Spin-equivariance obstruction]
+Let $\mathcal D$ be a collection of worldline data on which the central element $-1\in\operatorname{Spin}^+(1,3)$ acts trivially, as it does on scalar occupation and tensorial currents through the Lorentz projection. Let $S$ be a spinor representation in which $-1$ acts as minus the identity. Any equivariant map $F:\mathcal D\to S$, or to spinor-valued fields with the corresponding action, is identically zero.
+\end{proposition}
+\begin{proof}
+For every $D\in\mathcal D$, equivariance implies $F(D)=F((-1)D)=(-1)F(D)=-F(D)$. Over $\mathbb C$, this gives $F(D)=0$.
+\end{proof}
+This algebraic statement applies even to nonlinear reconstruction maps; it does not assert that spinors cannot be introduced. It identifies the missing transformation data. A chosen spinor, spinorial path variable, or suitable lifted state space changes the domain and can remove the obstruction. A spin structure by itself does not canonically select a nonzero spinor section. Established spinning-particle and worldline formulations introduce the additional structures appropriate to the quantity being computed.\cite{schubert}
+
+Likewise, an assigned orientation or an assigned coupling $q$ is not a derivation of quantized electric charge. No map from a specified topological invariant to electromagnetic charge is supplied here. The paper derives neither the canonical anticommutation relations nor a many-particle Hilbert space. Those questions are separate from the scalar and current constructions proved above.
+
+\section{Scope for a foundational GWFM}
+The results impose a concrete choice on a worldline-based field model. If the target is a diffuse coordinate-time spacetime density, fixed finite multiplicity and a uniform causal speed bound prevent arbitrarily accurate reconstruction by positive graph-supported measures. A model may instead use a genuine path ensemble, allow increasing trajectory multiplicity, change the observable, or introduce a different reconstruction map. Each is a distinct mathematical proposal with its own physical interpretation.
+
+Increasing multiplicity already gives a controlled classical construction: the stationary grid converges to a uniform continuum with the proven $N^{-1/d}$ order. It does not turn the mixture into one regular causal curve. Connecting the stationary graphs by segments that return to an earlier time would leave the stated causal class; concatenating them at later times would change the finite-time spacetime target. Similarly, a long-time ergodic spatial occupation limit discards time and falls outside the theorem's claim.
+
+Section~\ref{sec:coherent} supplies a positive finite construction: alternative histories of one amplitude state obey a unitary history sum, exhibit superposition, and produce both spatial fringes and detector-tag-dependent visibility. The phase-enriched matrix in Eq.~\eqref{eq:coherence} states the information retained by that construction. The quantum state space and readout rule are inputs. Deriving the transition amplitudes from a proposed worldline action, extending the model to a relativistic spinor theory, and establishing locality and fermionic statistics remain separate research problems. A positive probability measure on classical trajectories does not define a Lorentzian oscillatory path integral.
+
+In this foundational presentation, the interpretive proposal and its mathematical realization have distinct roles. A common geometric entity motivates the model; the phase-coherent network supplies an explicit superposition and interference construction; occupation and current are defined classical objects; continuum approximation is addressed by theorems with stated hypotheses. A complete electron-field reconstruction remains unestablished. This separation gives subsequent development precise requirements rather than assuming automatic equivalence with quantum field theory.
+
+\section{Conclusion}
+The phase-coherent GWFM construction represents superposition by linear state evolution and interference by summing complex history amplitudes before taking their squared modulus. An explicit causal two-channel network and a spatial two-mode example show the mechanism, while detector tagging gives the visibility factor. These results demonstrate consistency with the specified quantum assumptions, rather than deriving those assumptions from a curve. The complementary exact quantization reduction, its isometric-transport extension, and its temporal-cost counterexample distinguish amplitude reconstruction from classical occupation. Ensemble currents satisfy continuity, but neither scalar occupation nor tensorial current supplies the missing phase and spin data. This establishes a defined foundation for further GWFM development, not a completed electron theory.
+
+\section*{Supplementary material}
+The supplementary source package supplies deterministic checks of the analytic examples and editable vector figures. No experimental dataset or fitted numerical result is used. The optional graphical-abstract video summarizes the stated results and is not evidence for them.
+\section*{Acknowledgments}
+This research received no external funding.
+\section*{Author declarations}
+\subsection*{Conflict of interest}
+The author has no conflicts of interest to disclose.
+\subsection*{Ethics approval}
+This work contains theoretical mathematical analysis and reports no human or animal research.
+\subsection*{Author contributions}
+Jason Duran Dutton: Conceptualization, methodology, investigation, writing---original draft, and writing---review and editing.
+\section*{Data availability}
+No experimental research datasets were generated or analyzed. The assumptions and proofs are in the article. The accompanying supplementary source code reproduces the analytic illustrations and deterministic checks.
+\appendix
+\section{An elementary proof of the torus rate}
+The geometric estimate in Eq.~\eqref{eq:bound} uses only a density upper bound and a finite cover by radius-$r$ balls. It is independent of optimal-transport duality and requires no assumption that minimizing spatial centers form smooth time-dependent paths. For $N=m^d$, the grid upper bound follows by partitioning a fundamental cube into side-$1/m$ cubes and transporting each cube to its center at the same time. Hence the lower and upper estimates concern precisely the same spacetime metric. The upper bound is not an assertion of optimal constants in $d>1$.
+
+In $d=1$, the exact cell integral is $1/(4N^2)$. Summing over $N$ equal cells gives $1/(4N)$. Direct midpoint quadrature used in the verification script checks this identity numerically; the integral and the proof above, rather than that numerical check, establish the result.
+\begin{thebibliography}{99}
+\bibitem{feynmanpath} R. P. Feynman, ``Space-time approach to non-relativistic quantum mechanics,'' Rev. Mod. Phys. \textbf{20}, 367 (1948), \href{https://doi.org/10.1103/RevModPhys.20.367}{doi:10.1103/RevModPhys.20.367}.
+\bibitem{aharonov} Y. Aharonov, L. Davidovich, and N. Zagury, ``Quantum random walks,'' Phys. Rev. A \textbf{48}, 1687 (1993), \href{https://doi.org/10.1103/PhysRevA.48.1687}{doi:10.1103/PhysRevA.48.1687}.
+\bibitem{kempe} J. Kempe, ``Quantum random walks---an introductory overview,'' Contemp. Phys. \textbf{44}, 307--327 (2003), \href{https://doi.org/10.1080/00107151031000110776}{doi:10.1080/00107151031000110776}.
+\bibitem{schubert} C. Schubert, ``Perturbative quantum field theory in the string-inspired formalism,'' Phys. Rep. \textbf{355}, 73--234 (2001), \href{https://doi.org/10.1016/S0370-1573(01)00013-8}{doi:10.1016/S0370-1573(01)00013-8}.
+\bibitem{strassler} M. J. Strassler, ``Field theory without Feynman diagrams: One-loop effective actions,'' Nucl. Phys. B \textbf{385}, 145--184 (1992), \href{https://doi.org/10.1016/0550-3213(92)90098-V}{doi:10.1016/0550-3213(92)90098-V}.
+\bibitem{stepanov} E. Stepanov and D. Trevisan, ``Three superposition principles: Currents, continuity equations and curves of measures,'' J. Funct. Anal. \textbf{272}, 1044--1103 (2017), \href{https://doi.org/10.1016/j.jfa.2016.10.025}{doi:10.1016/j.jfa.2016.10.025}.
+\bibitem{miller} T. Miller, ``Causal evolution of probability measures and continuity equation,'' Adv. Theor. Math. Phys. \textbf{28}, 743--804 (2024), \href{https://doi.org/10.4310/ATMP.241028222555}{doi:10.4310/ATMP.241028222555}.
+\bibitem{kloeckner} B. Kloeckner, ``Approximation by finitely supported measures,'' ESAIM Control Optim. Calc. Var. \textbf{18}, 343--359 (2012), \href{https://doi.org/10.1051/cocv/2010100}{doi:10.1051/cocv/2010100}.
+\bibitem{ehler} M. Ehler, M. Gr\"af, S. Neumayer, and G. Steidl, ``Curve based approximation of measures on manifolds by discrepancy minimization,'' Found. Comput. Math. \textbf{21}, 1595--1642 (2021), \href{https://doi.org/10.1007/s10208-021-09491-2}{doi:10.1007/s10208-021-09491-2}.
+\bibitem{feynman} R. P. Feynman, ``The theory of positrons,'' Phys. Rev. \textbf{76}, 749--759 (1949), \href{https://doi.org/10.1103/PhysRev.76.749}{doi:10.1103/PhysRev.76.749}.
+\end{thebibliography}
+\end{document}
+
