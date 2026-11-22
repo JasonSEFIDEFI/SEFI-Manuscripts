@@ -1,0 +1,131 @@
+\documentclass[aip,adv,reprint,floatfix]{revtex4-2}
+\usepackage{amsmath,amssymb}
+\begin{document}
+\title{Coherent saddle-coordinate encoding and recovery under common displacement}
+\author{Jason Dutton}
+\affiliation{Castlewood, Virginia, USA}
+\date{Rough draft --- November 22, 2026}
+\begin{abstract}
+Returning a classical trajectory to a surface by replacing its height leaves open whether the same construction can preserve quantum coherence. We implement the saddle retraction coherently using a two-dimensional location register and an auxiliary height register. A controlled translation places the two logical amplitudes at distinct saddle heights, and an inverse translation followed by a partial trace decodes them. The resulting logical channel is the identity for an arbitrary mixture of common vertical translations. Exact simulation on a seven-bin height register verifies every logical matrix unit and unit Bell entanglement fidelity. Discarding raw height from the same encoded input yields Bell fidelity \(1/2\) for a basis packet and \(0.567668\) for a Gaussian packet of width \(0.5\). A matched flat encoding and decoding also attain unit fidelity, identifying the protection as a noiseless-subsystem mechanism. We quantify the loss of coherence under location-dependent shifts and test a saddle-derived calibration rule under aligned and independently specified synthetic drift. These controls give a reproducible quantum interpretation of the geometric retraction and delimit its scope.
+\end{abstract}
+\maketitle
+
+\section{Introduction}
+
+The stability-surface example in the SEFI geometric construction restores a displaced classical trajectory by computing \(z-h(x,y)\), the vertical residual relative to a surface.\cite{Dutton} For a quantum state spread over two locations, an operational version must specify how the two amplitudes are encoded, how a displacement acts, and whether the relative phase survives. Exact quantum error correction is a statement about the composition of quantum channels.\cite{KL} The subsystem formulation further identifies which degrees of freedom can absorb noise without degrading the logical state.\cite{KLV}
+
+Here we assign the displaced coordinate to a quantum register and implement the retraction by a coherent controlled shift. The model assumes orthogonal location modes and controlled translations. It gives a computational and analytic test in dimensionless coordinates. A mapping to physical photonic modes and noise remains to be established. Photon-loss codes operate under other noise and resource assumptions,\cite{Albert} so our comparisons are with decoders using the same registers and displacement channel.
+
+\section{Quantum model and exact recovery}
+
+Take the logical basis locations \(q_0=(0,1)\) and \(q_1=(1,0)\) on the saddle \(h(x,y)=x^2-y^2\). Their heights are \(h_0=-1\) and \(h_1=1\). The location register is \(\mathcal H_L=\mathbb C^2\). The height register \(\mathcal H_Z\) is \(\mathbb C^7\) in the finite check and \(L^2(\mathbb R)\) in the continuous model. Let \(T(d)\) translate height by \(d\). It maps \(|z\rangle\) to \(|z+d\bmod 7\rangle\) in the cyclic model and acts as \([T(d)g](z)=g(z-d)\) on a continuous wave packet \(g\).
+
+For a fixed normalized height packet, the controlled unitary, encoding isometry, and recovery are
+\begin{align}
+U_h &= \sum_{b=0}^1 |b\rangle\langle b|\otimes T(h_b),\\
+V|\psi\rangle &= U_h(|\psi\rangle\otimes |g\rangle),\\
+\mathcal R_h(A)&=\operatorname{Tr}_Z(U_h^\dagger A U_h).
+\end{align}
+The channel \(\mathcal E_h(\rho)=V\rho V^\dagger\) is completely positive and trace preserving because \(V^\dagger V=I_L\). Recovery is also completely positive and trace preserving by unitary conjugation and partial trace. The inverse translation subtracts the surface height coherently. Measuring the location before the inverse would erase relative phase.
+
+A common vertical shift acts as \(N_d=I_L\otimes T(d)\). Since translations commute,
+\begin{equation}
+U_h^\dagger N_d V|\psi\rangle
+=|\psi\rangle\otimes T(d)|g\rangle .
+\label{eq:factor}
+\end{equation}
+This factorization extends by identity on any untouched reference. It implies \(\mathcal R_h\circ\mathcal N\circ\mathcal E_h=\operatorname{id}_L\) for any probabilistic mixture \(\mathcal N\) of common translations. The decoder receives the noisy register and uses the fixed heights without access to the displacement value. Equation~\eqref{eq:factor} also holds for any fixed height assignment, including \(h_0=h_1=0\). This is exact protection of a noiseless location subsystem.\cite{KLV} The saddle determines the coordinate transformation in the encoded representation.
+
+\section{Coherence tests and matched controls}
+
+For location-dependent shifts \(d_0,d_1\), the decoded off-diagonal entry is multiplied by \(\langle T(d_1)g|T(d_0)g\rangle\). The logical populations remain fixed. For a real Gaussian packet \(g\) whose position distribution has standard deviation \(\sigma\), the Bell entanglement fidelity is
+\begin{equation}
+F_{\rm e}=\frac{1+\exp[-\Delta^2/(8\sigma^2)]}{2},
+\qquad \Delta=d_1-d_0.
+\label{eq:fidelity}
+\end{equation}
+Here \(F_{\rm e}\) is the overlap of the recovered logical--reference state with its input Bell state. Discarding raw height on the same saddle encoding changes the packet separation to \(\Delta+h_1-h_0\). In the cyclic model with a basis packet, overlap is one for coincident residual bins and zero otherwise.
+
+The exact simulator verified all four logical matrix units and the full Bell density matrix for every cyclic shift. The fixed common-shift mixture uses \(d=-2,0,3\) with probabilities \(1/4,1/2,1/4\), respectively. The continuous result follows from Eq.~\eqref{eq:fidelity}. Independent numerical integration checks the overlap. Table~\ref{tab:controls} reports the controls.
+
+\begin{table}[ht]
+\caption{Bell entanglement fidelity under common shifts except in the last row. The Gaussian width is \(0.5\). The last row uses a shift difference of one cyclic bin or \(0.2\) in continuous units.}
+\label{tab:controls}
+\begin{ruledtabular}
+\begin{tabular}{lcc}
+Protocol & Seven bins & Gaussian\\
+\hline
+Saddle encode and decode & 1 & 1\\
+Saddle encode, discard raw height & \(1/2\) & 0.567668\\
+Flat encode and decode & 1 & 1\\
+Saddle decoder, differential shift & \(1/2\) & 0.990099\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+The software also implements an active correction control using the standard three-qubit bit-flip repetition code. It encodes \(|0\rangle,|1\rangle\) as \(|000\rangle,|111\rangle\). The identity and three single-qubit flips map the two-dimensional code space to four mutually orthogonal sectors. If \(E_s\) denotes one of those errors and \(V_{\rm rep}\) the repetition isometry, the recovery Kraus operators \(V_{\rm rep}^\dagger E_s^\dagger\) return each sector to the logical space. The saddle-labelled, flat-labelled, and conventional recoveries agree on all 64 physical matrix units. This verifies active syndrome recovery as a separate operation from the protected height-register construction.
+
+\section{Calibration transfer and model mismatch}
+
+For a pair separated by \((s_x,s_y)\) and a lateral shift \((d_x,d_y)\), the difference between its two saddle height changes is \(2(s_xd_x-s_yd_y)\). We fit a single gain multiplying this feature, compare with a conventional predictor that uses the same signed combination, and compare with an unrestricted four-coefficient bilinear fit. An externally supplied ideal lateral reading informs each decoder. Actual differential vertical shift is reserved for calibration and scoring. A location-controlled translation implements the predicted correction coherently.
+
+One axis calibration shot transferred to four held-out location pairs and sixteen lateral disturbances at each pair with \(F_{\rm e}=1\) when the synthetic drift field was \(x^2-y^2\). The matched one-parameter predictor tied it, and the unrestricted fit reached unity with four axis shots. Adding \(xy\) to the synthetic field leaves the first calibration reading unchanged and lowers the two one-parameter predictions to mean \(F_{\rm e}=0.765152\). The four-shot unrestricted fit still gives unity in this bilinear case.
+
+A second stress test uses the independently specified synthetic periodic field
+\begin{equation}
+f(x,y)=\cos(0.8x-0.4y)+0.6\sin(0.3x+y).
+\end{equation}
+The differential shift is the difference in changes of \(f\) between displaced locations. Both fits use the same calibration observations, with Gaussian readout noise of standard deviation \(0.15\). Each budget repeats a block of four axis shots. Results average over 64 seeded calibration repeats and 64 held-out cases per repeat, with packet width \(0.5\). In one example, both saddle heights increase by \(4\) after a lateral shift of \((1,1)\). The predicted differential correction is zero, whereas the periodic field induces an actual shift difference of about \(-0.492\). Equation~\eqref{eq:fidelity} gives \(F_{\rm e}\simeq0.9431\) for that case.
+
+\begin{table}[ht]
+\caption{Mean Bell fidelity for the periodic stress test. With the standard inverse saddle translation and no additional drift correction, the mean is \(0.9357\).}
+\label{tab:drift}
+\begin{ruledtabular}
+\begin{tabular}{rcc}
+Calibration shots & Saddle fit & Bilinear fit\\
+\hline
+4 & 0.9229 & 0.9095\\
+8 & 0.9246 & 0.9145\\
+16 & 0.9262 & 0.9176\\
+32 & 0.9261 & 0.9195\\
+\end{tabular}
+\end{ruledtabular}
+\end{table}
+
+Table~\ref{tab:drift} shows that neither fit reaches the chosen mean fidelity target of \(0.95\). The uncorrected control outperforms both fits at all tested budgets. These tests show how a correct restriction can reduce calibration effort and how a mismatched restriction can degrade recovery. The periodic field is a numerical control without an asserted photonic correspondence.
+
+\subsection{Computational workflow}
+
+OpenAI Codex (OpenAI) assisted with the Python implementation, benchmark and control design, and interpretation of the results. It was used to turn the surface-residual model into executable channel tests and matched comparisons. The pinned Python code computes the reported values directly. The exact model is independently specified by Eq.~\eqref{eq:factor}, and the Gaussian results use Eq.~\eqref{eq:fidelity}. The exact model version associated with the AI-assisted sessions is pending author confirmation in this draft.
+
+\section{Conclusion}
+
+The saddle retraction admits a coherent encoding and decoding that preserves arbitrary qubit states and reference entanglement under common vertical displacement. The matched flat protocol achieves the same protection. Differential shifts can leave information about the logical location in the discarded register, reducing coherence. The surface supplies a direct correction rule whose assumptions and failures can be inspected. The tests identify both a conditional calibration benefit and a concrete mismatch where correction hurts. A photonic evaluation would require specified location and height modes, a realizable controlled shift and its inverse, and independently characterized noise.
+
+\section*{Author Declarations}
+\subsection*{Conflict of Interest}
+The conflict-of-interest declaration is pending author confirmation in this draft.
+\subsection*{Author Contributions}
+Jason Dutton: Conceptualization, Methodology, Software, Validation, and Writing.
+
+\section*{Data Availability}
+The numerical results supporting the findings are available within this article. The Python reproduction archive accompanies this draft. Appendix~\ref{app:repro} identifies the code revision and commands used to generate the results.
+
+\appendix
+\section{Reproducing the calculations}
+\label{app:repro}
+
+The SEFI\_QEC\_Stack software revision used for these results is
+\texttt{792bd78}. The source archive and a link to the pinned Git revision are available with this draft. Run from the Stack repository with Python 3.10 or newer:
+\begin{verbatim}
+python3 -m quantum.saddle_displacement
+python3 -m quantum.saddle_displacement \
+  --differential
+python3 -m quantum.saddle_qec
+python3 -m quantum.saddle_transfer
+python3 -m quantum.saddle_noise_lab
+\end{verbatim}
+The calibration seed is \(20261122\). Held-out shift components are taken independently from \(\{-1,-1/2,1/2,1\}\).
+
+\bibliography{references}
+\end{document}
