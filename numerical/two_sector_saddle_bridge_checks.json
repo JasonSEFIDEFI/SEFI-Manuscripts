@@ -1,0 +1,95 @@
+{
+  "status": "new conditional design; no photonic or full-field derivation claimed",
+  "parameters": {
+    "J0": 0.1,
+    "alpha": 0.25,
+    "beta": 0.15,
+    "k": 1.0,
+    "mu": 1.0,
+    "nu": 1.0
+  },
+  "labels": [
+    [
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "rows": [
+    {
+      "cutoff": 18,
+      "saddle_height_mean_max_error": 2.220446049250313e-16,
+      "companion_height_mean_max_error": 3.3306690738754696e-16,
+      "full_two_sector_recovery_max_state_error": 5.4698886985609435e-12,
+      "forward_half_period_plus_phase_decoder_max_state_error": 5.46994619279204e-12,
+      "nine_label_bell_fidelity": 0.999999999999999
+    },
+    {
+      "cutoff": 30,
+      "saddle_height_mean_max_error": 4.163336342344337e-16,
+      "companion_height_mean_max_error": 7.771561172376096e-16,
+      "full_two_sector_recovery_max_state_error": 2.373901776105717e-15,
+      "forward_half_period_plus_phase_decoder_max_state_error": 2.349859362682168e-15,
+      "nine_label_bell_fidelity": 0.999999999999999
+    },
+    {
+      "cutoff": 42,
+      "saddle_height_mean_max_error": 4.996003610813204e-16,
+      "companion_height_mean_max_error": 3.885780586188048e-16,
+      "full_two_sector_recovery_max_state_error": 2.1498479924089946e-15,
+      "forward_half_period_plus_phase_decoder_max_state_error": 1.9190514664352827e-15,
+      "nine_label_bell_fidelity": 0.9999999999999993
+    }
+  ],
+  "frenet_metric_preservation_error": 0.0,
+  "discarding_companion_control": {
+    "alpha": 0.5,
+    "beta": 0.5,
+    "locations": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "same_saddle_height": 0,
+    "companion_height_gap": 1,
+    "gaussian_position_sd": 0.7071067811865475,
+    "bell_fidelity_after_correcting_Z_but_discarding_uncorrected_B": 0.8894003915357025
+  },
+  "all_checks_passed": true
+}

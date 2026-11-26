@@ -1,0 +1,74 @@
+{
+  "all_passed": true,
+  "check_count": 11,
+  "checks": [
+    {
+      "name": "explicit encoded-noisy-decoded density versus residual Gram channel",
+      "error": 1.6841118637620292e-17,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "full reference-state fidelity versus Gram trace",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "full reference-state fidelity deficit versus residual dispersion",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "reduced reference-state trace",
+      "error": 3.330757615875996e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "phase-only residual density equality",
+      "error": 5.561946577567963e-17,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "phase-only logical fidelity",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "singular Gaussian covariance and nonzero mean",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "known mean-phase compensation",
+      "error": 4.449557262054371e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "matched inverse with zero noise at offset 0.0",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 2e-13
+    },
+    {
+      "name": "forward-phase synthesis at nominal half-period",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-13
+    },
+    {
+      "name": "matched inverse with zero noise at offset 0.12",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2e-13
+    }
+  ],
+  "timing_decoder_controls": [
+    {
+      "delta": 0.0,
+      "matched_inverse_fidelity": 0.9999999999999997,
+      "nominal_forward_phase_fidelity": 0.9999999999999998
+    },
+    {
+      "delta": 0.12,
+      "matched_inverse_fidelity": 0.9999999999999996,
+      "nominal_forward_phase_fidelity": 0.984861068148926
+    }
+  ],
+  "scope": "Deterministic full-state and quadrature checks; no experimental measurements."
+}

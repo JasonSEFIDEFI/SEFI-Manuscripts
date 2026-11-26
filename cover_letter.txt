@@ -1,0 +1,54 @@
+November 25, 2026
+
+The Editors
+AIP Advances
+AIP Publishing
+
+Re: Proposed replacement manuscript for ADV26-AR-05694
+
+Dear Editors,
+
+I request permission to replace the manuscript currently associated with ADV26-AR-05694, "Coherent
+Saddle Encoding and Displacement Recovery: Exact Conditions and Limitations," with the enclosed
+consolidated manuscript, "Coherent Saddle Encoding and Displacement Recovery: Residual-State
+Criteria and Timing Limits." This proposed replacement is intended to supersede the earlier files
+under the existing tracking number, rather than constitute a separate parallel submission.
+
+The replacement integrates the original coherent saddle construction with the complementary math-
+ematical developments prepared under the working title "Conjugate Phase Geometry and Coher-
+ent Recovery." Shared material is retained as the same construction, not presented as independent
+new evidence. The main text now gives a general residual-state criterion for exact logical recovery
+under label-preserving random-unitary noise, an exact entanglement-fidelity deficit, and a sufficient
+channel-distance estimate. It develops the complete two-oscillator encoder, its coherent inverse, exact
+common-translation recovery, and the reference-entanglement criterion.
+
+The arbitrary-time analysis supplies a Gaussian dephasing law and a quadratic timing-error coeffi-
+cient. The manuscript now makes explicit that this law assumes an encoder and its matched coherent
+inverse. A nominal forward evolution with half-period phase compensation is a distinct off-time oper-
+ation. Independent full-state calculations check that distinction, as well as the residual-state formulas,
+nonzero-mean and singular-covariance noise, and preservation of reference information. Eight exe-
+cutable numerical scripts and recorded outputs accompany the replacement.
+
+To keep the recovery argument focused while retaining the supporting mathematics, the constrained
+scalar-field, internal-response, localization, coherent-history, trajectory, and conditional geomet-
+ric/conservation calculations appear in labeled appendices. Their assumptions remain separate; they
+are not asserted to supply a common microscopic derivation of the quantum register. Explicit error
+channels, matched flat and conventional controls, and implementation limitations are retained.
+
+For continuity, this work also follows the declined submission ADV26-AR-04574, "Geometric Photonic
+Quantum Error Correction via SEFI, GWFM, and DEFI." The replacement addresses its central
+concern by specifying quantum channels and logical/reference recovery rather than inferring correction
+from classical geometric restoration.
+
+A change summary and source-to-result integration map identify the consolidation. Please advise
+whether the proposed replacement is permitted at the current editorial stage and how the updated
+files should be provided. No claim of publication acceptance, experimental validation, or intrinsic
+curvature advantage is made.
+
+Thank you for your consideration.
+
+Sincerely,
+Jason Duran Dutton
+Independent Researcher
+sefidefi@outlook.com
+

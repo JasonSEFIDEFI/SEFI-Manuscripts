@@ -1,0 +1,49 @@
+{
+  "all_passed": true,
+  "date": "2026-11-25",
+  "python": "3.14.7 (tags/v3.14.7:823f032, Aug  5 2026, 10:51:32) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "scripts": [
+    {
+      "script": "verify_model.py",
+      "returncode": 0,
+      "sha256": "ddf125495c106107458a319dc7f130ed5f6bd3a61b46c519a6eee8ec6c19a094"
+    },
+    {
+      "script": "radial_benchmark.py",
+      "returncode": 0,
+      "sha256": "a22c30ba94a93146b937834257300cef7ad722ebf5a4d43d1bca2cca25138ee3"
+    },
+    {
+      "script": "check_surface_extension.py",
+      "returncode": 0,
+      "sha256": "7c2027b27e57eb5b2e8120e5d73575f28d3933039b2d6932617527c9f59ffc8c"
+    },
+    {
+      "script": "check_coherent_surface_bridge.py",
+      "returncode": 0,
+      "sha256": "089a20992b57b3bff64d673d647782680464c20418c7b010cbe023b3cb6ccb63"
+    },
+    {
+      "script": "check_forced_oscillator_bridge.py",
+      "returncode": 0,
+      "sha256": "c11d1083430db8e4ca0a4fcf420aff11883f5dd5516435e5ccd66d3f80dfefda"
+    },
+    {
+      "script": "check_two_sector_saddle_bridge.py",
+      "returncode": 0,
+      "sha256": "bd3a62f58a3bf4cebaf32bbcae91cbd71163793035b7e51c7b9086f52277c0e2"
+    },
+    {
+      "script": "check_phase_loss_boundary.py",
+      "returncode": 0,
+      "sha256": "235e3ca79201744cf25c5c361055fa7bda923d1a82d919248499e2a5438d6ca9"
+    },
+    {
+      "script": "check_integrated_recovery.py",
+      "returncode": 0,
+      "sha256": "a9ae6a723141f4441ef9c5b0bb79000bb5ed2a9d1e6c25b41f646bec107afe28"
+    }
+  ],
+  "radial_grid_domain_checks": true
+}

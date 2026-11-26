@@ -1,0 +1,160 @@
+{
+  "trial_potential": "U(rho)=rho-rho^2+rho^3/3",
+  "scope": "Numerical stationary local scalar benchmark; no experimental measurements or common microscopic derivation asserted.",
+  "analytic_frequency_window": [
+    0.5,
+    1.0
+  ],
+  "runs": [
+    {
+      "omega": 0.8,
+      "h": 0.1,
+      "R": 30.0,
+      "residual": 1.2609913113692528e-12,
+      "peak": 1.2869693989620177,
+      "I": 118.93330658576295,
+      "gradient_energy": 37.40049564478788,
+      "potential_energy": 63.633848404481604,
+      "energy": 177.15166026415778,
+      "orientation_charge": 190.29329053722074,
+      "energy_per_orientation_charge": 0.9309401280730258,
+      "virial": -0.049907786432186185,
+      "relative_virial": 0.000109290157492141,
+      "iterations": 3,
+      "history": [
+        0.0013083842221223163,
+        2.1060027358479894e-07,
+        1.2609913113692528e-12
+      ]
+    },
+    {
+      "omega": 0.8,
+      "h": 0.05,
+      "R": 30.0,
+      "residual": 3.1041835768519377e-13,
+      "peak": 1.2870546271971672,
+      "I": 118.98386716192553,
+      "gradient_energy": 37.41598704429678,
+      "potential_energy": 63.67352400992243,
+      "energy": 177.23918603785157,
+      "orientation_charge": 190.37418745908087,
+      "energy_per_orientation_charge": 0.9310042942452346,
+      "virial": -0.01246587683300504,
+      "relative_virial": 2.7284460856011578e-05,
+      "iterations": 3,
+      "history": [
+        0.29653009636471106,
+        7.915341568853762e-07,
+        3.1041835768519377e-13
+      ]
+    },
+    {
+      "omega": 0.8,
+      "h": 0.025,
+      "R": 30.0,
+      "residual": 1.5836221223253233e-12,
+      "peak": 1.2870760436683202,
+      "I": 118.99649989474341,
+      "gradient_energy": 37.41985741185261,
+      "potential_energy": 63.683435535594704,
+      "energy": 177.2610528800831,
+      "orientation_charge": 190.39439983158945,
+      "energy_per_orientation_charge": 0.9310203085641003,
+      "virial": -0.003115779270672192,
+      "relative_virial": 6.818741603223725e-06,
+      "iterations": 3,
+      "history": [
+        0.2966373571418357,
+        4.9516911015956566e-08,
+        1.5836221223253233e-12
+      ]
+    },
+    {
+      "omega": 0.8,
+      "h": 0.025,
+      "R": 40.0,
+      "residual": 9.71667191151937e-13,
+      "peak": 1.287076043668309,
+      "I": 118.99649989474443,
+      "gradient_energy": 37.41985741184125,
+      "potential_energy": 63.683435535606286,
+      "energy": 177.26105288008398,
+      "orientation_charge": 190.3943998315911,
+      "energy_per_orientation_charge": 0.9310203085640969,
+      "virial": -0.003115779249242223,
+      "relative_virial": 6.818741556324831e-06,
+      "iterations": 2,
+      "history": [
+        2.7614182511655055e-07,
+        9.71667191151937e-13
+      ]
+    }
+  ],
+  "branch": [
+    {
+      "omega": 0.78,
+      "h": 0.05,
+      "R": 30.0,
+      "residual": 3.494982081519993e-13,
+      "peak": 1.2974747062585033,
+      "I": 146.594489877038,
+      "gradient_energy": 43.674303077015026,
+      "potential_energy": 74.62493623357715,
+      "energy": 207.4873269517821,
+      "orientation_charge": 228.6874042081793,
+      "energy_per_orientation_charge": 0.9072966990473237,
+      "virial": -0.015151145823267598,
+      "relative_virial": 2.8313898585929574e-05,
+      "iterations": 3,
+      "history": [
+        0.0010948199706663638,
+        1.4079899298552467e-08,
+        3.494982081519993e-13
+      ]
+    },
+    {
+      "omega": 0.8,
+      "h": 0.05,
+      "R": 30.0,
+      "residual": 5.764277943853813e-13,
+      "peak": 1.287054627197138,
+      "I": 118.98386716194332,
+      "gradient_energy": 37.41598704429962,
+      "potential_energy": 63.67352400993096,
+      "energy": 177.2391860378743,
+      "orientation_charge": 190.37418745910932,
+      "energy_per_orientation_charge": 0.9310042942452148,
+      "virial": -0.012465876838746226,
+      "relative_virial": 2.7284460868573754e-05,
+      "iterations": 3,
+      "history": [
+        0.000979971676252145,
+        1.319599367624602e-08,
+        5.764277943853813e-13
+      ]
+    },
+    {
+      "omega": 0.82,
+      "h": 0.05,
+      "R": 30.0,
+      "residual": 2.007283228522283e-13,
+      "peak": 1.2707482742870737,
+      "I": 98.29073422732598,
+      "gradient_energy": 32.16255374617845,
+      "potential_energy": 55.36643142087495,
+      "energy": 153.6196748615074,
+      "orientation_charge": 161.1968041328146,
+      "energy_per_orientation_charge": 0.9529945440787759,
+      "virial": -0.010221074558671717,
+      "relative_virial": 2.577604113570961e-05,
+      "iterations": 3,
+      "history": [
+        0.0030006072490828643,
+        1.341728676426679e-08,
+        2.007283228522283e-13
+      ]
+    }
+  ],
+  "branch_charge_slope": -1687.265001884117,
+  "warning": "The existence of a finite-domain profile, its E/Q ratio, or a charge-slope diagnostic does not by itself establish full nonlinear stability."
+}

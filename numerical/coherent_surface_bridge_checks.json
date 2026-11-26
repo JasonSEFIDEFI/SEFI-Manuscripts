@@ -1,0 +1,11 @@
+{
+  "status": "conditional mathematical construction; no physical implementation asserted",
+  "random_seed": 20261122,
+  "locations": 9,
+  "height_bins": 11,
+  "complex_packet_common_translation_max_error": 6.206335383118183e-17,
+  "differential_overlap_kernel_max_error": 1.734723475976807e-17,
+  "conjugate_phase_logical_action_max_error": 1.1102230246251565e-16,
+  "bell_reference_fidelity_common_translation": 1.0000000000000002,
+  "all_checks_passed": true
+}

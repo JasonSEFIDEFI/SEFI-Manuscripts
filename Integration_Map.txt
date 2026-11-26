@@ -1,0 +1,33 @@
+INTEGRATION MAP
+
+Earlier source: Coherent Saddle Encoding and Displacement Recovery: Exact Conditions and Limitations (ADV26-AR-05694); local photonics-11222026/manuscript.tex.
+Newer source: Conjugate Phase Geometry and Coherent Recovery; reviewed local aip-advances-2026-11-25/Conjugate_Phase_Geometry_AIP_Advances.tex. Exact source hashes appear in integration_checks.json.
+
+EARLIER SOURCE -> REPLACEMENT
+Registers / direct shear / reference criterion -> Section II, equations translation-definition, direct-shear, reference-fidelity; Fig. 1.
+Prescribed geometry and constant couplings -> Section III, prescribed-source-coupling; same oscillator dynamics, with a separate spectator/control assumption.
+Half-period square completion / E, phase, parity / forward inverse -> Section III, half-period, complete-encoder, forward-decoder.
+Canonical momentum rotation / saddle and companion / bounded design -> Section III, ZB, forces, saddle, force-to-coordinate, bounded-design; Fig. 2.
+Exact arbitrary common-translation recovery -> Section IV, factorization, exact-channel, recovered-matrix-unit, KL; full proof and reference extension.
+Conventional and flat equivalence -> Section IV controls; Section VI phase/loss comparison.
+Companion omission / differential shifts / phase gradients / erasure -> Section VI, omit-B, differential, gaussian-overlap, phase-gradient, phase-variance, erasure; Figs. 4-5.
+Sampled register, oscillator cutoffs, two-sector and phase/loss checks -> Section VIII; table cutoff; fresh raw numerical records.
+Finite optical mapping / index prescription / unconditional quantum test -> Section VII; optics, index; direct bright-beam/quantum distinction.
+Continuous graph shear and lateral-error limitation -> Appendix A, continuousU and coherence kernel.
+Constant-invariant histories -> Appendix E; consistent (+---) convention retained from the newer manuscript.
+
+NEWER SOURCE -> REPLACEMENT
+General residual-state criterion and fidelity dispersion -> Section II; all theorem/proof blocks preserved verbatim.
+Dimension-independent sufficient fidelity/diamond bound -> Section II; proof preserved.
+Arbitrary-time Gaussian/noisy-direction theorem, mean phase and turning condition -> Section V; all equations and proof preserved.
+Quadratic timing law -> Section V and Fig. 3, now including the local approximation; matched inverse assumption explained explicitly.
+Constrained scalar action, phase orientations, currents, stress/gauge -> Appendix B.
+Positive internal response, Schur bound, local potential, compact spectral problem, localization and obstruction -> Appendix C.
+Coherent histories, which-path coherence and specified detector -> Appendix D.
+Frenet and invariant-flow geometry -> Appendix E.
+Static-target causal graph theorem, circle example, cheap-time limit, path currents and spin obstruction -> Appendix F.
+Helix dictionary and prescribed FLRW conservation -> Appendix G, qualified independent examples.
+Reproduction -> Appendix H and build/verification scripts.
+
+ADDITIONAL INTEGRATION CHECKS
+check_integrated_recovery.py independently compares full density-matrix evolution and reference-entanglement recovery with the Gram/dispersion formulas. Equal auxiliary densities with different vector phases, singular Gaussian noise with nonzero mean, and nominal forward-phase versus matched inverse decoders are explicit controls. No numerical comparison is described as an experimental measurement.

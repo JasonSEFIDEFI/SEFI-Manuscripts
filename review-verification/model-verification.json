@@ -1,0 +1,179 @@
+{
+  "seed": 20261123,
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "checks": [
+    {
+      "name": "conjugate embedding amplitude identity",
+      "error": 5.329070518200751e-15,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "conjugate embedding derivative norm",
+      "error": 3.552713678800501e-15,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "common-phase current vanishes",
+      "error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "orientation current equals scalar current",
+      "error": 3.552713678800501e-15,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "complex superposition leaves the real constraint",
+      "error": 0.0,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "finite history expansion",
+      "error": 3.1401849173675503e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "basis rephasing readout invariance",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "Schur response and 150 spectral-band samples",
+      "error": 1.3322676295501878e-15,
+      "tolerance": 1e-12,
+      "passed": true
+    },
+    {
+      "name": "exact residual-state dispersion identity",
+      "error": 4.996003610813204e-16,
+      "tolerance": 1e-13,
+      "passed": true
+    },
+    {
+      "name": "891 finite matrix-unit common-shift identities",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "forced evolution timing kernel at t=3.14159",
+      "error": 4.444732433913759e-16,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "name": "forced evolution timing kernel at t=3.17159",
+      "error": 8.151449019958338e-18,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "name": "forced evolution timing kernel at t=3.26159",
+      "error": 4.462982910567955e-16,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "name": "forced evolution timing kernel at t=3.44159",
+      "error": 4.500946539204332e-16,
+      "tolerance": 3e-12,
+      "passed": true
+    },
+    {
+      "name": "commensurate unequal-frequency turning criterion",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "name": "uniform-circle spatial quantization quadrature",
+      "error": 0.0,
+      "tolerance": 1e-10,
+      "passed": true
+    },
+    {
+      "name": "helix invariant ratio",
+      "error": 0.0,
+      "tolerance": 1e-14,
+      "passed": true
+    },
+    {
+      "name": "prescribed expansion energy continuity",
+      "error": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "check_count": 18,
+  "all_passed": true,
+  "timing": [
+    {
+      "time": 3.141592653589793,
+      "delta": 0.0,
+      "variance": 8.6386163481323e-34,
+      "kernel": 1.0,
+      "entanglement_fidelity": 1.0,
+      "direct_kernel_real": 1.0000000000000004
+    },
+    {
+      "time": 3.171592653589793,
+      "delta": 0.029999999999999805,
+      "variance": 5.182444986611894e-05,
+      "kernel": 0.9999740881107857,
+      "entanglement_fidelity": 0.9999870440553928,
+      "direct_kernel_real": 0.9999740881107857
+    },
+    {
+      "time": 3.2615926535897932,
+      "delta": 0.1200000000000001,
+      "variance": 0.0008254663242615474,
+      "kernel": 0.9995873520004839,
+      "entanglement_fidelity": 0.9997936760002419,
+      "direct_kernel_real": 0.9995873520004843
+    },
+    {
+      "time": 3.441592653589793,
+      "delta": 0.2999999999999998,
+      "variance": 0.005030334290601256,
+      "kernel": 0.9974879932373982,
+      "entanglement_fidelity": 0.9987439966186991,
+      "direct_kernel_real": 0.9974879932373987
+    }
+  ],
+  "quantization": [
+    {
+      "N": 1,
+      "quadrature": 0.25,
+      "exact": 0.25
+    },
+    {
+      "N": 2,
+      "quadrature": 0.125,
+      "exact": 0.125
+    },
+    {
+      "N": 4,
+      "quadrature": 0.0625,
+      "exact": 0.0625
+    },
+    {
+      "N": 8,
+      "quadrature": 0.03125,
+      "exact": 0.03125
+    },
+    {
+      "N": 16,
+      "quadrature": 0.015625,
+      "exact": 0.015625
+    }
+  ],
+  "scope": "Deterministic checks of explicit mathematical examples; no experimental data or particle identification."
+}

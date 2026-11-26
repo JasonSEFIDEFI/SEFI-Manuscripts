@@ -1,0 +1,356 @@
+verify_model.py
+{
+  "all_passed": true,
+  "check_count": 18,
+  "timing": [
+    {
+      "time": 3.141592653589793,
+      "delta": 0.0,
+      "variance": 8.6386163481323e-34,
+      "kernel": 1.0,
+      "entanglement_fidelity": 1.0,
+      "direct_kernel_real": 1.0000000000000004
+    },
+    {
+      "time": 3.171592653589793,
+      "delta": 0.029999999999999805,
+      "variance": 5.182444986611894e-05,
+      "kernel": 0.9999740881107857,
+      "entanglement_fidelity": 0.9999870440553928,
+      "direct_kernel_real": 0.9999740881107857
+    },
+    {
+      "time": 3.2615926535897932,
+      "delta": 0.1200000000000001,
+      "variance": 0.0008254663242615474,
+      "kernel": 0.9995873520004839,
+      "entanglement_fidelity": 0.9997936760002419,
+      "direct_kernel_real": 0.9995873520004843
+    },
+    {
+      "time": 3.441592653589793,
+      "delta": 0.2999999999999998,
+      "variance": 0.005030334290601256,
+      "kernel": 0.9974879932373982,
+      "entanglement_fidelity": 0.9987439966186991,
+      "direct_kernel_real": 0.9974879932373987
+    }
+  ]
+}
+
+
+radial_benchmark.py
+{"omega": 0.8, "h": 0.1, "R": 30.0, "residual": 1.2609913113692528e-12, "peak": 1.2869693989620177, "I": 118.93330658576295, "gradient_energy": 37.40049564478788, "potential_energy": 63.633848404481604, "energy": 177.15166026415778, "orientation_charge": 190.29329053722074, "energy_per_orientation_charge": 0.9309401280730258, "virial": -0.049907786432186185, "relative_virial": 0.000109290157492141, "iterations": 3, "history": [0.0013083842221223163, 2.1060027358479894e-07, 1.2609913113692528e-12]}
+{"omega": 0.8, "h": 0.05, "R": 30.0, "residual": 3.1041835768519377e-13, "peak": 1.2870546271971672, "I": 118.98386716192553, "gradient_energy": 37.41598704429678, "potential_energy": 63.67352400992243, "energy": 177.23918603785157, "orientation_charge": 190.37418745908087, "energy_per_orientation_charge": 0.9310042942452346, "virial": -0.01246587683300504, "relative_virial": 2.7284460856011578e-05, "iterations": 3, "history": [0.29653009636471106, 7.915341568853762e-07, 3.1041835768519377e-13]}
+{"omega": 0.8, "h": 0.025, "R": 30.0, "residual": 1.5836221223253233e-12, "peak": 1.2870760436683202, "I": 118.99649989474341, "gradient_energy": 37.41985741185261, "potential_energy": 63.683435535594704, "energy": 177.2610528800831, "orientation_charge": 190.39439983158945, "energy_per_orientation_charge": 0.9310203085641003, "virial": -0.003115779270672192, "relative_virial": 6.818741603223725e-06, "iterations": 3, "history": [0.2966373571418357, 4.9516911015956566e-08, 1.5836221223253233e-12]}
+Domain check {"omega": 0.8, "h": 0.025, "R": 40.0, "residual": 9.71667191151937e-13, "peak": 1.287076043668309, "I": 118.99649989474443, "gradient_energy": 37.41985741184125, "potential_energy": 63.683435535606286, "energy": 177.26105288008398, "orientation_charge": 190.3943998315911, "energy_per_orientation_charge": 0.9310203085640969, "virial": -0.003115779249242223, "relative_virial": 6.818741556324831e-06, "iterations": 2, "history": [2.7614182511655055e-07, 9.71667191151937e-13]}
+Branch {"omega": 0.78, "h": 0.05, "R": 30.0, "residual": 3.494982081519993e-13, "peak": 1.2974747062585033, "I": 146.594489877038, "gradient_energy": 43.674303077015026, "potential_energy": 74.62493623357715, "energy": 207.4873269517821, "orientation_charge": 228.6874042081793, "energy_per_orientation_charge": 0.9072966990473237, "virial": -0.015151145823267598, "relative_virial": 2.8313898585929574e-05, "iterations": 3, "history": [0.0010948199706663638, 1.4079899298552467e-08, 3.494982081519993e-13]}
+Branch {"omega": 0.8, "h": 0.05, "R": 30.0, "residual": 5.764277943853813e-13, "peak": 1.287054627197138, "I": 118.98386716194332, "gradient_energy": 37.41598704429962, "potential_energy": 63.67352400993096, "energy": 177.2391860378743, "orientation_charge": 190.37418745910932, "energy_per_orientation_charge": 0.9310042942452148, "virial": -0.012465876838746226, "relative_virial": 2.7284460868573754e-05, "iterations": 3, "history": [0.000979971676252145, 1.319599367624602e-08, 5.764277943853813e-13]}
+Branch {"omega": 0.82, "h": 0.05, "R": 30.0, "residual": 2.007283228522283e-13, "peak": 1.2707482742870737, "I": 98.29073422732598, "gradient_energy": 32.16255374617845, "potential_energy": 55.36643142087495, "energy": 153.6196748615074, "orientation_charge": 161.1968041328146, "energy_per_orientation_charge": 0.9529945440787759, "virial": -0.010221074558671717, "relative_virial": 2.577604113570961e-05, "iterations": 3, "history": [0.0030006072490828643, 1.341728676426679e-08, 2.007283228522283e-13]}
+
+
+check_surface_extension.py
+{
+  "status": "new conditional extension, not an upstream or experimental result",
+  "locations": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "height_bins": 11,
+  "common_shift_matrix_unit_checks": 891,
+  "differential_matrix_unit_checks": 81,
+  "trace_preserving_recovery": true,
+  "all_checks_passed": true,
+  "limitation": "Common height noise only; arbitrary height assignment gives same logical protection. A lateral logical permutation is not reversed by height subtraction."
+}
+
+
+check_coherent_surface_bridge.py
+{
+  "status": "conditional mathematical construction; no physical implementation asserted",
+  "random_seed": 20261122,
+  "locations": 9,
+  "height_bins": 11,
+  "complex_packet_common_translation_max_error": 6.206335383118183e-17,
+  "differential_overlap_kernel_max_error": 1.734723475976807e-17,
+  "conjugate_phase_logical_action_max_error": 1.1102230246251565e-16,
+  "bell_reference_fidelity_common_translation": 1.0000000000000002,
+  "all_checks_passed": true
+}
+
+
+check_forced_oscillator_bridge.py
+{
+  "status": "new conditional quantum extension of prescribed-geometry oscillator; not full proposed model quantization",
+  "units": "hbar=mass=frequency=1, zero-point energy removed",
+  "forces": [
+    -0.8,
+    0.3,
+    1.1
+  ],
+  "common_height_shift": 0.4,
+  "rows": [
+    {
+      "fock_cutoff": 20,
+      "half_period_formula_max_state_error": 7.447714713268204e-05,
+      "common_shift_recovery_max_state_error": 7.315874419135396e-05,
+      "three_label_bell_fidelity": 0.9999999987542595
+    },
+    {
+      "fock_cutoff": 40,
+      "half_period_formula_max_state_error": 8.071415142381845e-15,
+      "common_shift_recovery_max_state_error": 1.1314385187374111e-14,
+      "three_label_bell_fidelity": 0.9999999999999988
+    },
+    {
+      "fock_cutoff": 60,
+      "half_period_formula_max_state_error": 6.6148061651987604e-15,
+      "common_shift_recovery_max_state_error": 9.228154623598455e-15,
+      "three_label_bell_fidelity": 0.9999999999999988
+    }
+  ],
+  "all_checks_passed": true
+}
+
+
+check_two_sector_saddle_bridge.py
+{
+  "status": "new conditional design; no photonic or full-field derivation claimed",
+  "parameters": {
+    "J0": 0.1,
+    "alpha": 0.25,
+    "beta": 0.15,
+    "k": 1.0,
+    "mu": 1.0,
+    "nu": 1.0
+  },
+  "labels": [
+    [
+      -1.0,
+      -1.0
+    ],
+    [
+      -1.0,
+      0.0
+    ],
+    [
+      -1.0,
+      1.0
+    ],
+    [
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0
+    ],
+    [
+      1.0,
+      -1.0
+    ],
+    [
+      1.0,
+      0.0
+    ],
+    [
+      1.0,
+      1.0
+    ]
+  ],
+  "rows": [
+    {
+      "cutoff": 18,
+      "saddle_height_mean_max_error": 2.220446049250313e-16,
+      "companion_height_mean_max_error": 3.3306690738754696e-16,
+      "full_two_sector_recovery_max_state_error": 5.4698886985609435e-12,
+      "forward_half_period_plus_phase_decoder_max_state_error": 5.46994619279204e-12,
+      "nine_label_bell_fidelity": 0.999999999999999
+    },
+    {
+      "cutoff": 30,
+      "saddle_height_mean_max_error": 4.163336342344337e-16,
+      "companion_height_mean_max_error": 7.771561172376096e-16,
+      "full_two_sector_recovery_max_state_error": 2.373901776105717e-15,
+      "forward_half_period_plus_phase_decoder_max_state_error": 2.349859362682168e-15,
+      "nine_label_bell_fidelity": 0.999999999999999
+    },
+    {
+      "cutoff": 42,
+      "saddle_height_mean_max_error": 4.996003610813204e-16,
+      "companion_height_mean_max_error": 3.885780586188048e-16,
+      "full_two_sector_recovery_max_state_error": 2.1498479924089946e-15,
+      "forward_half_period_plus_phase_decoder_max_state_error": 1.9190514664352827e-15,
+      "nine_label_bell_fidelity": 0.9999999999999993
+    }
+  ],
+  "frenet_metric_preservation_error": 0.0,
+  "discarding_companion_control": {
+    "alpha": 0.5,
+    "beta": 0.5,
+    "locations": [
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "same_saddle_height": 0,
+    "companion_height_gap": 1,
+    "gaussian_position_sd": 0.7071067811865475,
+    "bell_fidelity_after_correcting_Z_but_discarding_uncorrected_B": 0.8894003915357025
+  },
+  "all_checks_passed": true
+}
+
+
+check_phase_loss_boundary.py
+{
+  "status": "conditional noise calculation; normalized synthetic parameters, not laboratory measurements",
+  "operator_coherence_error": 2.0122792321330962e-15,
+  "gaussian_quadrature_error": 1.9984014443252818e-15,
+  "explicit_erasure_channel_formula_error": 1.1102230246251565e-16,
+  "delta_heights_SW": [
+    -0.3535533905932737,
+    0.21213203435596423
+  ],
+  "independent_noise_example": {
+    "theta_variance": 0.01,
+    "tilt_added_variance": 0.006799999999999997,
+    "equal_transmission": 0.95,
+    "flat_fidelity_equal_transmission": 0.9476309276165241,
+    "saddle_fidelity_equal_transmission": 0.9460267111759717,
+    "saddle_fidelity_with_transmission_0_90": 0.8962358316403943
+  },
+  "correlated_control": {
+    "status": "illustrative assumed correlation; not a prediction",
+    "theta_variance": 0.016799999999999995,
+    "cov_theta_tilt": [
+      0.014142135623730947,
+      -0.00848528137423857
+    ],
+    "residual_variance_saddle": 0.01,
+    "flat_conditional_fidelity": 0.9958175907115492,
+    "saddle_conditional_fidelity": 0.9975062395963412,
+    "minimum_encoded_to_flat_transmission_ratio_for_benefit": 0.998307129501791
+  },
+  "all_checks_passed": true
+}
+
+
+check_integrated_recovery.py
+{
+  "all_passed": true,
+  "check_count": 11,
+  "checks": [
+    {
+      "name": "explicit encoded-noisy-decoded density versus residual Gram channel",
+      "error": 1.6841118637620292e-17,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "full reference-state fidelity versus Gram trace",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "full reference-state fidelity deficit versus residual dispersion",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "reduced reference-state trace",
+      "error": 3.330757615875996e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "phase-only residual density equality",
+      "error": 5.561946577567963e-17,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "phase-only logical fidelity",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "singular Gaussian covariance and nonzero mean",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "known mean-phase compensation",
+      "error": 4.449557262054371e-16,
+      "tolerance": 2e-14
+    },
+    {
+      "name": "matched inverse with zero noise at offset 0.0",
+      "error": 3.3306690738754696e-16,
+      "tolerance": 2e-13
+    },
+    {
+      "name": "forward-phase synthesis at nominal half-period",
+      "error": 2.220446049250313e-16,
+      "tolerance": 2e-13
+    },
+    {
+      "name": "matched inverse with zero noise at offset 0.12",
+      "error": 4.440892098500626e-16,
+      "tolerance": 2e-13
+    }
+  ],
+  "timing_decoder_controls": [
+    {
+      "delta": 0.0,
+      "matched_inverse_fidelity": 0.9999999999999997,
+      "nominal_forward_phase_fidelity": 0.9999999999999998
+    },
+    {
+      "delta": 0.12,
+      "matched_inverse_fidelity": 0.9999999999999996,
+      "nominal_forward_phase_fidelity": 0.984861068148926
+    }
+  ],
+  "scope": "Deterministic full-state and quadrature checks; no experimental measurements."
+}

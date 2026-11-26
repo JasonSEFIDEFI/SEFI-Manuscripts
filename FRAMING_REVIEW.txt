@@ -1,0 +1,13 @@
+SUPERSEDING INTEGRATION REVIEW | November 25, 2026
+
+This version consolidates both manuscripts as a proposed replacement for ADV26-AR-05694. The main text is organized around explicit quantum recovery, residual-state conditions, oscillator dynamics, timing, errors, optics and numerical verification. The scalar-field, localization, history, trajectory and conditional helix/conservation mathematics remain in the same PDF as appendices.
+
+All 68 mathematical/theorem/proof blocks of the newer source are preserved. Unique earlier derivations and controls are covered in Integration_Map.txt. Assumptions are stated separately; particle-identification and single-entity rhetoric remain absent from the manuscript. Physical limitations are preserved rather than hidden.
+
+An important clarification is now explicit: the arbitrary-time Gaussian law assumes coherent inversion of the actual encoder. Nominal forward-phase decoding away from the half-period is a different operation. Independent full-state and reference checks verify this distinction. Eight numerical scripts pass, including grid/domain refinement.
+
+Remaining limits: no general optical-noise correction, experimentally validated apparatus, curvature advantage, nonlinear stability theorem or common microscopic physical unification is derived. Appendices broaden the work but do not prove those missing links. This is a consolidation and technical consistency review, not independent external peer review or an acceptance guarantee.
+
+The manuscript is prepared locally, pending editorial permission for replacement. No journal files or status were changed.
+
+Final delivery: 21 manuscript pages and one cover-letter page rendered and visually reviewed; eight figures; all PDF fonts embedded; numerical tables refreshed; eight numerical scripts passed. No overfull boxes or unresolved citations/references.

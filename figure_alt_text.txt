@@ -1,0 +1,8 @@
+1. Three-register circuit: coherent encoding, common auxiliary translations, inverse decoding and auxiliary trace, with the logical state preserved.
+2. Analytic saddle and companion displacements with nine tested design labels.
+3. Exact timing-law curve, local quadratic approximation and direct oscillator points; the decoder is the matched coherent inverse.
+4. Common-translation controls and companion/phase failure controls; bars give stated analytic Bell fidelities.
+5. Differential Gaussian packet dephasing and unconditional phase/loss fidelities, with each transmission curve keyed.
+6. Forced-oscillator means and cutoff dependence of direct evolution/recovery discrepancies.
+7. Separate classical scalar and coherent quantum model definitions; no microscopic quantization link is implied.
+8. Stationary local scalar profile and separately defined positive internal stiffness eigenvalues.

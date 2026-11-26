@@ -1,0 +1,47 @@
+{
+  "status": "new conditional extension, not an upstream or experimental result",
+  "locations": [
+    [
+      -1,
+      -1
+    ],
+    [
+      -1,
+      0
+    ],
+    [
+      -1,
+      1
+    ],
+    [
+      0,
+      -1
+    ],
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      1
+    ],
+    [
+      1,
+      -1
+    ],
+    [
+      1,
+      0
+    ],
+    [
+      1,
+      1
+    ]
+  ],
+  "height_bins": 11,
+  "common_shift_matrix_unit_checks": 891,
+  "differential_matrix_unit_checks": 81,
+  "trace_preserving_recovery": true,
+  "all_checks_passed": true,
+  "limitation": "Common height noise only; arbitrary height assignment gives same logical protection. A lateral logical permutation is not reversed by height subtraction."
+}

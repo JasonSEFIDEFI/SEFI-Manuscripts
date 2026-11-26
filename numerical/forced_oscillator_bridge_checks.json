@@ -1,0 +1,31 @@
+{
+  "status": "new conditional quantum extension of prescribed-geometry oscillator; not full proposed model quantization",
+  "units": "hbar=mass=frequency=1, zero-point energy removed",
+  "forces": [
+    -0.8,
+    0.3,
+    1.1
+  ],
+  "common_height_shift": 0.4,
+  "rows": [
+    {
+      "fock_cutoff": 20,
+      "half_period_formula_max_state_error": 7.447714713268204e-05,
+      "common_shift_recovery_max_state_error": 7.315874419135396e-05,
+      "three_label_bell_fidelity": 0.9999999987542595
+    },
+    {
+      "fock_cutoff": 40,
+      "half_period_formula_max_state_error": 8.071415142381845e-15,
+      "common_shift_recovery_max_state_error": 1.1314385187374111e-14,
+      "three_label_bell_fidelity": 0.9999999999999988
+    },
+    {
+      "fock_cutoff": 60,
+      "half_period_formula_max_state_error": 6.6148061651987604e-15,
+      "common_shift_recovery_max_state_error": 9.228154623598455e-15,
+      "three_label_bell_fidelity": 0.9999999999999988
+    }
+  ],
+  "all_checks_passed": true
+}

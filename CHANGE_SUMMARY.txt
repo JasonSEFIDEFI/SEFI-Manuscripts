@@ -1,0 +1,17 @@
+PROPOSED REPLACEMENT FOR ADV26-AR-05694
+Prepared November 25, 2026; editorial permission remains pending.
+
+New title: Coherent Saddle Encoding and Displacement Recovery: Residual-State Criteria and Timing Limits
+
+1. Consolidates the coherent saddle paper with the complementary Conjugate Phase Geometry manuscript into one proposed replacement, not a separate parallel submission.
+2. Retains the explicit logical/auxiliary registers, direct shear, conditional two-oscillator Hamiltonian, parity, branch phase, forward inverse synthesis, saddle/companion coordinates, and bounded-design spectral estimate.
+3. Gives the general label-preserving random-unitary residual-state theorem, exact fidelity-deficit identity and sufficient diamond-norm bound, with proofs. Relative vector phases are retained.
+4. States the exact identity logical channel, reference extension, matrix-unit factorization, Knill-Laflamme condition, and conventional/flat equivalence.
+5. Adds the arbitrary-time Gaussian theorem, covariance nullspace condition, known mean-phase compensation and quadratic timing coefficient. Explicitly distinguishes a matched coherent inverse decoder from an independently mistimed or nominal forward-phase decoder.
+6. Retains the companion ablation, differential-shift overlap, correlated phase-gradient variance, uniform erasure and matched-control limits. Adds fully keyed exact/quadratic timing curves.
+7. Retains the candidate path/transverse optical mapping, finite-aperture index profile, dimensions, calibration requirements, quantum reference tests and bright-beam limitation.
+8. Places the continuous graph encoding, constrained scalar, positive mediator response, spectral analysis, radial benchmark, coherent histories/detector response, trajectory approximation/spin obstruction, Frenet geometry, helix and prescribed-background conservation in labeled appendices. These are not assumed microscopic derivations of the quantum channel.
+9. Preserves every displayed mathematical block and theorem/proof block from the newer source; maps the earlier paper results in Integration_Map.txt. Numerical tables are refreshed from the actual verification outputs.
+10. Adds independent full-density/reference-state checks, phase-only residual controls, nonzero-mean/singular-covariance quadrature, and matched-versus-nominal decoder controls. All eight numerical scripts pass, including radial grid/domain validation.
+
+Scope unchanged: no arbitrary optical-noise correction, curvature advantage, nonlinear stability proof, experimentally validated apparatus or cross-domain physical unification is asserted.

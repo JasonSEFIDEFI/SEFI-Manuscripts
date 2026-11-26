@@ -1,0 +1,30 @@
+{
+  "title": "Coherent Saddle Encoding and Displacement Recovery: Residual-State Criteria and Timing Limits",
+  "sources": [
+    {
+      "path": "C:\\Users\\jason\\.codex\\.chatgpt-projects\\g-p-6ab0f34fedd88191bfa21706b2af07de\\output\\pdf\\photonics-11222026\\manuscript.tex",
+      "sha256": "98dba91ed3bd5ad6001853a3833ab2220723ed3b86e6434de8b8ebb48b07d020"
+    },
+    {
+      "path": "C:\\Users\\jason\\.codex\\.chatgpt-projects\\g-p-6ab0f34fedd88191bfa21706b2af07de\\output\\pdf\\aip-advances-2026-11-25\\Conjugate_Phase_Geometry_AIP_Advances.tex",
+      "sha256": "fa098aefadb3cbd9a5e8ab0facfae6100dcb962144cfb1377332e7cb93303bd0"
+    }
+  ],
+  "newer_source_math_blocks_preserved": 68,
+  "labels": 97,
+  "abstract_words": 215,
+  "note": "Replacement prepared locally for ADV26-AR-05694; not uploaded or submitted. Await editorial permission.",
+  "final_pdf_pages": 21,
+  "math_blocks_preserved": 68,
+  "final_equation_blocks": 79,
+  "unique_labels": 97,
+  "bibliography_entries": 28,
+  "numerical_scripts_passed": 8,
+  "all_structural_checks_passed": true,
+  "matched_inverse_scope_explicit": true,
+  "all_pdf_fonts_embedded": true,
+  "rendered_pages_visually_reviewed": 21,
+  "figures": 8,
+  "cover_letter_pages": 1,
+  "highlight_dpi": 600
+}
