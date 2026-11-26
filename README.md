@@ -1,4 +1,12 @@
+# SEFI Manuscripts
 
+## Featured photonics research
+
+- [Coherent Saddle Encoding and Displacement Recovery: Residual-State Criteria and Timing Limits](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/cfb09bd14cdd97e31185a3328c46174ccb279b31/Conjugate_Phase_Geometry_AIP_Advances.pdf) — latest consolidated manuscript package, posted November 26, 2026. Prepared as a proposed editorial replacement. [Status and reproducibility](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/cfb09bd14cdd97e31185a3328c46174ccb279b31/README.txt) · [Verification record](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/cfb09bd14cdd97e31185a3328c46174ccb279b31/verification.json).
+- [SEFI Photonics Workbench](https://github.com/JasonSEFIDEFI/SEFI_QEC_Stack/tree/research/photonic-workbench) — locally runnable dual-rail optical simulator and matched controls.
+- [Earlier saddle-coordinate rough draft](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/tree/research/saddle-manuscript/saddle-quantum-recovery-draft) — retained for provenance.
+
+The latest manuscript reports mathematical and computational results for specified channels. Its optical mapping is a proposal. Matched controls support established subsystem protection without demonstrating an advantage from saddle curvature.
 
 ## Featured research videos
 
@@ -13,8 +21,6 @@
 
 **[Watch or download all three graphical abstracts](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/tree/main/media/video-abstracts)** — narrated photonic error-correction proposal, Single Entity Field Interpretation graphical abstract, and unified geometric field research overview. Independent research proposals and illustrative models; not accepted publications or experimental confirmations.
 
-# SEFI Manuscripts  
-Unified geometric field theory manuscripts for SEFI, DEFI, GWFM, and the SEFI Canon layers.
 
 ## Overview  
 This repository contains the formal manuscripts, LaTeX sources, and canonical layers of the SEFI geometric field framework.  
@@ -56,7 +62,7 @@ Displacement-based warp-field model applying SEFI/DEFI/GWFM identity-space forma
 - `warp-sefi/aip-advances-submission/` — the formal submission manuscript, *Displacement-Engineered Warp Fields: Tic-Tac Geometry, Stability Surfaces, and Identity-Space Confinement*, prepared for AIP Advances.
 
 ### **Photonic QEC**  
-Geometric photonic quantum error correction derived from SEFI/GWFM/DEFI.
+Historical geometric photonic recovery proposals and submission material.
 - `warp-sefi/photonic-qec/photonic-qec.tex` — early draft, text only.
 - `photonic-qec-full/` — the complete manuscript with all figures and submission package (cover letter, alt text), *Geometric Photonic Quantum Error Correction via SEFI, GWFM, and DEFI* (**ADV26-AR-04574**). `named-figures/` holds descriptively-named duplicates of the same figures for display purposes.
 
