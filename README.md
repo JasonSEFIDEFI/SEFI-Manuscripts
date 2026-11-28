@@ -1,5 +1,10 @@
 # SEFI Manuscripts
 
+**SEFI Research — Scientific Engineering and Field Integration**
+
+Broad scientific and engineering research spanning computational physics, photonics, quantum information, scientific software, and applied engineering. The original Single Entity Field Interpretation is a specific research hypothesis within this broader program; its historical terminology and mathematical definitions are retained.
+
+
 ## Featured photonics research
 
 - [Coherent Saddle Encoding and Displacement Recovery: Residual-State Criteria and Timing Limits](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/cfb09bd14cdd97e31185a3328c46174ccb279b31/Conjugate_Phase_Geometry_AIP_Advances.pdf) — latest consolidated manuscript package, posted November 26, 2026. Prepared as a proposed editorial replacement. [Status and reproducibility](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/cfb09bd14cdd97e31185a3328c46174ccb279b31/README.txt) · [Verification record](https://github.com/JasonSEFIDEFI/SEFI-Manuscripts/blob/cfb09bd14cdd97e31185a3328c46174ccb279b31/verification.json).
